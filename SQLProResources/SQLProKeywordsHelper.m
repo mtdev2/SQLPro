@@ -25,12 +25,15 @@
                                                                                                   ofType: @"json"];
 
         NSData * data = [NSData dataWithContentsOfFile: keywordsPath];
-        NSError * error = nil;
-        NSArray<NSString*>* keywords = [NSJSONSerialization JSONObjectWithData: data
-                                                                       options: kNilOptions
-                                                                         error: &error];
+        NSArray<NSString*>* keywords = nil;
+        if(data)
+        {
+            NSError * error = nil;
+            keywords = [NSJSONSerialization JSONObjectWithData: data
+                                                       options: kNilOptions
+                                                         error: &error];
+        }
 
-        
         defaultKeywords = [[NSOrderedSet alloc] initWithArray: [keywords sortedArrayUsingSelector: @selector(caseInsensitiveCompare:)]];
     });
 
@@ -55,10 +58,14 @@
                                                              ofType: @"json"];
 
             NSData * data = [NSData dataWithContentsOfFile: keywordsPath];
-            NSError * error = nil;
-            NSArray<NSString*>* tempKeywords = [NSJSONSerialization JSONObjectWithData: data
-                                                                               options: kNilOptions
-                                                                                 error: &error];
+            NSArray<NSString*>* tempKeywords = nil;
+            if(data)
+            {
+                NSError * error = nil;
+                tempKeywords = [NSJSONSerialization JSONObjectWithData: data
+                                                               options: kNilOptions
+                                                                 error: &error];
+            }
 
             if(tempKeywords.count)
             {
@@ -78,10 +85,14 @@
                                                              ofType: @"json"];
 
             NSData * data = [NSData dataWithContentsOfFile: functionsPath];
-            NSError * error = nil;
-            NSDictionary<NSString*,NSDictionary*>* tempFunctions = [NSJSONSerialization JSONObjectWithData: data
-                                                                                               options: kNilOptions
-                                                                                                 error: &error];
+            NSDictionary<NSString*,NSDictionary*>* tempFunctions = nil;
+            if(data)
+            {
+                NSError * error = nil;
+                tempFunctions = [NSJSONSerialization JSONObjectWithData: data
+                                                               options: kNilOptions
+                                                                 error: &error];
+            }
 
             if(tempFunctions.allKeys.count)
             {
@@ -101,8 +112,10 @@
             }
         }
 
-        NSAssert(0 != sqlKeywords.count, @"Keywords cannot be empty.");
-        NSAssert(0 != sqlFunctions.count, @"Functions cannot be empty.");
+        // Note: some engines (e.g. ClickHouse) do not ship a keywords/functions
+        // resource. A missing resource yields an empty set rather than a crash.
+        if(0 == sqlKeywords.count)  { NSLog(@"[SQLProKeywordsHelper] No keywords loaded for resource '%@'.", keywordsResourceName); }
+        if(0 == sqlFunctions.count) { NSLog(@"[SQLProKeywordsHelper] No functions loaded for resource '%@'.", functionsResourceName); }
 
         NSMutableSet * allFunctionsAndKeywords = [NSMutableSet set];
 
