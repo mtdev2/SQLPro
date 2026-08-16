@@ -20,6 +20,12 @@
 		7242262D2664F97B0031A737 /* MySQLKeywords.json in Resources */ = {isa = PBXBuildFile; fileRef = 72BF3C852661192E007DB682 /* MySQLKeywords.json */; };
 		7242262E2664F97B0031A737 /* PostgresKeywords.json in Resources */ = {isa = PBXBuildFile; fileRef = 7257CCF62661200600E68C17 /* PostgresKeywords.json */; };
 		7242262F2664F97B0031A737 /* MongoKeywords.json in Resources */ = {isa = PBXBuildFile; fileRef = 7257CCFE266121E400E68C17 /* MongoKeywords.json */; };
+		CAFE7B7841A18689438265B2 /* AthenaFunctions.json in Resources */ = {isa = PBXBuildFile; fileRef = CAFE910208E06E46C772D36E /* AthenaFunctions.json */; };
+		CAFE0D4D7F9E456929CA115D /* AthenaKeywords.json in Resources */ = {isa = PBXBuildFile; fileRef = CAFECDFAA9D679CD60FDEA14 /* AthenaKeywords.json */; };
+		CAFE16D8632FF23EB51E6DD4 /* ClickHouseFunctions.json in Resources */ = {isa = PBXBuildFile; fileRef = CAFE4094DC7B23039990DB0F /* ClickHouseFunctions.json */; };
+		CAFE8CF5A82F299199D3566E /* ClickHouseKeywords.json in Resources */ = {isa = PBXBuildFile; fileRef = CAFE85E9A312D3BD2053EFB1 /* ClickHouseKeywords.json */; };
+		CAFE88405BBE6DAB3F743010 /* DuckDBFunctions.json in Resources */ = {isa = PBXBuildFile; fileRef = CAFE61A26EAD243A05E2459A /* DuckDBFunctions.json */; };
+		CAFE1F6B7A03690930D86FA0 /* DuckDBKeywords.json in Resources */ = {isa = PBXBuildFile; fileRef = CAFEF6AA391990355831AE5A /* DuckDBKeywords.json */; };
 		724226302664F97B0031A737 /* MongoFunctions.json in Resources */ = {isa = PBXBuildFile; fileRef = 7257CCFF266121E400E68C17 /* MongoFunctions.json */; };
 		724226312664F97B0031A737 /* SnowflakeFunctions.json in Resources */ = {isa = PBXBuildFile; fileRef = 7257CCEF26611FA600E68C17 /* SnowflakeFunctions.json */; };
 		724226322664F97B0031A737 /* OracleFunctions.json in Resources */ = {isa = PBXBuildFile; fileRef = 7257CD052661225C00E68C17 /* OracleFunctions.json */; };
@@ -36,6 +42,12 @@
 		7257CCFC266121D800E68C17 /* SQLiteKeywords.json in Resources */ = {isa = PBXBuildFile; fileRef = 7257CCFA266121D800E68C17 /* SQLiteKeywords.json */; };
 		7257CD01266121E400E68C17 /* MSSQLKeywords.json in Resources */ = {isa = PBXBuildFile; fileRef = 7257CCFD266121E400E68C17 /* MSSQLKeywords.json */; };
 		7257CD02266121E400E68C17 /* MongoKeywords.json in Resources */ = {isa = PBXBuildFile; fileRef = 7257CCFE266121E400E68C17 /* MongoKeywords.json */; };
+		CAFE4A45D08CDC9BCB7F1BD2 /* AthenaFunctions.json in Resources */ = {isa = PBXBuildFile; fileRef = CAFE910208E06E46C772D36E /* AthenaFunctions.json */; };
+		CAFE2E539BBF871719FF9741 /* AthenaKeywords.json in Resources */ = {isa = PBXBuildFile; fileRef = CAFECDFAA9D679CD60FDEA14 /* AthenaKeywords.json */; };
+		CAFEECF8ADA9DD4120CA7805 /* ClickHouseFunctions.json in Resources */ = {isa = PBXBuildFile; fileRef = CAFE4094DC7B23039990DB0F /* ClickHouseFunctions.json */; };
+		CAFE0F1420455F260CF54E28 /* ClickHouseKeywords.json in Resources */ = {isa = PBXBuildFile; fileRef = CAFE85E9A312D3BD2053EFB1 /* ClickHouseKeywords.json */; };
+		CAFE6425F46C8B213725C0FA /* DuckDBFunctions.json in Resources */ = {isa = PBXBuildFile; fileRef = CAFE61A26EAD243A05E2459A /* DuckDBFunctions.json */; };
+		CAFED264856930114842EB84 /* DuckDBKeywords.json in Resources */ = {isa = PBXBuildFile; fileRef = CAFEF6AA391990355831AE5A /* DuckDBKeywords.json */; };
 		7257CD03266121E400E68C17 /* MongoFunctions.json in Resources */ = {isa = PBXBuildFile; fileRef = 7257CCFF266121E400E68C17 /* MongoFunctions.json */; };
 		7257CD04266121E400E68C17 /* MSSQLFunctions.json in Resources */ = {isa = PBXBuildFile; fileRef = 7257CD00266121E400E68C17 /* MSSQLFunctions.json */; };
 		7257CD072661225C00E68C17 /* OracleFunctions.json in Resources */ = {isa = PBXBuildFile; fileRef = 7257CD052661225C00E68C17 /* OracleFunctions.json */; };
@@ -59,6 +71,12 @@
 		7257CCFA266121D800E68C17 /* SQLiteKeywords.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SQLiteKeywords.json; sourceTree = "<group>"; };
 		7257CCFD266121E400E68C17 /* MSSQLKeywords.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MSSQLKeywords.json; sourceTree = "<group>"; };
 		7257CCFE266121E400E68C17 /* MongoKeywords.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MongoKeywords.json; sourceTree = "<group>"; };
+		CAFE910208E06E46C772D36E /* AthenaFunctions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AthenaFunctions.json; sourceTree = "<group>"; };
+		CAFECDFAA9D679CD60FDEA14 /* AthenaKeywords.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AthenaKeywords.json; sourceTree = "<group>"; };
+		CAFE4094DC7B23039990DB0F /* ClickHouseFunctions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ClickHouseFunctions.json; sourceTree = "<group>"; };
+		CAFE85E9A312D3BD2053EFB1 /* ClickHouseKeywords.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ClickHouseKeywords.json; sourceTree = "<group>"; };
+		CAFE61A26EAD243A05E2459A /* DuckDBFunctions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DuckDBFunctions.json; sourceTree = "<group>"; };
+		CAFEF6AA391990355831AE5A /* DuckDBKeywords.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DuckDBKeywords.json; sourceTree = "<group>"; };
 		7257CCFF266121E400E68C17 /* MongoFunctions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MongoFunctions.json; sourceTree = "<group>"; };
 		7257CD00266121E400E68C17 /* MSSQLFunctions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MSSQLFunctions.json; sourceTree = "<group>"; };
 		7257CD052661225C00E68C17 /* OracleFunctions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = OracleFunctions.json; sourceTree = "<group>"; };
@@ -123,6 +141,12 @@
 			children = (
 				7257CCFF266121E400E68C17 /* MongoFunctions.json */,
 				7257CCFE266121E400E68C17 /* MongoKeywords.json */,
+				CAFE910208E06E46C772D36E /* AthenaFunctions.json */,
+				CAFECDFAA9D679CD60FDEA14 /* AthenaKeywords.json */,
+				CAFE4094DC7B23039990DB0F /* ClickHouseFunctions.json */,
+				CAFE85E9A312D3BD2053EFB1 /* ClickHouseKeywords.json */,
+				CAFE61A26EAD243A05E2459A /* DuckDBFunctions.json */,
+				CAFEF6AA391990355831AE5A /* DuckDBKeywords.json */,
 				7257CD00266121E400E68C17 /* MSSQLFunctions.json */,
 				7257CCFD266121E400E68C17 /* MSSQLKeywords.json */,
 				72BF3C842661192E007DB682 /* MySQLFunctions.json */,
@@ -248,6 +272,12 @@
 				7242262D2664F97B0031A737 /* MySQLKeywords.json in Resources */,
 				7242262E2664F97B0031A737 /* PostgresKeywords.json in Resources */,
 				7242262F2664F97B0031A737 /* MongoKeywords.json in Resources */,
+				CAFE7B7841A18689438265B2 /* AthenaFunctions.json in Resources */,
+				CAFE0D4D7F9E456929CA115D /* AthenaKeywords.json in Resources */,
+				CAFE16D8632FF23EB51E6DD4 /* ClickHouseFunctions.json in Resources */,
+				CAFE8CF5A82F299199D3566E /* ClickHouseKeywords.json in Resources */,
+				CAFE88405BBE6DAB3F743010 /* DuckDBFunctions.json in Resources */,
+				CAFE1F6B7A03690930D86FA0 /* DuckDBKeywords.json in Resources */,
 				724226302664F97B0031A737 /* MongoFunctions.json in Resources */,
 				724226312664F97B0031A737 /* SnowflakeFunctions.json in Resources */,
 				724226322664F97B0031A737 /* OracleFunctions.json in Resources */,
@@ -270,6 +300,12 @@
 				72BF3C872661192E007DB682 /* MySQLKeywords.json in Resources */,
 				7257CCF82661200600E68C17 /* PostgresKeywords.json in Resources */,
 				7257CD02266121E400E68C17 /* MongoKeywords.json in Resources */,
+				CAFE4A45D08CDC9BCB7F1BD2 /* AthenaFunctions.json in Resources */,
+				CAFE2E539BBF871719FF9741 /* AthenaKeywords.json in Resources */,
+				CAFEECF8ADA9DD4120CA7805 /* ClickHouseFunctions.json in Resources */,
+				CAFE0F1420455F260CF54E28 /* ClickHouseKeywords.json in Resources */,
+				CAFE6425F46C8B213725C0FA /* DuckDBFunctions.json in Resources */,
+				CAFED264856930114842EB84 /* DuckDBKeywords.json in Resources */,
 				7257CD03266121E400E68C17 /* MongoFunctions.json in Resources */,
 				7257CCF126611FA600E68C17 /* SnowflakeFunctions.json in Resources */,
 				7257CD072661225C00E68C17 /* OracleFunctions.json in Resources */,
