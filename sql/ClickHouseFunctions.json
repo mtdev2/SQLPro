@@ -1,44 +1,5582 @@
 {
-  "count": {}, "sum": {}, "avg": {}, "min": {}, "max": {}, "any": {},
-  "anyLast": {}, "uniq": {}, "uniqExact": {}, "uniqCombined": {}, "median": {},
-  "quantile": {}, "quantiles": {}, "varSamp": {}, "varPop": {}, "stddevSamp": {},
-  "stddevPop": {}, "corr": {}, "covarSamp": {}, "topK": {}, "argMin": {},
-  "argMax": {}, "groupArray": {}, "groupUniqArray": {}, "groupArrayInsertAt": {},
-  "arrayJoin": {}, "arrayMap": {}, "arrayFilter": {}, "arrayReduce": {},
-  "arrayFlatten": {}, "arrayElement": {}, "arrayEnumerate": {}, "arraySlice": {},
-  "arrayConcat": {}, "arraySort": {}, "arrayDistinct": {}, "arrayExists": {},
-  "arrayAll": {}, "arraySum": {}, "arrayCount": {}, "has": {}, "indexOf": {},
-  "length": {}, "empty": {}, "notEmpty": {}, "range": {},
-  "toDate": {}, "toDate32": {}, "toDateTime": {}, "toDateTime64": {},
-  "toString": {}, "toFixedString": {}, "toInt8": {}, "toInt16": {},
-  "toInt32": {}, "toInt64": {}, "toUInt8": {}, "toUInt16": {}, "toUInt32": {},
-  "toUInt64": {}, "toFloat32": {}, "toFloat64": {}, "toDecimal32": {},
-  "toDecimal64": {}, "toDecimal128": {}, "toUUID": {}, "toTypeName": {},
-  "cast": {}, "accurateCast": {}, "reinterpret": {},
-  "now": {}, "now64": {}, "today": {}, "yesterday": {}, "toYear": {},
-  "toMonth": {}, "toDayOfMonth": {}, "toDayOfWeek": {}, "toHour": {},
-  "toMinute": {}, "toSecond": {}, "toStartOfDay": {}, "toStartOfHour": {},
-  "toStartOfMonth": {}, "toStartOfQuarter": {}, "toStartOfYear": {},
-  "toStartOfWeek": {}, "toStartOfInterval": {}, "dateDiff": {}, "dateAdd": {},
-  "dateSub": {}, "formatDateTime": {}, "parseDateTimeBestEffort": {},
-  "if": {}, "multiIf": {}, "coalesce": {}, "ifNull": {}, "nullIf": {},
-  "assumeNotNull": {}, "isNull": {}, "isNotNull": {}, "greatest": {},
-  "least": {}, "abs": {}, "round": {}, "floor": {}, "ceil": {}, "trunc": {},
-  "exp": {}, "log": {}, "sqrt": {}, "pow": {}, "rand": {}, "randCanonical": {},
-  "concat": {}, "substring": {}, "substr": {}, "lower": {}, "upper": {},
-  "reverse": {}, "trim": {}, "trimLeft": {}, "trimRight": {}, "replaceOne": {},
-  "replaceAll": {}, "replaceRegexpOne": {}, "replaceRegexpAll": {}, "splitByChar": {},
-  "splitByString": {}, "position": {}, "match": {}, "extract": {},
-  "extractAll": {}, "startsWith": {}, "endsWith": {}, "like": {}, "ilike": {},
-  "format": {}, "toValidUTF8": {}, "lengthUTF8": {},
-  "dictGet": {}, "dictGetOrDefault": {}, "dictHas": {},
-  "JSONExtract": {}, "JSONExtractString": {}, "JSONExtractInt": {},
-  "JSONExtractFloat": {}, "JSONExtractBool": {}, "JSONExtractRaw": {},
-  "JSONHas": {}, "visitParamExtractString": {},
-  "cityHash64": {}, "sipHash64": {}, "MD5": {}, "SHA256": {}, "hex": {},
-  "unhex": {}, "base64Encode": {}, "base64Decode": {}, "bitAnd": {},
-  "bitOr": {}, "bitXor": {}, "bitShiftLeft": {}, "bitShiftRight": {},
-  "runningDifference": {}, "neighbor": {}, "rowNumberInAllBlocks": {},
-  "IPv4NumToString": {}, "IPv4StringToNum": {}, "IPv6NumToString": {},
-  "geoDistance": {}, "pointInPolygon": {}
+  "__actionName": {
+    "descriptionMarkup": ""
+  },
+  "__applyFilter": {
+    "descriptionMarkup": ""
+  },
+  "__bitBoolMaskAnd": {
+    "descriptionMarkup": ""
+  },
+  "__bitBoolMaskOr": {
+    "descriptionMarkup": ""
+  },
+  "__bitSwapLastTwo": {
+    "descriptionMarkup": ""
+  },
+  "__bitWrapperFunc": {
+    "descriptionMarkup": ""
+  },
+  "__getScalar": {
+    "descriptionMarkup": ""
+  },
+  "__patchPartitionID": {
+    "descriptionMarkup": ""
+  },
+  "__scalarSubqueryResult": {
+    "descriptionMarkup": ""
+  },
+  "__toYearCalendarOnly": {
+    "descriptionMarkup": ""
+  },
+  "_CAST": {
+    "descriptionMarkup": ""
+  },
+  "abs": {
+    "descriptionMarkup": ""
+  },
+  "accurateCast": {
+    "descriptionMarkup": ""
+  },
+  "accurateCastOrDefault": {
+    "descriptionMarkup": ""
+  },
+  "accurateCastOrNull": {
+    "descriptionMarkup": ""
+  },
+  "acos": {
+    "descriptionMarkup": ""
+  },
+  "acosh": {
+    "descriptionMarkup": ""
+  },
+  "addDate": {
+    "descriptionMarkup": ""
+  },
+  "addDays": {
+    "descriptionMarkup": ""
+  },
+  "addHours": {
+    "descriptionMarkup": ""
+  },
+  "addInterval": {
+    "descriptionMarkup": ""
+  },
+  "addMicroseconds": {
+    "descriptionMarkup": ""
+  },
+  "addMilliseconds": {
+    "descriptionMarkup": ""
+  },
+  "addMinutes": {
+    "descriptionMarkup": ""
+  },
+  "addMonths": {
+    "descriptionMarkup": ""
+  },
+  "addNanoseconds": {
+    "descriptionMarkup": ""
+  },
+  "addQuarters": {
+    "descriptionMarkup": ""
+  },
+  "addressToLine": {
+    "descriptionMarkup": ""
+  },
+  "addressToLineWithInlines": {
+    "descriptionMarkup": ""
+  },
+  "addressToSymbol": {
+    "descriptionMarkup": ""
+  },
+  "addSeconds": {
+    "descriptionMarkup": ""
+  },
+  "addTupleOfIntervals": {
+    "descriptionMarkup": ""
+  },
+  "addWeeks": {
+    "descriptionMarkup": ""
+  },
+  "addYears": {
+    "descriptionMarkup": ""
+  },
+  "aes_decrypt_mysql": {
+    "descriptionMarkup": ""
+  },
+  "aes_encrypt_mysql": {
+    "descriptionMarkup": ""
+  },
+  "age": {
+    "descriptionMarkup": ""
+  },
+  "aggThrow": {
+    "descriptionMarkup": ""
+  },
+  "AIClassify": {
+    "descriptionMarkup": ""
+  },
+  "aiClassify": {
+    "descriptionMarkup": ""
+  },
+  "aiEmbed": {
+    "descriptionMarkup": ""
+  },
+  "AIExtract": {
+    "descriptionMarkup": ""
+  },
+  "aiExtract": {
+    "descriptionMarkup": ""
+  },
+  "AIGenerate": {
+    "descriptionMarkup": ""
+  },
+  "aiGenerate": {
+    "descriptionMarkup": ""
+  },
+  "AITranslate": {
+    "descriptionMarkup": ""
+  },
+  "aiTranslate": {
+    "descriptionMarkup": ""
+  },
+  "alphaTokens": {
+    "descriptionMarkup": ""
+  },
+  "analysisOfVariance": {
+    "descriptionMarkup": ""
+  },
+  "and": {
+    "descriptionMarkup": ""
+  },
+  "anova": {
+    "descriptionMarkup": ""
+  },
+  "any": {
+    "descriptionMarkup": ""
+  },
+  "any_respect_nulls": {
+    "descriptionMarkup": ""
+  },
+  "any_value": {
+    "descriptionMarkup": ""
+  },
+  "any_value_respect_nulls": {
+    "descriptionMarkup": ""
+  },
+  "anyHeavy": {
+    "descriptionMarkup": ""
+  },
+  "anyLast": {
+    "descriptionMarkup": ""
+  },
+  "anyLast_respect_nulls": {
+    "descriptionMarkup": ""
+  },
+  "anyLastRespectNulls": {
+    "descriptionMarkup": ""
+  },
+  "anyRespectNulls": {
+    "descriptionMarkup": ""
+  },
+  "anyValueRespectNulls": {
+    "descriptionMarkup": ""
+  },
+  "appendTrailingCharIfAbsent": {
+    "descriptionMarkup": ""
+  },
+  "approx_top_count": {
+    "descriptionMarkup": ""
+  },
+  "approx_top_k": {
+    "descriptionMarkup": ""
+  },
+  "approx_top_sum": {
+    "descriptionMarkup": ""
+  },
+  "areaCartesian": {
+    "descriptionMarkup": ""
+  },
+  "areaSpherical": {
+    "descriptionMarkup": ""
+  },
+  "argAndMax": {
+    "descriptionMarkup": ""
+  },
+  "argAndMin": {
+    "descriptionMarkup": ""
+  },
+  "argMax": {
+    "descriptionMarkup": ""
+  },
+  "argMin": {
+    "descriptionMarkup": ""
+  },
+  "array": {
+    "descriptionMarkup": ""
+  },
+  "array_agg": {
+    "descriptionMarkup": ""
+  },
+  "array_concat_agg": {
+    "descriptionMarkup": ""
+  },
+  "array_remove": {
+    "descriptionMarkup": ""
+  },
+  "array_to_string": {
+    "descriptionMarkup": ""
+  },
+  "arrayAll": {
+    "descriptionMarkup": ""
+  },
+  "arrayAUC": {
+    "descriptionMarkup": ""
+  },
+  "arrayAUCPR": {
+    "descriptionMarkup": ""
+  },
+  "arrayAutocorrelation": {
+    "descriptionMarkup": ""
+  },
+  "arrayAvg": {
+    "descriptionMarkup": ""
+  },
+  "arrayBottomK": {
+    "descriptionMarkup": ""
+  },
+  "arrayCompact": {
+    "descriptionMarkup": ""
+  },
+  "arrayConcat": {
+    "descriptionMarkup": ""
+  },
+  "arrayCount": {
+    "descriptionMarkup": ""
+  },
+  "arrayCumSum": {
+    "descriptionMarkup": ""
+  },
+  "arrayCumSumNonNegative": {
+    "descriptionMarkup": ""
+  },
+  "arrayDifference": {
+    "descriptionMarkup": ""
+  },
+  "arrayDistinct": {
+    "descriptionMarkup": ""
+  },
+  "arrayDotProduct": {
+    "descriptionMarkup": ""
+  },
+  "arrayElement": {
+    "descriptionMarkup": ""
+  },
+  "arrayElementOrNull": {
+    "descriptionMarkup": ""
+  },
+  "arrayEnumerate": {
+    "descriptionMarkup": ""
+  },
+  "arrayEnumerateDense": {
+    "descriptionMarkup": ""
+  },
+  "arrayEnumerateDenseRanked": {
+    "descriptionMarkup": ""
+  },
+  "arrayEnumerateUniq": {
+    "descriptionMarkup": ""
+  },
+  "arrayEnumerateUniqRanked": {
+    "descriptionMarkup": ""
+  },
+  "arrayExcept": {
+    "descriptionMarkup": ""
+  },
+  "arrayExists": {
+    "descriptionMarkup": ""
+  },
+  "arrayFill": {
+    "descriptionMarkup": ""
+  },
+  "arrayFilter": {
+    "descriptionMarkup": ""
+  },
+  "arrayFirst": {
+    "descriptionMarkup": ""
+  },
+  "arrayFirstIndex": {
+    "descriptionMarkup": ""
+  },
+  "arrayFirstOrNull": {
+    "descriptionMarkup": ""
+  },
+  "arrayFlatten": {
+    "descriptionMarkup": ""
+  },
+  "arrayFold": {
+    "descriptionMarkup": ""
+  },
+  "arrayIntersect": {
+    "descriptionMarkup": ""
+  },
+  "arrayJaccardIndex": {
+    "descriptionMarkup": ""
+  },
+  "arrayJoin": {
+    "descriptionMarkup": ""
+  },
+  "arrayLast": {
+    "descriptionMarkup": ""
+  },
+  "arrayLastIndex": {
+    "descriptionMarkup": ""
+  },
+  "arrayLastOrNull": {
+    "descriptionMarkup": ""
+  },
+  "arrayLevenshteinDistance": {
+    "descriptionMarkup": ""
+  },
+  "arrayLevenshteinDistanceWeighted": {
+    "descriptionMarkup": ""
+  },
+  "arrayMap": {
+    "descriptionMarkup": ""
+  },
+  "arrayMax": {
+    "descriptionMarkup": ""
+  },
+  "arrayMin": {
+    "descriptionMarkup": ""
+  },
+  "arrayNormalizedGini": {
+    "descriptionMarkup": ""
+  },
+  "arrayPartialReverseSort": {
+    "descriptionMarkup": ""
+  },
+  "arrayPartialShuffle": {
+    "descriptionMarkup": ""
+  },
+  "arrayPartialSort": {
+    "descriptionMarkup": ""
+  },
+  "arrayPopBack": {
+    "descriptionMarkup": ""
+  },
+  "arrayPopFront": {
+    "descriptionMarkup": ""
+  },
+  "arrayPRAUC": {
+    "descriptionMarkup": ""
+  },
+  "arrayProduct": {
+    "descriptionMarkup": ""
+  },
+  "arrayPushBack": {
+    "descriptionMarkup": ""
+  },
+  "arrayPushFront": {
+    "descriptionMarkup": ""
+  },
+  "arrayRandomSample": {
+    "descriptionMarkup": ""
+  },
+  "arrayReduce": {
+    "descriptionMarkup": ""
+  },
+  "arrayReduceInRanges": {
+    "descriptionMarkup": ""
+  },
+  "arrayRemove": {
+    "descriptionMarkup": ""
+  },
+  "arrayResize": {
+    "descriptionMarkup": ""
+  },
+  "arrayReverse": {
+    "descriptionMarkup": ""
+  },
+  "arrayReverseFill": {
+    "descriptionMarkup": ""
+  },
+  "arrayReverseSort": {
+    "descriptionMarkup": ""
+  },
+  "arrayReverseSplit": {
+    "descriptionMarkup": ""
+  },
+  "arrayROCAUC": {
+    "descriptionMarkup": ""
+  },
+  "arrayRotateLeft": {
+    "descriptionMarkup": ""
+  },
+  "arrayRotateRight": {
+    "descriptionMarkup": ""
+  },
+  "arrayShiftLeft": {
+    "descriptionMarkup": ""
+  },
+  "arrayShiftRight": {
+    "descriptionMarkup": ""
+  },
+  "arrayShingles": {
+    "descriptionMarkup": ""
+  },
+  "arrayShuffle": {
+    "descriptionMarkup": ""
+  },
+  "arraySimilarity": {
+    "descriptionMarkup": ""
+  },
+  "arraySlice": {
+    "descriptionMarkup": ""
+  },
+  "arraySort": {
+    "descriptionMarkup": ""
+  },
+  "arraySplit": {
+    "descriptionMarkup": ""
+  },
+  "arrayStringConcat": {
+    "descriptionMarkup": ""
+  },
+  "arraySum": {
+    "descriptionMarkup": ""
+  },
+  "arraySymmetricDifference": {
+    "descriptionMarkup": ""
+  },
+  "arrayTopK": {
+    "descriptionMarkup": ""
+  },
+  "arrayTranspose": {
+    "descriptionMarkup": ""
+  },
+  "arrayUnion": {
+    "descriptionMarkup": ""
+  },
+  "arrayUniq": {
+    "descriptionMarkup": ""
+  },
+  "arrayWithConstant": {
+    "descriptionMarkup": ""
+  },
+  "arrayZip": {
+    "descriptionMarkup": ""
+  },
+  "arrayZipUnaligned": {
+    "descriptionMarkup": ""
+  },
+  "ascii": {
+    "descriptionMarkup": ""
+  },
+  "asin": {
+    "descriptionMarkup": ""
+  },
+  "asinh": {
+    "descriptionMarkup": ""
+  },
+  "assumeNotNull": {
+    "descriptionMarkup": ""
+  },
+  "atan": {
+    "descriptionMarkup": ""
+  },
+  "atan2": {
+    "descriptionMarkup": ""
+  },
+  "atanh": {
+    "descriptionMarkup": ""
+  },
+  "authenticatedUser": {
+    "descriptionMarkup": ""
+  },
+  "authUser": {
+    "descriptionMarkup": ""
+  },
+  "avg": {
+    "descriptionMarkup": ""
+  },
+  "avg2": {
+    "descriptionMarkup": ""
+  },
+  "avgWeighted": {
+    "descriptionMarkup": ""
+  },
+  "bar": {
+    "descriptionMarkup": ""
+  },
+  "base32Decode": {
+    "descriptionMarkup": ""
+  },
+  "base32Encode": {
+    "descriptionMarkup": ""
+  },
+  "base58Decode": {
+    "descriptionMarkup": ""
+  },
+  "base58Encode": {
+    "descriptionMarkup": ""
+  },
+  "base64Decode": {
+    "descriptionMarkup": ""
+  },
+  "base64Encode": {
+    "descriptionMarkup": ""
+  },
+  "base64URLDecode": {
+    "descriptionMarkup": ""
+  },
+  "base64URLEncode": {
+    "descriptionMarkup": ""
+  },
+  "basename": {
+    "descriptionMarkup": ""
+  },
+  "bech32Decode": {
+    "descriptionMarkup": ""
+  },
+  "bech32Encode": {
+    "descriptionMarkup": ""
+  },
+  "bin": {
+    "descriptionMarkup": ""
+  },
+  "BIT_AND": {
+    "descriptionMarkup": ""
+  },
+  "BIT_OR": {
+    "descriptionMarkup": ""
+  },
+  "BIT_XOR": {
+    "descriptionMarkup": ""
+  },
+  "bitAnd": {
+    "descriptionMarkup": ""
+  },
+  "bitCount": {
+    "descriptionMarkup": ""
+  },
+  "bitHammingDistance": {
+    "descriptionMarkup": ""
+  },
+  "bitmapAnd": {
+    "descriptionMarkup": ""
+  },
+  "bitmapAndCardinality": {
+    "descriptionMarkup": ""
+  },
+  "bitmapAndnot": {
+    "descriptionMarkup": ""
+  },
+  "bitmapAndnotCardinality": {
+    "descriptionMarkup": ""
+  },
+  "bitmapBuild": {
+    "descriptionMarkup": ""
+  },
+  "bitmapCardinality": {
+    "descriptionMarkup": ""
+  },
+  "bitmapContains": {
+    "descriptionMarkup": ""
+  },
+  "bitmapHasAll": {
+    "descriptionMarkup": ""
+  },
+  "bitmapHasAny": {
+    "descriptionMarkup": ""
+  },
+  "bitmapMax": {
+    "descriptionMarkup": ""
+  },
+  "bitmapMin": {
+    "descriptionMarkup": ""
+  },
+  "bitmapOr": {
+    "descriptionMarkup": ""
+  },
+  "bitmapOrCardinality": {
+    "descriptionMarkup": ""
+  },
+  "bitmapSubsetInRange": {
+    "descriptionMarkup": ""
+  },
+  "bitmapSubsetLimit": {
+    "descriptionMarkup": ""
+  },
+  "bitmapToArray": {
+    "descriptionMarkup": ""
+  },
+  "bitmapTransform": {
+    "descriptionMarkup": ""
+  },
+  "bitmapXor": {
+    "descriptionMarkup": ""
+  },
+  "bitmapXorCardinality": {
+    "descriptionMarkup": ""
+  },
+  "bitmaskToArray": {
+    "descriptionMarkup": ""
+  },
+  "bitmaskToList": {
+    "descriptionMarkup": ""
+  },
+  "bitNot": {
+    "descriptionMarkup": ""
+  },
+  "bitOr": {
+    "descriptionMarkup": ""
+  },
+  "bitPositionsToArray": {
+    "descriptionMarkup": ""
+  },
+  "bitRotateLeft": {
+    "descriptionMarkup": ""
+  },
+  "bitRotateRight": {
+    "descriptionMarkup": ""
+  },
+  "bitShiftLeft": {
+    "descriptionMarkup": ""
+  },
+  "bitShiftRight": {
+    "descriptionMarkup": ""
+  },
+  "bitSlice": {
+    "descriptionMarkup": ""
+  },
+  "bitTest": {
+    "descriptionMarkup": ""
+  },
+  "bitTestAll": {
+    "descriptionMarkup": ""
+  },
+  "bitTestAny": {
+    "descriptionMarkup": ""
+  },
+  "bitXor": {
+    "descriptionMarkup": ""
+  },
+  "BLAKE3": {
+    "descriptionMarkup": ""
+  },
+  "blockNumber": {
+    "descriptionMarkup": ""
+  },
+  "blockSerializedSize": {
+    "descriptionMarkup": ""
+  },
+  "blockSize": {
+    "descriptionMarkup": ""
+  },
+  "boundingRatio": {
+    "descriptionMarkup": ""
+  },
+  "buildId": {
+    "descriptionMarkup": ""
+  },
+  "byteHammingDistance": {
+    "descriptionMarkup": ""
+  },
+  "byteSize": {
+    "descriptionMarkup": ""
+  },
+  "byteSlice": {
+    "descriptionMarkup": ""
+  },
+  "byteSwap": {
+    "descriptionMarkup": ""
+  },
+  "CARDINALITY": {
+    "descriptionMarkup": ""
+  },
+  "caseFoldUTF8": {
+    "descriptionMarkup": ""
+  },
+  "caseWithExpr": {
+    "descriptionMarkup": ""
+  },
+  "caseWithExpression": {
+    "descriptionMarkup": ""
+  },
+  "caseWithoutExpr": {
+    "descriptionMarkup": ""
+  },
+  "caseWithoutExpression": {
+    "descriptionMarkup": ""
+  },
+  "CAST": {
+    "descriptionMarkup": ""
+  },
+  "catboostEvaluate": {
+    "descriptionMarkup": ""
+  },
+  "categoricalInformationValue": {
+    "descriptionMarkup": ""
+  },
+  "cbrt": {
+    "descriptionMarkup": ""
+  },
+  "ceil": {
+    "descriptionMarkup": ""
+  },
+  "ceiling": {
+    "descriptionMarkup": ""
+  },
+  "changeDay": {
+    "descriptionMarkup": ""
+  },
+  "changeHour": {
+    "descriptionMarkup": ""
+  },
+  "changeMinute": {
+    "descriptionMarkup": ""
+  },
+  "changeMonth": {
+    "descriptionMarkup": ""
+  },
+  "changeSecond": {
+    "descriptionMarkup": ""
+  },
+  "changeYear": {
+    "descriptionMarkup": ""
+  },
+  "char": {
+    "descriptionMarkup": ""
+  },
+  "CHAR_LENGTH": {
+    "descriptionMarkup": ""
+  },
+  "CHARACTER_LENGTH": {
+    "descriptionMarkup": ""
+  },
+  "cityHash64": {
+    "descriptionMarkup": ""
+  },
+  "clamp": {
+    "descriptionMarkup": ""
+  },
+  "coalesce": {
+    "descriptionMarkup": ""
+  },
+  "colorOKLABToSRGB": {
+    "descriptionMarkup": ""
+  },
+  "colorOKLCHToSRGB": {
+    "descriptionMarkup": ""
+  },
+  "colorSRGBToOKLAB": {
+    "descriptionMarkup": ""
+  },
+  "colorSRGBToOKLCH": {
+    "descriptionMarkup": ""
+  },
+  "compareSubstrings": {
+    "descriptionMarkup": ""
+  },
+  "concat": {
+    "descriptionMarkup": ""
+  },
+  "concat_ws": {
+    "descriptionMarkup": ""
+  },
+  "concatAssumeInjective": {
+    "descriptionMarkup": ""
+  },
+  "concatWithSeparator": {
+    "descriptionMarkup": ""
+  },
+  "concatWithSeparatorAssumeInjective": {
+    "descriptionMarkup": ""
+  },
+  "connection_id": {
+    "descriptionMarkup": ""
+  },
+  "connectionId": {
+    "descriptionMarkup": ""
+  },
+  "contingency": {
+    "descriptionMarkup": ""
+  },
+  "conv": {
+    "descriptionMarkup": ""
+  },
+  "convertCharset": {
+    "descriptionMarkup": ""
+  },
+  "corr": {
+    "descriptionMarkup": ""
+  },
+  "corrMatrix": {
+    "descriptionMarkup": ""
+  },
+  "corrStable": {
+    "descriptionMarkup": ""
+  },
+  "cos": {
+    "descriptionMarkup": ""
+  },
+  "cosh": {
+    "descriptionMarkup": ""
+  },
+  "cosineDistance": {
+    "descriptionMarkup": ""
+  },
+  "cosineDistanceTransposed": {
+    "descriptionMarkup": ""
+  },
+  "cosineDistanceTransposedQuantized": {
+    "descriptionMarkup": ""
+  },
+  "count": {
+    "descriptionMarkup": ""
+  },
+  "countDigits": {
+    "descriptionMarkup": ""
+  },
+  "countEqual": {
+    "descriptionMarkup": ""
+  },
+  "countMatches": {
+    "descriptionMarkup": ""
+  },
+  "countMatchesCaseInsensitive": {
+    "descriptionMarkup": ""
+  },
+  "countSubstrings": {
+    "descriptionMarkup": ""
+  },
+  "countSubstringsCaseInsensitive": {
+    "descriptionMarkup": ""
+  },
+  "countSubstringsCaseInsensitiveUTF8": {
+    "descriptionMarkup": ""
+  },
+  "COVAR_POP": {
+    "descriptionMarkup": ""
+  },
+  "COVAR_SAMP": {
+    "descriptionMarkup": ""
+  },
+  "covarPop": {
+    "descriptionMarkup": ""
+  },
+  "covarPopMatrix": {
+    "descriptionMarkup": ""
+  },
+  "covarPopStable": {
+    "descriptionMarkup": ""
+  },
+  "covarSamp": {
+    "descriptionMarkup": ""
+  },
+  "covarSampMatrix": {
+    "descriptionMarkup": ""
+  },
+  "covarSampStable": {
+    "descriptionMarkup": ""
+  },
+  "cramersV": {
+    "descriptionMarkup": ""
+  },
+  "cramersVBiasCorrected": {
+    "descriptionMarkup": ""
+  },
+  "CRC32": {
+    "descriptionMarkup": ""
+  },
+  "CRC32IEEE": {
+    "descriptionMarkup": ""
+  },
+  "CRC64": {
+    "descriptionMarkup": ""
+  },
+  "cume_dist": {
+    "descriptionMarkup": ""
+  },
+  "curdate": {
+    "descriptionMarkup": ""
+  },
+  "current_database": {
+    "descriptionMarkup": ""
+  },
+  "current_date": {
+    "descriptionMarkup": ""
+  },
+  "current_query_id": {
+    "descriptionMarkup": ""
+  },
+  "current_schemas": {
+    "descriptionMarkup": ""
+  },
+  "current_timestamp": {
+    "descriptionMarkup": ""
+  },
+  "current_user": {
+    "descriptionMarkup": ""
+  },
+  "currentDatabase": {
+    "descriptionMarkup": ""
+  },
+  "currentProfiles": {
+    "descriptionMarkup": ""
+  },
+  "currentQueryID": {
+    "descriptionMarkup": ""
+  },
+  "currentRoles": {
+    "descriptionMarkup": ""
+  },
+  "currentSchemas": {
+    "descriptionMarkup": ""
+  },
+  "currentUser": {
+    "descriptionMarkup": ""
+  },
+  "cutFragment": {
+    "descriptionMarkup": ""
+  },
+  "cutIPv6": {
+    "descriptionMarkup": ""
+  },
+  "cutQueryString": {
+    "descriptionMarkup": ""
+  },
+  "cutQueryStringAndFragment": {
+    "descriptionMarkup": ""
+  },
+  "cutToFirstSignificantSubdomain": {
+    "descriptionMarkup": ""
+  },
+  "cutToFirstSignificantSubdomainCustom": {
+    "descriptionMarkup": ""
+  },
+  "cutToFirstSignificantSubdomainCustomRFC": {
+    "descriptionMarkup": ""
+  },
+  "cutToFirstSignificantSubdomainCustomWithWWW": {
+    "descriptionMarkup": ""
+  },
+  "cutToFirstSignificantSubdomainCustomWithWWWRFC": {
+    "descriptionMarkup": ""
+  },
+  "cutToFirstSignificantSubdomainRFC": {
+    "descriptionMarkup": ""
+  },
+  "cutToFirstSignificantSubdomainWithWWW": {
+    "descriptionMarkup": ""
+  },
+  "cutToFirstSignificantSubdomainWithWWWRFC": {
+    "descriptionMarkup": ""
+  },
+  "cutURLParameter": {
+    "descriptionMarkup": ""
+  },
+  "cutWWW": {
+    "descriptionMarkup": ""
+  },
+  "damerauLevenshteinDistance": {
+    "descriptionMarkup": ""
+  },
+  "DATABASE": {
+    "descriptionMarkup": ""
+  },
+  "DATE": {
+    "descriptionMarkup": ""
+  },
+  "date_bin": {
+    "descriptionMarkup": ""
+  },
+  "DATE_DIFF": {
+    "descriptionMarkup": ""
+  },
+  "date_diff": {
+    "descriptionMarkup": ""
+  },
+  "DATE_FORMAT": {
+    "descriptionMarkup": ""
+  },
+  "DATE_TRUNC": {
+    "descriptionMarkup": ""
+  },
+  "dateAdd": {
+    "descriptionMarkup": ""
+  },
+  "dateDiff": {
+    "descriptionMarkup": ""
+  },
+  "dateName": {
+    "descriptionMarkup": ""
+  },
+  "dateSub": {
+    "descriptionMarkup": ""
+  },
+  "dateTime64ToSnowflakeID": {
+    "descriptionMarkup": ""
+  },
+  "dateTimeToSnowflakeID": {
+    "descriptionMarkup": ""
+  },
+  "dateTimeToUUIDv7": {
+    "descriptionMarkup": ""
+  },
+  "dateTrunc": {
+    "descriptionMarkup": ""
+  },
+  "DAY": {
+    "descriptionMarkup": ""
+  },
+  "DAYOFMONTH": {
+    "descriptionMarkup": ""
+  },
+  "DAYOFWEEK": {
+    "descriptionMarkup": ""
+  },
+  "DAYOFYEAR": {
+    "descriptionMarkup": ""
+  },
+  "decodeHTMLComponent": {
+    "descriptionMarkup": ""
+  },
+  "decodeURLComponent": {
+    "descriptionMarkup": ""
+  },
+  "decodeURLFormComponent": {
+    "descriptionMarkup": ""
+  },
+  "decodeXMLComponent": {
+    "descriptionMarkup": ""
+  },
+  "decrypt": {
+    "descriptionMarkup": ""
+  },
+  "defaultProfiles": {
+    "descriptionMarkup": ""
+  },
+  "defaultRoles": {
+    "descriptionMarkup": ""
+  },
+  "defaultValueOfArgumentType": {
+    "descriptionMarkup": ""
+  },
+  "defaultValueOfTypeName": {
+    "descriptionMarkup": ""
+  },
+  "degrees": {
+    "descriptionMarkup": ""
+  },
+  "deltaSum": {
+    "descriptionMarkup": ""
+  },
+  "deltaSumTimestamp": {
+    "descriptionMarkup": ""
+  },
+  "demangle": {
+    "descriptionMarkup": ""
+  },
+  "dense_rank": {
+    "descriptionMarkup": ""
+  },
+  "denseRank": {
+    "descriptionMarkup": ""
+  },
+  "dequantizeInt8ToBFloat16": {
+    "descriptionMarkup": ""
+  },
+  "detectCharset": {
+    "descriptionMarkup": ""
+  },
+  "detectLanguage": {
+    "descriptionMarkup": ""
+  },
+  "detectLanguageMixed": {
+    "descriptionMarkup": ""
+  },
+  "detectLanguageUnknown": {
+    "descriptionMarkup": ""
+  },
+  "detectTonality": {
+    "descriptionMarkup": ""
+  },
+  "dictGet": {
+    "descriptionMarkup": ""
+  },
+  "dictGetAll": {
+    "descriptionMarkup": ""
+  },
+  "dictGetChildren": {
+    "descriptionMarkup": ""
+  },
+  "dictGetDate": {
+    "descriptionMarkup": ""
+  },
+  "dictGetDateOrDefault": {
+    "descriptionMarkup": ""
+  },
+  "dictGetDateTime": {
+    "descriptionMarkup": ""
+  },
+  "dictGetDateTimeOrDefault": {
+    "descriptionMarkup": ""
+  },
+  "dictGetDescendants": {
+    "descriptionMarkup": ""
+  },
+  "dictGetFloat32": {
+    "descriptionMarkup": ""
+  },
+  "dictGetFloat32OrDefault": {
+    "descriptionMarkup": ""
+  },
+  "dictGetFloat64": {
+    "descriptionMarkup": ""
+  },
+  "dictGetFloat64OrDefault": {
+    "descriptionMarkup": ""
+  },
+  "dictGetHierarchy": {
+    "descriptionMarkup": ""
+  },
+  "dictGetInt16": {
+    "descriptionMarkup": ""
+  },
+  "dictGetInt16OrDefault": {
+    "descriptionMarkup": ""
+  },
+  "dictGetInt32": {
+    "descriptionMarkup": ""
+  },
+  "dictGetInt32OrDefault": {
+    "descriptionMarkup": ""
+  },
+  "dictGetInt64": {
+    "descriptionMarkup": ""
+  },
+  "dictGetInt64OrDefault": {
+    "descriptionMarkup": ""
+  },
+  "dictGetInt8": {
+    "descriptionMarkup": ""
+  },
+  "dictGetInt8OrDefault": {
+    "descriptionMarkup": ""
+  },
+  "dictGetIPv4": {
+    "descriptionMarkup": ""
+  },
+  "dictGetIPv4OrDefault": {
+    "descriptionMarkup": ""
+  },
+  "dictGetIPv6": {
+    "descriptionMarkup": ""
+  },
+  "dictGetIPv6OrDefault": {
+    "descriptionMarkup": ""
+  },
+  "dictGetKeys": {
+    "descriptionMarkup": ""
+  },
+  "dictGetOrDefault": {
+    "descriptionMarkup": ""
+  },
+  "dictGetOrNull": {
+    "descriptionMarkup": ""
+  },
+  "dictGetRoot": {
+    "descriptionMarkup": ""
+  },
+  "dictGetString": {
+    "descriptionMarkup": ""
+  },
+  "dictGetStringOrDefault": {
+    "descriptionMarkup": ""
+  },
+  "dictGetUInt16": {
+    "descriptionMarkup": ""
+  },
+  "dictGetUInt16OrDefault": {
+    "descriptionMarkup": ""
+  },
+  "dictGetUInt32": {
+    "descriptionMarkup": ""
+  },
+  "dictGetUInt32OrDefault": {
+    "descriptionMarkup": ""
+  },
+  "dictGetUInt64": {
+    "descriptionMarkup": ""
+  },
+  "dictGetUInt64OrDefault": {
+    "descriptionMarkup": ""
+  },
+  "dictGetUInt8": {
+    "descriptionMarkup": ""
+  },
+  "dictGetUInt8OrDefault": {
+    "descriptionMarkup": ""
+  },
+  "dictGetUUID": {
+    "descriptionMarkup": ""
+  },
+  "dictGetUUIDOrDefault": {
+    "descriptionMarkup": ""
+  },
+  "dictHas": {
+    "descriptionMarkup": ""
+  },
+  "dictIsIn": {
+    "descriptionMarkup": ""
+  },
+  "digits": {
+    "descriptionMarkup": ""
+  },
+  "displayName": {
+    "descriptionMarkup": ""
+  },
+  "distanceCosine": {
+    "descriptionMarkup": ""
+  },
+  "distanceCosineTransposed": {
+    "descriptionMarkup": ""
+  },
+  "distanceL1": {
+    "descriptionMarkup": ""
+  },
+  "distanceL2": {
+    "descriptionMarkup": ""
+  },
+  "distanceL2Squared": {
+    "descriptionMarkup": ""
+  },
+  "distanceL2Transposed": {
+    "descriptionMarkup": ""
+  },
+  "distanceLinf": {
+    "descriptionMarkup": ""
+  },
+  "distanceLp": {
+    "descriptionMarkup": ""
+  },
+  "distinctDynamicTypes": {
+    "descriptionMarkup": ""
+  },
+  "distinctJSONPaths": {
+    "descriptionMarkup": ""
+  },
+  "distinctJSONPathsAndTypes": {
+    "descriptionMarkup": ""
+  },
+  "divide": {
+    "descriptionMarkup": ""
+  },
+  "divideDecimal": {
+    "descriptionMarkup": ""
+  },
+  "divideOrNull": {
+    "descriptionMarkup": ""
+  },
+  "domain": {
+    "descriptionMarkup": ""
+  },
+  "domainRFC": {
+    "descriptionMarkup": ""
+  },
+  "domainWithoutWWW": {
+    "descriptionMarkup": ""
+  },
+  "domainWithoutWWWRFC": {
+    "descriptionMarkup": ""
+  },
+  "dotProduct": {
+    "descriptionMarkup": ""
+  },
+  "dotProductTransposed": {
+    "descriptionMarkup": ""
+  },
+  "dotProductTransposedQuantized": {
+    "descriptionMarkup": ""
+  },
+  "dumpColumnStructure": {
+    "descriptionMarkup": ""
+  },
+  "dynamicElement": {
+    "descriptionMarkup": ""
+  },
+  "dynamicType": {
+    "descriptionMarkup": ""
+  },
+  "e": {
+    "descriptionMarkup": ""
+  },
+  "editDistance": {
+    "descriptionMarkup": ""
+  },
+  "editDistanceUTF8": {
+    "descriptionMarkup": ""
+  },
+  "empty": {
+    "descriptionMarkup": ""
+  },
+  "emptyArrayDate": {
+    "descriptionMarkup": ""
+  },
+  "emptyArrayDateTime": {
+    "descriptionMarkup": ""
+  },
+  "emptyArrayFloat32": {
+    "descriptionMarkup": ""
+  },
+  "emptyArrayFloat64": {
+    "descriptionMarkup": ""
+  },
+  "emptyArrayInt16": {
+    "descriptionMarkup": ""
+  },
+  "emptyArrayInt32": {
+    "descriptionMarkup": ""
+  },
+  "emptyArrayInt64": {
+    "descriptionMarkup": ""
+  },
+  "emptyArrayInt8": {
+    "descriptionMarkup": ""
+  },
+  "emptyArrayString": {
+    "descriptionMarkup": ""
+  },
+  "emptyArrayToSingle": {
+    "descriptionMarkup": ""
+  },
+  "emptyArrayUInt16": {
+    "descriptionMarkup": ""
+  },
+  "emptyArrayUInt32": {
+    "descriptionMarkup": ""
+  },
+  "emptyArrayUInt64": {
+    "descriptionMarkup": ""
+  },
+  "emptyArrayUInt8": {
+    "descriptionMarkup": ""
+  },
+  "enabledProfiles": {
+    "descriptionMarkup": ""
+  },
+  "enabledRoles": {
+    "descriptionMarkup": ""
+  },
+  "encodeURLComponent": {
+    "descriptionMarkup": ""
+  },
+  "encodeURLFormComponent": {
+    "descriptionMarkup": ""
+  },
+  "encodeXMLComponent": {
+    "descriptionMarkup": ""
+  },
+  "encrypt": {
+    "descriptionMarkup": ""
+  },
+  "endsWith": {
+    "descriptionMarkup": ""
+  },
+  "endsWithCaseInsensitive": {
+    "descriptionMarkup": ""
+  },
+  "endsWithCaseInsensitiveUTF8": {
+    "descriptionMarkup": ""
+  },
+  "endsWithUTF8": {
+    "descriptionMarkup": ""
+  },
+  "entropy": {
+    "descriptionMarkup": ""
+  },
+  "equals": {
+    "descriptionMarkup": ""
+  },
+  "erf": {
+    "descriptionMarkup": ""
+  },
+  "erfc": {
+    "descriptionMarkup": ""
+  },
+  "errorCodeToName": {
+    "descriptionMarkup": ""
+  },
+  "estimateCompressionRatio": {
+    "descriptionMarkup": ""
+  },
+  "evalMLMethod": {
+    "descriptionMarkup": ""
+  },
+  "exp": {
+    "descriptionMarkup": ""
+  },
+  "exp10": {
+    "descriptionMarkup": ""
+  },
+  "exp2": {
+    "descriptionMarkup": ""
+  },
+  "exponentialMovingAverage": {
+    "descriptionMarkup": ""
+  },
+  "exponentialTimeDecayedAvg": {
+    "descriptionMarkup": ""
+  },
+  "exponentialTimeDecayedCount": {
+    "descriptionMarkup": ""
+  },
+  "exponentialTimeDecayedMax": {
+    "descriptionMarkup": ""
+  },
+  "exponentialTimeDecayedSum": {
+    "descriptionMarkup": ""
+  },
+  "extract": {
+    "descriptionMarkup": ""
+  },
+  "extractAll": {
+    "descriptionMarkup": ""
+  },
+  "extractAllGroups": {
+    "descriptionMarkup": ""
+  },
+  "extractAllGroupsHorizontal": {
+    "descriptionMarkup": ""
+  },
+  "extractAllGroupsVertical": {
+    "descriptionMarkup": ""
+  },
+  "extractGroups": {
+    "descriptionMarkup": ""
+  },
+  "extractKeyValuePairs": {
+    "descriptionMarkup": ""
+  },
+  "extractKeyValuePairsWithEscaping": {
+    "descriptionMarkup": ""
+  },
+  "extractTextFromHTML": {
+    "descriptionMarkup": ""
+  },
+  "extractURLParameter": {
+    "descriptionMarkup": ""
+  },
+  "extractURLParameterNames": {
+    "descriptionMarkup": ""
+  },
+  "extractURLParameters": {
+    "descriptionMarkup": ""
+  },
+  "factorial": {
+    "descriptionMarkup": ""
+  },
+  "farmFingerprint64": {
+    "descriptionMarkup": ""
+  },
+  "farmHash64": {
+    "descriptionMarkup": ""
+  },
+  "file": {
+    "descriptionMarkup": ""
+  },
+  "filesystemAvailable": {
+    "descriptionMarkup": ""
+  },
+  "filesystemCapacity": {
+    "descriptionMarkup": ""
+  },
+  "filesystemUnreserved": {
+    "descriptionMarkup": ""
+  },
+  "finalizeAggregation": {
+    "descriptionMarkup": ""
+  },
+  "financialInternalRateOfReturn": {
+    "descriptionMarkup": ""
+  },
+  "financialInternalRateOfReturnExtended": {
+    "descriptionMarkup": ""
+  },
+  "financialNetPresentValue": {
+    "descriptionMarkup": ""
+  },
+  "financialNetPresentValueExtended": {
+    "descriptionMarkup": ""
+  },
+  "first_value": {
+    "descriptionMarkup": ""
+  },
+  "first_value_respect_nulls": {
+    "descriptionMarkup": ""
+  },
+  "firstLine": {
+    "descriptionMarkup": ""
+  },
+  "firstNonDefault": {
+    "descriptionMarkup": ""
+  },
+  "firstSignificantSubdomain": {
+    "descriptionMarkup": ""
+  },
+  "firstSignificantSubdomainCustom": {
+    "descriptionMarkup": ""
+  },
+  "firstSignificantSubdomainCustomRFC": {
+    "descriptionMarkup": ""
+  },
+  "firstSignificantSubdomainRFC": {
+    "descriptionMarkup": ""
+  },
+  "firstValueRespectNulls": {
+    "descriptionMarkup": ""
+  },
+  "flameGraph": {
+    "descriptionMarkup": ""
+  },
+  "flatten": {
+    "descriptionMarkup": ""
+  },
+  "flattenTuple": {
+    "descriptionMarkup": ""
+  },
+  "flipCoordinates": {
+    "descriptionMarkup": ""
+  },
+  "floor": {
+    "descriptionMarkup": ""
+  },
+  "format": {
+    "descriptionMarkup": ""
+  },
+  "FORMAT_BYTES": {
+    "descriptionMarkup": ""
+  },
+  "formatDateTime": {
+    "descriptionMarkup": ""
+  },
+  "formatDateTimeInJodaSyntax": {
+    "descriptionMarkup": ""
+  },
+  "formatQuery": {
+    "descriptionMarkup": ""
+  },
+  "formatQueryOrNull": {
+    "descriptionMarkup": ""
+  },
+  "formatQuerySingleLine": {
+    "descriptionMarkup": ""
+  },
+  "formatQuerySingleLineOrNull": {
+    "descriptionMarkup": ""
+  },
+  "formatReadableDecimalSize": {
+    "descriptionMarkup": ""
+  },
+  "formatReadableQuantity": {
+    "descriptionMarkup": ""
+  },
+  "formatReadableSize": {
+    "descriptionMarkup": ""
+  },
+  "formatReadableTimeDelta": {
+    "descriptionMarkup": ""
+  },
+  "formatRow": {
+    "descriptionMarkup": ""
+  },
+  "formatRowNoNewline": {
+    "descriptionMarkup": ""
+  },
+  "FQDN": {
+    "descriptionMarkup": ""
+  },
+  "fragment": {
+    "descriptionMarkup": ""
+  },
+  "FROM_BASE64": {
+    "descriptionMarkup": ""
+  },
+  "FROM_DAYS": {
+    "descriptionMarkup": ""
+  },
+  "FROM_UNIXTIME": {
+    "descriptionMarkup": ""
+  },
+  "from_utc_timestamp": {
+    "descriptionMarkup": ""
+  },
+  "fromDaysSinceYearZero": {
+    "descriptionMarkup": ""
+  },
+  "fromDaysSinceYearZero32": {
+    "descriptionMarkup": ""
+  },
+  "fromModifiedJulianDay": {
+    "descriptionMarkup": ""
+  },
+  "fromModifiedJulianDayOrNull": {
+    "descriptionMarkup": ""
+  },
+  "fromUnixTimestamp": {
+    "descriptionMarkup": ""
+  },
+  "fromUnixTimestamp64Micro": {
+    "descriptionMarkup": ""
+  },
+  "fromUnixTimestamp64Milli": {
+    "descriptionMarkup": ""
+  },
+  "fromUnixTimestamp64Nano": {
+    "descriptionMarkup": ""
+  },
+  "fromUnixTimestamp64Second": {
+    "descriptionMarkup": ""
+  },
+  "fromUnixTimestampInJodaSyntax": {
+    "descriptionMarkup": ""
+  },
+  "fromUTCTimestamp": {
+    "descriptionMarkup": ""
+  },
+  "fullHostName": {
+    "descriptionMarkup": ""
+  },
+  "fuzzBits": {
+    "descriptionMarkup": ""
+  },
+  "fuzzQuery": {
+    "descriptionMarkup": ""
+  },
+  "gccMurmurHash": {
+    "descriptionMarkup": ""
+  },
+  "gcd": {
+    "descriptionMarkup": ""
+  },
+  "generateRandomStructure": {
+    "descriptionMarkup": ""
+  },
+  "generateSerialID": {
+    "descriptionMarkup": ""
+  },
+  "generateSnowflakeID": {
+    "descriptionMarkup": ""
+  },
+  "generateULID": {
+    "descriptionMarkup": ""
+  },
+  "generateUUIDv4": {
+    "descriptionMarkup": ""
+  },
+  "generateUUIDv7": {
+    "descriptionMarkup": ""
+  },
+  "geoDistance": {
+    "descriptionMarkup": ""
+  },
+  "geohashDecode": {
+    "descriptionMarkup": ""
+  },
+  "geohashEncode": {
+    "descriptionMarkup": ""
+  },
+  "geohashesInBox": {
+    "descriptionMarkup": ""
+  },
+  "geometryIntersectCartesian": {
+    "descriptionMarkup": ""
+  },
+  "geometryIntersectSpherical": {
+    "descriptionMarkup": ""
+  },
+  "geoToH3": {
+    "descriptionMarkup": ""
+  },
+  "geoToMGRS": {
+    "descriptionMarkup": ""
+  },
+  "geoToS2": {
+    "descriptionMarkup": ""
+  },
+  "geoToUTM": {
+    "descriptionMarkup": ""
+  },
+  "getClientHTTPHeader": {
+    "descriptionMarkup": ""
+  },
+  "getMacro": {
+    "descriptionMarkup": ""
+  },
+  "getMaxTableNameLengthForDatabase": {
+    "descriptionMarkup": ""
+  },
+  "getMergeTreeSetting": {
+    "descriptionMarkup": ""
+  },
+  "getOSKernelVersion": {
+    "descriptionMarkup": ""
+  },
+  "getServerPort": {
+    "descriptionMarkup": ""
+  },
+  "getServerSetting": {
+    "descriptionMarkup": ""
+  },
+  "getSetting": {
+    "descriptionMarkup": ""
+  },
+  "getSettingOrDefault": {
+    "descriptionMarkup": ""
+  },
+  "getSizeOfEnumType": {
+    "descriptionMarkup": ""
+  },
+  "getSubcolumn": {
+    "descriptionMarkup": ""
+  },
+  "getTypeSerializationStreams": {
+    "descriptionMarkup": ""
+  },
+  "globalIn": {
+    "descriptionMarkup": ""
+  },
+  "globalInIgnoreSet": {
+    "descriptionMarkup": ""
+  },
+  "globalNotIn": {
+    "descriptionMarkup": ""
+  },
+  "globalNotInIgnoreSet": {
+    "descriptionMarkup": ""
+  },
+  "globalNotNullIn": {
+    "descriptionMarkup": ""
+  },
+  "globalNotNullInIgnoreSet": {
+    "descriptionMarkup": ""
+  },
+  "globalNullIn": {
+    "descriptionMarkup": ""
+  },
+  "globalNullInIgnoreSet": {
+    "descriptionMarkup": ""
+  },
+  "globalVariable": {
+    "descriptionMarkup": ""
+  },
+  "greatCircleAngle": {
+    "descriptionMarkup": ""
+  },
+  "greatCircleDistance": {
+    "descriptionMarkup": ""
+  },
+  "greater": {
+    "descriptionMarkup": ""
+  },
+  "greaterOrEquals": {
+    "descriptionMarkup": ""
+  },
+  "greatest": {
+    "descriptionMarkup": ""
+  },
+  "group_concat": {
+    "descriptionMarkup": ""
+  },
+  "groupArray": {
+    "descriptionMarkup": ""
+  },
+  "groupArrayInsertAt": {
+    "descriptionMarkup": ""
+  },
+  "groupArrayIntersect": {
+    "descriptionMarkup": ""
+  },
+  "groupArrayLast": {
+    "descriptionMarkup": ""
+  },
+  "groupArrayMovingAvg": {
+    "descriptionMarkup": ""
+  },
+  "groupArrayMovingSum": {
+    "descriptionMarkup": ""
+  },
+  "groupArraySample": {
+    "descriptionMarkup": ""
+  },
+  "groupArraySorted": {
+    "descriptionMarkup": ""
+  },
+  "groupBitAnd": {
+    "descriptionMarkup": ""
+  },
+  "groupBitmap": {
+    "descriptionMarkup": ""
+  },
+  "groupBitmapAnd": {
+    "descriptionMarkup": ""
+  },
+  "groupBitmapOr": {
+    "descriptionMarkup": ""
+  },
+  "groupBitmapXor": {
+    "descriptionMarkup": ""
+  },
+  "groupBitOr": {
+    "descriptionMarkup": ""
+  },
+  "groupBitXor": {
+    "descriptionMarkup": ""
+  },
+  "groupConcat": {
+    "descriptionMarkup": ""
+  },
+  "groupFormat": {
+    "descriptionMarkup": ""
+  },
+  "groupNumericIndexedVector": {
+    "descriptionMarkup": ""
+  },
+  "groupUniqArray": {
+    "descriptionMarkup": ""
+  },
+  "h3CellAreaM2": {
+    "descriptionMarkup": ""
+  },
+  "h3CellAreaRads2": {
+    "descriptionMarkup": ""
+  },
+  "h3Distance": {
+    "descriptionMarkup": ""
+  },
+  "h3EdgeAngle": {
+    "descriptionMarkup": ""
+  },
+  "h3EdgeLengthKm": {
+    "descriptionMarkup": ""
+  },
+  "h3EdgeLengthM": {
+    "descriptionMarkup": ""
+  },
+  "h3ExactEdgeLengthKm": {
+    "descriptionMarkup": ""
+  },
+  "h3ExactEdgeLengthM": {
+    "descriptionMarkup": ""
+  },
+  "h3ExactEdgeLengthRads": {
+    "descriptionMarkup": ""
+  },
+  "h3GetBaseCell": {
+    "descriptionMarkup": ""
+  },
+  "h3GetDestinationIndexFromUnidirectionalEdge": {
+    "descriptionMarkup": ""
+  },
+  "h3GetFaces": {
+    "descriptionMarkup": ""
+  },
+  "h3GetIndexesFromUnidirectionalEdge": {
+    "descriptionMarkup": ""
+  },
+  "h3GetOriginIndexFromUnidirectionalEdge": {
+    "descriptionMarkup": ""
+  },
+  "h3GetPentagonIndexes": {
+    "descriptionMarkup": ""
+  },
+  "h3GetRes0Indexes": {
+    "descriptionMarkup": ""
+  },
+  "h3GetResolution": {
+    "descriptionMarkup": ""
+  },
+  "h3GetUnidirectionalEdge": {
+    "descriptionMarkup": ""
+  },
+  "h3GetUnidirectionalEdgeBoundary": {
+    "descriptionMarkup": ""
+  },
+  "h3GetUnidirectionalEdgesFromHexagon": {
+    "descriptionMarkup": ""
+  },
+  "h3HexAreaKm2": {
+    "descriptionMarkup": ""
+  },
+  "h3HexAreaM2": {
+    "descriptionMarkup": ""
+  },
+  "h3HexRing": {
+    "descriptionMarkup": ""
+  },
+  "h3IndexesAreNeighbors": {
+    "descriptionMarkup": ""
+  },
+  "h3IsPentagon": {
+    "descriptionMarkup": ""
+  },
+  "h3IsResClassIII": {
+    "descriptionMarkup": ""
+  },
+  "h3IsValid": {
+    "descriptionMarkup": ""
+  },
+  "h3kRing": {
+    "descriptionMarkup": ""
+  },
+  "h3Line": {
+    "descriptionMarkup": ""
+  },
+  "h3NumHexagons": {
+    "descriptionMarkup": ""
+  },
+  "h3PointDistKm": {
+    "descriptionMarkup": ""
+  },
+  "h3PointDistM": {
+    "descriptionMarkup": ""
+  },
+  "h3PointDistRads": {
+    "descriptionMarkup": ""
+  },
+  "h3PolygonToCells": {
+    "descriptionMarkup": ""
+  },
+  "h3PolygonToCellsWithContainment": {
+    "descriptionMarkup": ""
+  },
+  "h3ToCenterChild": {
+    "descriptionMarkup": ""
+  },
+  "h3ToChildren": {
+    "descriptionMarkup": ""
+  },
+  "h3ToGeo": {
+    "descriptionMarkup": ""
+  },
+  "h3ToGeoBoundary": {
+    "descriptionMarkup": ""
+  },
+  "h3ToParent": {
+    "descriptionMarkup": ""
+  },
+  "h3ToString": {
+    "descriptionMarkup": ""
+  },
+  "h3UnidirectionalEdgeIsValid": {
+    "descriptionMarkup": ""
+  },
+  "halfMD5": {
+    "descriptionMarkup": ""
+  },
+  "has": {
+    "descriptionMarkup": ""
+  },
+  "hasAll": {
+    "descriptionMarkup": ""
+  },
+  "hasAllToken": {
+    "descriptionMarkup": ""
+  },
+  "hasAllTokens": {
+    "descriptionMarkup": ""
+  },
+  "hasAny": {
+    "descriptionMarkup": ""
+  },
+  "hasAnyToken": {
+    "descriptionMarkup": ""
+  },
+  "hasAnyTokens": {
+    "descriptionMarkup": ""
+  },
+  "hasColumnInTable": {
+    "descriptionMarkup": ""
+  },
+  "hasPhrase": {
+    "descriptionMarkup": ""
+  },
+  "hasSubsequence": {
+    "descriptionMarkup": ""
+  },
+  "hasSubsequenceCaseInsensitive": {
+    "descriptionMarkup": ""
+  },
+  "hasSubsequenceCaseInsensitiveUTF8": {
+    "descriptionMarkup": ""
+  },
+  "hasSubsequenceUTF8": {
+    "descriptionMarkup": ""
+  },
+  "hasSubstr": {
+    "descriptionMarkup": ""
+  },
+  "hasThreadFuzzer": {
+    "descriptionMarkup": ""
+  },
+  "hasToken": {
+    "descriptionMarkup": ""
+  },
+  "hasTokenCaseInsensitive": {
+    "descriptionMarkup": ""
+  },
+  "hasTokenCaseInsensitiveOrNull": {
+    "descriptionMarkup": ""
+  },
+  "hasTokenOrNull": {
+    "descriptionMarkup": ""
+  },
+  "hex": {
+    "descriptionMarkup": ""
+  },
+  "highlight": {
+    "descriptionMarkup": ""
+  },
+  "highlightQuery": {
+    "descriptionMarkup": ""
+  },
+  "hilbertDecode": {
+    "descriptionMarkup": ""
+  },
+  "hilbertEncode": {
+    "descriptionMarkup": ""
+  },
+  "histogram": {
+    "descriptionMarkup": ""
+  },
+  "hiveHash": {
+    "descriptionMarkup": ""
+  },
+  "HMAC": {
+    "descriptionMarkup": ""
+  },
+  "hop": {
+    "descriptionMarkup": ""
+  },
+  "hopEnd": {
+    "descriptionMarkup": ""
+  },
+  "hopStart": {
+    "descriptionMarkup": ""
+  },
+  "hostName": {
+    "descriptionMarkup": ""
+  },
+  "hostname": {
+    "descriptionMarkup": ""
+  },
+  "HOUR": {
+    "descriptionMarkup": ""
+  },
+  "hypot": {
+    "descriptionMarkup": ""
+  },
+  "icebergBucket": {
+    "descriptionMarkup": ""
+  },
+  "icebergHash": {
+    "descriptionMarkup": ""
+  },
+  "icebergTruncate": {
+    "descriptionMarkup": ""
+  },
+  "identity": {
+    "descriptionMarkup": ""
+  },
+  "idnaDecode": {
+    "descriptionMarkup": ""
+  },
+  "idnaEncode": {
+    "descriptionMarkup": ""
+  },
+  "if": {
+    "descriptionMarkup": ""
+  },
+  "ifNotFinite": {
+    "descriptionMarkup": ""
+  },
+  "ifNull": {
+    "descriptionMarkup": ""
+  },
+  "ignore": {
+    "descriptionMarkup": ""
+  },
+  "ilike": {
+    "descriptionMarkup": ""
+  },
+  "in": {
+    "descriptionMarkup": ""
+  },
+  "indexHint": {
+    "descriptionMarkup": ""
+  },
+  "indexOf": {
+    "descriptionMarkup": ""
+  },
+  "indexOfAssumeSorted": {
+    "descriptionMarkup": ""
+  },
+  "INET6_ATON": {
+    "descriptionMarkup": ""
+  },
+  "INET6_NTOA": {
+    "descriptionMarkup": ""
+  },
+  "INET_ATON": {
+    "descriptionMarkup": ""
+  },
+  "INET_NTOA": {
+    "descriptionMarkup": ""
+  },
+  "inIgnoreSet": {
+    "descriptionMarkup": ""
+  },
+  "initcap": {
+    "descriptionMarkup": ""
+  },
+  "initcapUTF8": {
+    "descriptionMarkup": ""
+  },
+  "initial_query_id": {
+    "descriptionMarkup": ""
+  },
+  "initial_query_start_time": {
+    "descriptionMarkup": ""
+  },
+  "initializeAggregation": {
+    "descriptionMarkup": ""
+  },
+  "initialQueryID": {
+    "descriptionMarkup": ""
+  },
+  "initialQueryStartTime": {
+    "descriptionMarkup": ""
+  },
+  "instr": {
+    "descriptionMarkup": ""
+  },
+  "intDiv": {
+    "descriptionMarkup": ""
+  },
+  "intDivOrNull": {
+    "descriptionMarkup": ""
+  },
+  "intDivOrZero": {
+    "descriptionMarkup": ""
+  },
+  "intervalLengthSum": {
+    "descriptionMarkup": ""
+  },
+  "intExp10": {
+    "descriptionMarkup": ""
+  },
+  "intExp2": {
+    "descriptionMarkup": ""
+  },
+  "intHash32": {
+    "descriptionMarkup": ""
+  },
+  "intHash64": {
+    "descriptionMarkup": ""
+  },
+  "IPv4CIDRToRange": {
+    "descriptionMarkup": ""
+  },
+  "IPv4NumToString": {
+    "descriptionMarkup": ""
+  },
+  "IPv4NumToStringClassC": {
+    "descriptionMarkup": ""
+  },
+  "IPv4StringToNum": {
+    "descriptionMarkup": ""
+  },
+  "IPv4StringToNumOrDefault": {
+    "descriptionMarkup": ""
+  },
+  "IPv4StringToNumOrNull": {
+    "descriptionMarkup": ""
+  },
+  "IPv4ToIPv6": {
+    "descriptionMarkup": ""
+  },
+  "IPv6CIDRToRange": {
+    "descriptionMarkup": ""
+  },
+  "IPv6NumToString": {
+    "descriptionMarkup": ""
+  },
+  "IPv6StringToNum": {
+    "descriptionMarkup": ""
+  },
+  "IPv6StringToNumOrDefault": {
+    "descriptionMarkup": ""
+  },
+  "IPv6StringToNumOrNull": {
+    "descriptionMarkup": ""
+  },
+  "isASCII": {
+    "descriptionMarkup": ""
+  },
+  "isConstant": {
+    "descriptionMarkup": ""
+  },
+  "isDecimalOverflow": {
+    "descriptionMarkup": ""
+  },
+  "isDistinctFrom": {
+    "descriptionMarkup": ""
+  },
+  "isDynamicElementInSharedData": {
+    "descriptionMarkup": ""
+  },
+  "isFinite": {
+    "descriptionMarkup": ""
+  },
+  "isInfinite": {
+    "descriptionMarkup": ""
+  },
+  "isIPAddressInRange": {
+    "descriptionMarkup": ""
+  },
+  "isIPv4String": {
+    "descriptionMarkup": ""
+  },
+  "isIPv6String": {
+    "descriptionMarkup": ""
+  },
+  "isMergeTreePartCoveredBy": {
+    "descriptionMarkup": ""
+  },
+  "isNaN": {
+    "descriptionMarkup": ""
+  },
+  "isNotDistinctFrom": {
+    "descriptionMarkup": ""
+  },
+  "isNotNull": {
+    "descriptionMarkup": ""
+  },
+  "isNull": {
+    "descriptionMarkup": ""
+  },
+  "isNullable": {
+    "descriptionMarkup": ""
+  },
+  "isPrime": {
+    "descriptionMarkup": ""
+  },
+  "isProbablePrime": {
+    "descriptionMarkup": ""
+  },
+  "isValidASCII": {
+    "descriptionMarkup": ""
+  },
+  "isValidJSON": {
+    "descriptionMarkup": ""
+  },
+  "isValidUTF8": {
+    "descriptionMarkup": ""
+  },
+  "isZeroOrNull": {
+    "descriptionMarkup": ""
+  },
+  "jaroSimilarity": {
+    "descriptionMarkup": ""
+  },
+  "jaroWinklerSimilarity": {
+    "descriptionMarkup": ""
+  },
+  "javaHash": {
+    "descriptionMarkup": ""
+  },
+  "javaHashUTF16LE": {
+    "descriptionMarkup": ""
+  },
+  "joinGet": {
+    "descriptionMarkup": ""
+  },
+  "joinGetOrNull": {
+    "descriptionMarkup": ""
+  },
+  "JSON_ARRAY_LENGTH": {
+    "descriptionMarkup": ""
+  },
+  "JSON_EXISTS": {
+    "descriptionMarkup": ""
+  },
+  "JSON_QUERY": {
+    "descriptionMarkup": ""
+  },
+  "JSON_VALUE": {
+    "descriptionMarkup": ""
+  },
+  "JSONAllPaths": {
+    "descriptionMarkup": ""
+  },
+  "JSONAllPathsWithTypes": {
+    "descriptionMarkup": ""
+  },
+  "JSONAllValues": {
+    "descriptionMarkup": ""
+  },
+  "JSONArrayLength": {
+    "descriptionMarkup": ""
+  },
+  "JSONDynamicPaths": {
+    "descriptionMarkup": ""
+  },
+  "JSONDynamicPathsWithTypes": {
+    "descriptionMarkup": ""
+  },
+  "JSONExtract": {
+    "descriptionMarkup": ""
+  },
+  "JSONExtractArrayRaw": {
+    "descriptionMarkup": ""
+  },
+  "JSONExtractArrayRawCaseInsensitive": {
+    "descriptionMarkup": ""
+  },
+  "JSONExtractBool": {
+    "descriptionMarkup": ""
+  },
+  "JSONExtractBoolCaseInsensitive": {
+    "descriptionMarkup": ""
+  },
+  "JSONExtractCaseInsensitive": {
+    "descriptionMarkup": ""
+  },
+  "JSONExtractFloat": {
+    "descriptionMarkup": ""
+  },
+  "JSONExtractFloatCaseInsensitive": {
+    "descriptionMarkup": ""
+  },
+  "JSONExtractInt": {
+    "descriptionMarkup": ""
+  },
+  "JSONExtractIntCaseInsensitive": {
+    "descriptionMarkup": ""
+  },
+  "JSONExtractKeys": {
+    "descriptionMarkup": ""
+  },
+  "JSONExtractKeysAndValues": {
+    "descriptionMarkup": ""
+  },
+  "JSONExtractKeysAndValuesCaseInsensitive": {
+    "descriptionMarkup": ""
+  },
+  "JSONExtractKeysAndValuesRaw": {
+    "descriptionMarkup": ""
+  },
+  "JSONExtractKeysAndValuesRawCaseInsensitive": {
+    "descriptionMarkup": ""
+  },
+  "JSONExtractKeysCaseInsensitive": {
+    "descriptionMarkup": ""
+  },
+  "JSONExtractRaw": {
+    "descriptionMarkup": ""
+  },
+  "JSONExtractRawCaseInsensitive": {
+    "descriptionMarkup": ""
+  },
+  "JSONExtractString": {
+    "descriptionMarkup": ""
+  },
+  "JSONExtractStringCaseInsensitive": {
+    "descriptionMarkup": ""
+  },
+  "JSONExtractUInt": {
+    "descriptionMarkup": ""
+  },
+  "JSONExtractUIntCaseInsensitive": {
+    "descriptionMarkup": ""
+  },
+  "JSONHas": {
+    "descriptionMarkup": ""
+  },
+  "JSONKey": {
+    "descriptionMarkup": ""
+  },
+  "JSONLength": {
+    "descriptionMarkup": ""
+  },
+  "JSONMergePatch": {
+    "descriptionMarkup": ""
+  },
+  "jsonMergePatch": {
+    "descriptionMarkup": ""
+  },
+  "JSONSharedDataPaths": {
+    "descriptionMarkup": ""
+  },
+  "JSONSharedDataPathsWithTypes": {
+    "descriptionMarkup": ""
+  },
+  "JSONType": {
+    "descriptionMarkup": ""
+  },
+  "jumpConsistentHash": {
+    "descriptionMarkup": ""
+  },
+  "kafkaMurmurHash": {
+    "descriptionMarkup": ""
+  },
+  "keccak256": {
+    "descriptionMarkup": ""
+  },
+  "kolmogorovSmirnovTest": {
+    "descriptionMarkup": ""
+  },
+  "kostikConsistentHash": {
+    "descriptionMarkup": ""
+  },
+  "kurtPop": {
+    "descriptionMarkup": ""
+  },
+  "kurtSamp": {
+    "descriptionMarkup": ""
+  },
+  "L1Distance": {
+    "descriptionMarkup": ""
+  },
+  "L1Norm": {
+    "descriptionMarkup": ""
+  },
+  "L1Normalize": {
+    "descriptionMarkup": ""
+  },
+  "L2Distance": {
+    "descriptionMarkup": ""
+  },
+  "L2DistanceTransposed": {
+    "descriptionMarkup": ""
+  },
+  "L2DistanceTransposedQuantized": {
+    "descriptionMarkup": ""
+  },
+  "L2Norm": {
+    "descriptionMarkup": ""
+  },
+  "L2Normalize": {
+    "descriptionMarkup": ""
+  },
+  "L2SquaredDistance": {
+    "descriptionMarkup": ""
+  },
+  "L2SquaredNorm": {
+    "descriptionMarkup": ""
+  },
+  "lag": {
+    "descriptionMarkup": ""
+  },
+  "lagInFrame": {
+    "descriptionMarkup": ""
+  },
+  "largestTriangleThreeBuckets": {
+    "descriptionMarkup": ""
+  },
+  "LAST_DAY": {
+    "descriptionMarkup": ""
+  },
+  "last_value": {
+    "descriptionMarkup": ""
+  },
+  "last_value_respect_nulls": {
+    "descriptionMarkup": ""
+  },
+  "lastValueRespectNulls": {
+    "descriptionMarkup": ""
+  },
+  "lcase": {
+    "descriptionMarkup": ""
+  },
+  "lcm": {
+    "descriptionMarkup": ""
+  },
+  "lead": {
+    "descriptionMarkup": ""
+  },
+  "leadInFrame": {
+    "descriptionMarkup": ""
+  },
+  "least": {
+    "descriptionMarkup": ""
+  },
+  "left": {
+    "descriptionMarkup": ""
+  },
+  "leftPad": {
+    "descriptionMarkup": ""
+  },
+  "leftPadUTF8": {
+    "descriptionMarkup": ""
+  },
+  "leftUTF8": {
+    "descriptionMarkup": ""
+  },
+  "lemmatize": {
+    "descriptionMarkup": ""
+  },
+  "length": {
+    "descriptionMarkup": ""
+  },
+  "lengthUTF8": {
+    "descriptionMarkup": ""
+  },
+  "less": {
+    "descriptionMarkup": ""
+  },
+  "lessOrEquals": {
+    "descriptionMarkup": ""
+  },
+  "levenshteinDistance": {
+    "descriptionMarkup": ""
+  },
+  "levenshteinDistanceUTF8": {
+    "descriptionMarkup": ""
+  },
+  "lgamma": {
+    "descriptionMarkup": ""
+  },
+  "like": {
+    "descriptionMarkup": ""
+  },
+  "LinfDistance": {
+    "descriptionMarkup": ""
+  },
+  "LinfNorm": {
+    "descriptionMarkup": ""
+  },
+  "LinfNormalize": {
+    "descriptionMarkup": ""
+  },
+  "ln": {
+    "descriptionMarkup": ""
+  },
+  "localtime": {
+    "descriptionMarkup": ""
+  },
+  "localtimestamp": {
+    "descriptionMarkup": ""
+  },
+  "locate": {
+    "descriptionMarkup": ""
+  },
+  "log": {
+    "descriptionMarkup": ""
+  },
+  "log10": {
+    "descriptionMarkup": ""
+  },
+  "log1p": {
+    "descriptionMarkup": ""
+  },
+  "log2": {
+    "descriptionMarkup": ""
+  },
+  "logTrace": {
+    "descriptionMarkup": ""
+  },
+  "lowCardinalityIndices": {
+    "descriptionMarkup": ""
+  },
+  "lowCardinalityKeys": {
+    "descriptionMarkup": ""
+  },
+  "lower": {
+    "descriptionMarkup": ""
+  },
+  "lowerUTF8": {
+    "descriptionMarkup": ""
+  },
+  "lpad": {
+    "descriptionMarkup": ""
+  },
+  "LpDistance": {
+    "descriptionMarkup": ""
+  },
+  "LpNorm": {
+    "descriptionMarkup": ""
+  },
+  "LpNormalize": {
+    "descriptionMarkup": ""
+  },
+  "ltrim": {
+    "descriptionMarkup": ""
+  },
+  "lttb": {
+    "descriptionMarkup": ""
+  },
+  "MACNumToString": {
+    "descriptionMarkup": ""
+  },
+  "MACStringToNum": {
+    "descriptionMarkup": ""
+  },
+  "MACStringToOUI": {
+    "descriptionMarkup": ""
+  },
+  "makeDate": {
+    "descriptionMarkup": ""
+  },
+  "makeDate32": {
+    "descriptionMarkup": ""
+  },
+  "makeDateTime": {
+    "descriptionMarkup": ""
+  },
+  "makeDateTime64": {
+    "descriptionMarkup": ""
+  },
+  "mannWhitneyUTest": {
+    "descriptionMarkup": ""
+  },
+  "map": {
+    "descriptionMarkup": ""
+  },
+  "MAP_FROM_ARRAYS": {
+    "descriptionMarkup": ""
+  },
+  "mapAdd": {
+    "descriptionMarkup": ""
+  },
+  "mapAll": {
+    "descriptionMarkup": ""
+  },
+  "mapApply": {
+    "descriptionMarkup": ""
+  },
+  "mapConcat": {
+    "descriptionMarkup": ""
+  },
+  "mapContains": {
+    "descriptionMarkup": ""
+  },
+  "mapContainsKey": {
+    "descriptionMarkup": ""
+  },
+  "mapContainsKeyLike": {
+    "descriptionMarkup": ""
+  },
+  "mapContainsValue": {
+    "descriptionMarkup": ""
+  },
+  "mapContainsValueLike": {
+    "descriptionMarkup": ""
+  },
+  "mapExists": {
+    "descriptionMarkup": ""
+  },
+  "mapExtractKeyLike": {
+    "descriptionMarkup": ""
+  },
+  "mapExtractValueLike": {
+    "descriptionMarkup": ""
+  },
+  "mapFilter": {
+    "descriptionMarkup": ""
+  },
+  "mapFromArrays": {
+    "descriptionMarkup": ""
+  },
+  "mapFromString": {
+    "descriptionMarkup": ""
+  },
+  "mapKeys": {
+    "descriptionMarkup": ""
+  },
+  "mapPartialReverseSort": {
+    "descriptionMarkup": ""
+  },
+  "mapPartialSort": {
+    "descriptionMarkup": ""
+  },
+  "mapPopulateSeries": {
+    "descriptionMarkup": ""
+  },
+  "mapReverseSort": {
+    "descriptionMarkup": ""
+  },
+  "mapSort": {
+    "descriptionMarkup": ""
+  },
+  "mapSubtract": {
+    "descriptionMarkup": ""
+  },
+  "mapUpdate": {
+    "descriptionMarkup": ""
+  },
+  "mapValues": {
+    "descriptionMarkup": ""
+  },
+  "match": {
+    "descriptionMarkup": ""
+  },
+  "matchPhrase": {
+    "descriptionMarkup": ""
+  },
+  "materialize": {
+    "descriptionMarkup": ""
+  },
+  "max": {
+    "descriptionMarkup": ""
+  },
+  "max2": {
+    "descriptionMarkup": ""
+  },
+  "max_by": {
+    "descriptionMarkup": ""
+  },
+  "maxIntersections": {
+    "descriptionMarkup": ""
+  },
+  "maxIntersectionsPosition": {
+    "descriptionMarkup": ""
+  },
+  "maxMappedArrays": {
+    "descriptionMarkup": ""
+  },
+  "MD4": {
+    "descriptionMarkup": ""
+  },
+  "MD5": {
+    "descriptionMarkup": ""
+  },
+  "meanZTest": {
+    "descriptionMarkup": ""
+  },
+  "median": {
+    "descriptionMarkup": ""
+  },
+  "medianBFloat16": {
+    "descriptionMarkup": ""
+  },
+  "medianBFloat16Weighted": {
+    "descriptionMarkup": ""
+  },
+  "medianDD": {
+    "descriptionMarkup": ""
+  },
+  "medianDeterministic": {
+    "descriptionMarkup": ""
+  },
+  "medianExact": {
+    "descriptionMarkup": ""
+  },
+  "medianExactHigh": {
+    "descriptionMarkup": ""
+  },
+  "medianExactLow": {
+    "descriptionMarkup": ""
+  },
+  "medianExactWeighted": {
+    "descriptionMarkup": ""
+  },
+  "medianExactWeightedInterpolated": {
+    "descriptionMarkup": ""
+  },
+  "medianGK": {
+    "descriptionMarkup": ""
+  },
+  "medianInterpolatedWeighted": {
+    "descriptionMarkup": ""
+  },
+  "medianTDigest": {
+    "descriptionMarkup": ""
+  },
+  "medianTDigestWeighted": {
+    "descriptionMarkup": ""
+  },
+  "medianTiming": {
+    "descriptionMarkup": ""
+  },
+  "medianTimingWeighted": {
+    "descriptionMarkup": ""
+  },
+  "mergeTreePartInfo": {
+    "descriptionMarkup": ""
+  },
+  "metroHash64": {
+    "descriptionMarkup": ""
+  },
+  "MGRSToGeo": {
+    "descriptionMarkup": ""
+  },
+  "MICROSECOND": {
+    "descriptionMarkup": ""
+  },
+  "mid": {
+    "descriptionMarkup": ""
+  },
+  "midpoint": {
+    "descriptionMarkup": ""
+  },
+  "MILLISECOND": {
+    "descriptionMarkup": ""
+  },
+  "min": {
+    "descriptionMarkup": ""
+  },
+  "min2": {
+    "descriptionMarkup": ""
+  },
+  "min_by": {
+    "descriptionMarkup": ""
+  },
+  "minMappedArrays": {
+    "descriptionMarkup": ""
+  },
+  "minSampleSizeContinous": {
+    "descriptionMarkup": ""
+  },
+  "minSampleSizeContinuous": {
+    "descriptionMarkup": ""
+  },
+  "minSampleSizeConversion": {
+    "descriptionMarkup": ""
+  },
+  "minus": {
+    "descriptionMarkup": ""
+  },
+  "MINUTE": {
+    "descriptionMarkup": ""
+  },
+  "mismatches": {
+    "descriptionMarkup": ""
+  },
+  "mod": {
+    "descriptionMarkup": ""
+  },
+  "modOrNull": {
+    "descriptionMarkup": ""
+  },
+  "modulo": {
+    "descriptionMarkup": ""
+  },
+  "moduloLegacy": {
+    "descriptionMarkup": ""
+  },
+  "moduloOrNull": {
+    "descriptionMarkup": ""
+  },
+  "moduloOrZero": {
+    "descriptionMarkup": ""
+  },
+  "MONTH": {
+    "descriptionMarkup": ""
+  },
+  "monthName": {
+    "descriptionMarkup": ""
+  },
+  "mortonDecode": {
+    "descriptionMarkup": ""
+  },
+  "mortonEncode": {
+    "descriptionMarkup": ""
+  },
+  "multiFuzzyMatchAllIndices": {
+    "descriptionMarkup": ""
+  },
+  "multiFuzzyMatchAny": {
+    "descriptionMarkup": ""
+  },
+  "multiFuzzyMatchAnyIndex": {
+    "descriptionMarkup": ""
+  },
+  "multiIf": {
+    "descriptionMarkup": ""
+  },
+  "multiMatchAllIndices": {
+    "descriptionMarkup": ""
+  },
+  "multiMatchAny": {
+    "descriptionMarkup": ""
+  },
+  "multiMatchAnyIndex": {
+    "descriptionMarkup": ""
+  },
+  "multiply": {
+    "descriptionMarkup": ""
+  },
+  "multiplyDecimal": {
+    "descriptionMarkup": ""
+  },
+  "multiSearchAllPositions": {
+    "descriptionMarkup": ""
+  },
+  "multiSearchAllPositionsCaseInsensitive": {
+    "descriptionMarkup": ""
+  },
+  "multiSearchAllPositionsCaseInsensitiveUTF8": {
+    "descriptionMarkup": ""
+  },
+  "multiSearchAllPositionsUTF8": {
+    "descriptionMarkup": ""
+  },
+  "multiSearchAny": {
+    "descriptionMarkup": ""
+  },
+  "multiSearchAnyCaseInsensitive": {
+    "descriptionMarkup": ""
+  },
+  "multiSearchAnyCaseInsensitiveUTF8": {
+    "descriptionMarkup": ""
+  },
+  "multiSearchAnyUTF8": {
+    "descriptionMarkup": ""
+  },
+  "multiSearchFirstIndex": {
+    "descriptionMarkup": ""
+  },
+  "multiSearchFirstIndexCaseInsensitive": {
+    "descriptionMarkup": ""
+  },
+  "multiSearchFirstIndexCaseInsensitiveUTF8": {
+    "descriptionMarkup": ""
+  },
+  "multiSearchFirstIndexUTF8": {
+    "descriptionMarkup": ""
+  },
+  "multiSearchFirstPosition": {
+    "descriptionMarkup": ""
+  },
+  "multiSearchFirstPositionCaseInsensitive": {
+    "descriptionMarkup": ""
+  },
+  "multiSearchFirstPositionCaseInsensitiveUTF8": {
+    "descriptionMarkup": ""
+  },
+  "multiSearchFirstPositionUTF8": {
+    "descriptionMarkup": ""
+  },
+  "murmurHash2_32": {
+    "descriptionMarkup": ""
+  },
+  "murmurHash2_64": {
+    "descriptionMarkup": ""
+  },
+  "murmurHash3_128": {
+    "descriptionMarkup": ""
+  },
+  "murmurHash3_32": {
+    "descriptionMarkup": ""
+  },
+  "murmurHash3_64": {
+    "descriptionMarkup": ""
+  },
+  "MVTBoundingBox": {
+    "descriptionMarkup": ""
+  },
+  "MVTBoundingBoxMercator": {
+    "descriptionMarkup": ""
+  },
+  "MVTEncode": {
+    "descriptionMarkup": ""
+  },
+  "MVTEncodeGeom": {
+    "descriptionMarkup": ""
+  },
+  "naiveBayesClassifier": {
+    "descriptionMarkup": ""
+  },
+  "naiveBayesClassifierWithAllProbs": {
+    "descriptionMarkup": ""
+  },
+  "naiveBayesClassifierWithProb": {
+    "descriptionMarkup": ""
+  },
+  "naiveBayesNgrams": {
+    "descriptionMarkup": ""
+  },
+  "NANOSECOND": {
+    "descriptionMarkup": ""
+  },
+  "NATURAL_SORT_KEY": {
+    "descriptionMarkup": ""
+  },
+  "naturalSortKey": {
+    "descriptionMarkup": ""
+  },
+  "negate": {
+    "descriptionMarkup": ""
+  },
+  "neighbor": {
+    "descriptionMarkup": ""
+  },
+  "nested": {
+    "descriptionMarkup": ""
+  },
+  "netloc": {
+    "descriptionMarkup": ""
+  },
+  "ngramDistance": {
+    "descriptionMarkup": ""
+  },
+  "ngramDistanceCaseInsensitive": {
+    "descriptionMarkup": ""
+  },
+  "ngramDistanceCaseInsensitiveUTF8": {
+    "descriptionMarkup": ""
+  },
+  "ngramDistanceUTF8": {
+    "descriptionMarkup": ""
+  },
+  "ngramMinHash": {
+    "descriptionMarkup": ""
+  },
+  "ngramMinHashArg": {
+    "descriptionMarkup": ""
+  },
+  "ngramMinHashArgCaseInsensitive": {
+    "descriptionMarkup": ""
+  },
+  "ngramMinHashArgCaseInsensitiveUTF8": {
+    "descriptionMarkup": ""
+  },
+  "ngramMinHashArgUTF8": {
+    "descriptionMarkup": ""
+  },
+  "ngramMinHashCaseInsensitive": {
+    "descriptionMarkup": ""
+  },
+  "ngramMinHashCaseInsensitiveUTF8": {
+    "descriptionMarkup": ""
+  },
+  "ngramMinHashUTF8": {
+    "descriptionMarkup": ""
+  },
+  "ngrams": {
+    "descriptionMarkup": ""
+  },
+  "ngramSearch": {
+    "descriptionMarkup": ""
+  },
+  "ngramSearchCaseInsensitive": {
+    "descriptionMarkup": ""
+  },
+  "ngramSearchCaseInsensitiveUTF8": {
+    "descriptionMarkup": ""
+  },
+  "ngramSearchUTF8": {
+    "descriptionMarkup": ""
+  },
+  "ngramSimHash": {
+    "descriptionMarkup": ""
+  },
+  "ngramSimHashCaseInsensitive": {
+    "descriptionMarkup": ""
+  },
+  "ngramSimHashCaseInsensitiveUTF8": {
+    "descriptionMarkup": ""
+  },
+  "ngramSimHashUTF8": {
+    "descriptionMarkup": ""
+  },
+  "nonNegativeDerivative": {
+    "descriptionMarkup": ""
+  },
+  "normalizedQueryHash": {
+    "descriptionMarkup": ""
+  },
+  "normalizedQueryHashKeepNames": {
+    "descriptionMarkup": ""
+  },
+  "normalizeL1": {
+    "descriptionMarkup": ""
+  },
+  "normalizeL2": {
+    "descriptionMarkup": ""
+  },
+  "normalizeLinf": {
+    "descriptionMarkup": ""
+  },
+  "normalizeLp": {
+    "descriptionMarkup": ""
+  },
+  "normalizeQuery": {
+    "descriptionMarkup": ""
+  },
+  "normalizeQueryKeepNames": {
+    "descriptionMarkup": ""
+  },
+  "normalizeUTF8NFC": {
+    "descriptionMarkup": ""
+  },
+  "normalizeUTF8NFD": {
+    "descriptionMarkup": ""
+  },
+  "normalizeUTF8NFKC": {
+    "descriptionMarkup": ""
+  },
+  "normalizeUTF8NFKCCasefold": {
+    "descriptionMarkup": ""
+  },
+  "normalizeUTF8NFKD": {
+    "descriptionMarkup": ""
+  },
+  "normL1": {
+    "descriptionMarkup": ""
+  },
+  "normL2": {
+    "descriptionMarkup": ""
+  },
+  "normL2Squared": {
+    "descriptionMarkup": ""
+  },
+  "normLinf": {
+    "descriptionMarkup": ""
+  },
+  "normLp": {
+    "descriptionMarkup": ""
+  },
+  "not": {
+    "descriptionMarkup": ""
+  },
+  "notEmpty": {
+    "descriptionMarkup": ""
+  },
+  "notEquals": {
+    "descriptionMarkup": ""
+  },
+  "nothing": {
+    "descriptionMarkup": ""
+  },
+  "nothingNull": {
+    "descriptionMarkup": ""
+  },
+  "nothingUInt64": {
+    "descriptionMarkup": ""
+  },
+  "notILike": {
+    "descriptionMarkup": ""
+  },
+  "notIn": {
+    "descriptionMarkup": ""
+  },
+  "notInIgnoreSet": {
+    "descriptionMarkup": ""
+  },
+  "notLike": {
+    "descriptionMarkup": ""
+  },
+  "notNullIn": {
+    "descriptionMarkup": ""
+  },
+  "notNullInIgnoreSet": {
+    "descriptionMarkup": ""
+  },
+  "now": {
+    "descriptionMarkup": ""
+  },
+  "now64": {
+    "descriptionMarkup": ""
+  },
+  "nowInBlock": {
+    "descriptionMarkup": ""
+  },
+  "nowInBlock64": {
+    "descriptionMarkup": ""
+  },
+  "nth_value": {
+    "descriptionMarkup": ""
+  },
+  "ntile": {
+    "descriptionMarkup": ""
+  },
+  "nullIf": {
+    "descriptionMarkup": ""
+  },
+  "nullIn": {
+    "descriptionMarkup": ""
+  },
+  "nullInIgnoreSet": {
+    "descriptionMarkup": ""
+  },
+  "numericIndexedVectorAllValueSum": {
+    "descriptionMarkup": ""
+  },
+  "numericIndexedVectorBuild": {
+    "descriptionMarkup": ""
+  },
+  "numericIndexedVectorCardinality": {
+    "descriptionMarkup": ""
+  },
+  "numericIndexedVectorGetValue": {
+    "descriptionMarkup": ""
+  },
+  "numericIndexedVectorPointwiseAdd": {
+    "descriptionMarkup": ""
+  },
+  "numericIndexedVectorPointwiseDivide": {
+    "descriptionMarkup": ""
+  },
+  "numericIndexedVectorPointwiseEqual": {
+    "descriptionMarkup": ""
+  },
+  "numericIndexedVectorPointwiseGreater": {
+    "descriptionMarkup": ""
+  },
+  "numericIndexedVectorPointwiseGreaterEqual": {
+    "descriptionMarkup": ""
+  },
+  "numericIndexedVectorPointwiseLess": {
+    "descriptionMarkup": ""
+  },
+  "numericIndexedVectorPointwiseLessEqual": {
+    "descriptionMarkup": ""
+  },
+  "numericIndexedVectorPointwiseMultiply": {
+    "descriptionMarkup": ""
+  },
+  "numericIndexedVectorPointwiseNotEqual": {
+    "descriptionMarkup": ""
+  },
+  "numericIndexedVectorPointwiseSubtract": {
+    "descriptionMarkup": ""
+  },
+  "numericIndexedVectorShortDebugString": {
+    "descriptionMarkup": ""
+  },
+  "numericIndexedVectorToMap": {
+    "descriptionMarkup": ""
+  },
+  "obfuscateQuery": {
+    "descriptionMarkup": ""
+  },
+  "obfuscateQueryWithSeed": {
+    "descriptionMarkup": ""
+  },
+  "OCTET_LENGTH": {
+    "descriptionMarkup": ""
+  },
+  "or": {
+    "descriptionMarkup": ""
+  },
+  "overlay": {
+    "descriptionMarkup": ""
+  },
+  "overlayUTF8": {
+    "descriptionMarkup": ""
+  },
+  "parseDateTime": {
+    "descriptionMarkup": ""
+  },
+  "parseDateTime32BestEffort": {
+    "descriptionMarkup": ""
+  },
+  "parseDateTime32BestEffortOrNull": {
+    "descriptionMarkup": ""
+  },
+  "parseDateTime32BestEffortOrZero": {
+    "descriptionMarkup": ""
+  },
+  "parseDateTime64": {
+    "descriptionMarkup": ""
+  },
+  "parseDateTime64BestEffort": {
+    "descriptionMarkup": ""
+  },
+  "parseDateTime64BestEffortOrNull": {
+    "descriptionMarkup": ""
+  },
+  "parseDateTime64BestEffortOrZero": {
+    "descriptionMarkup": ""
+  },
+  "parseDateTime64BestEffortUS": {
+    "descriptionMarkup": ""
+  },
+  "parseDateTime64BestEffortUSOrNull": {
+    "descriptionMarkup": ""
+  },
+  "parseDateTime64BestEffortUSOrZero": {
+    "descriptionMarkup": ""
+  },
+  "parseDateTime64InJodaSyntax": {
+    "descriptionMarkup": ""
+  },
+  "parseDateTime64InJodaSyntaxOrNull": {
+    "descriptionMarkup": ""
+  },
+  "parseDateTime64InJodaSyntaxOrZero": {
+    "descriptionMarkup": ""
+  },
+  "parseDateTime64OrNull": {
+    "descriptionMarkup": ""
+  },
+  "parseDateTime64OrZero": {
+    "descriptionMarkup": ""
+  },
+  "parseDateTimeBestEffort": {
+    "descriptionMarkup": ""
+  },
+  "parseDateTimeBestEffortOrNull": {
+    "descriptionMarkup": ""
+  },
+  "parseDateTimeBestEffortOrZero": {
+    "descriptionMarkup": ""
+  },
+  "parseDateTimeBestEffortUS": {
+    "descriptionMarkup": ""
+  },
+  "parseDateTimeBestEffortUSOrNull": {
+    "descriptionMarkup": ""
+  },
+  "parseDateTimeBestEffortUSOrZero": {
+    "descriptionMarkup": ""
+  },
+  "parseDateTimeInJodaSyntax": {
+    "descriptionMarkup": ""
+  },
+  "parseDateTimeInJodaSyntaxOrNull": {
+    "descriptionMarkup": ""
+  },
+  "parseDateTimeInJodaSyntaxOrZero": {
+    "descriptionMarkup": ""
+  },
+  "parseDateTimeOrNull": {
+    "descriptionMarkup": ""
+  },
+  "parseDateTimeOrZero": {
+    "descriptionMarkup": ""
+  },
+  "parseReadableSize": {
+    "descriptionMarkup": ""
+  },
+  "parseReadableSizeOrNull": {
+    "descriptionMarkup": ""
+  },
+  "parseReadableSizeOrZero": {
+    "descriptionMarkup": ""
+  },
+  "parseTimeDelta": {
+    "descriptionMarkup": ""
+  },
+  "partitionID": {
+    "descriptionMarkup": ""
+  },
+  "partitionId": {
+    "descriptionMarkup": ""
+  },
+  "path": {
+    "descriptionMarkup": ""
+  },
+  "pathFull": {
+    "descriptionMarkup": ""
+  },
+  "percent_rank": {
+    "descriptionMarkup": ""
+  },
+  "percentRank": {
+    "descriptionMarkup": ""
+  },
+  "perimeterCartesian": {
+    "descriptionMarkup": ""
+  },
+  "perimeterSpherical": {
+    "descriptionMarkup": ""
+  },
+  "pi": {
+    "descriptionMarkup": ""
+  },
+  "plus": {
+    "descriptionMarkup": ""
+  },
+  "pmod": {
+    "descriptionMarkup": ""
+  },
+  "pmodOrNull": {
+    "descriptionMarkup": ""
+  },
+  "pointInEllipses": {
+    "descriptionMarkup": ""
+  },
+  "pointInPolygon": {
+    "descriptionMarkup": ""
+  },
+  "polygonAreaCartesian": {
+    "descriptionMarkup": ""
+  },
+  "polygonAreaSpherical": {
+    "descriptionMarkup": ""
+  },
+  "polygonConvexHullCartesian": {
+    "descriptionMarkup": ""
+  },
+  "polygonPerimeterCartesian": {
+    "descriptionMarkup": ""
+  },
+  "polygonPerimeterSpherical": {
+    "descriptionMarkup": ""
+  },
+  "polygonsDistanceCartesian": {
+    "descriptionMarkup": ""
+  },
+  "polygonsDistanceSpherical": {
+    "descriptionMarkup": ""
+  },
+  "polygonsEqualsCartesian": {
+    "descriptionMarkup": ""
+  },
+  "polygonsIntersectCartesian": {
+    "descriptionMarkup": ""
+  },
+  "polygonsIntersectionCartesian": {
+    "descriptionMarkup": ""
+  },
+  "polygonsIntersectionSpherical": {
+    "descriptionMarkup": ""
+  },
+  "polygonsIntersectSpherical": {
+    "descriptionMarkup": ""
+  },
+  "polygonsSymDifferenceCartesian": {
+    "descriptionMarkup": ""
+  },
+  "polygonsSymDifferenceSpherical": {
+    "descriptionMarkup": ""
+  },
+  "polygonsUnionCartesian": {
+    "descriptionMarkup": ""
+  },
+  "polygonsUnionSpherical": {
+    "descriptionMarkup": ""
+  },
+  "polygonsWithinCartesian": {
+    "descriptionMarkup": ""
+  },
+  "polygonsWithinSpherical": {
+    "descriptionMarkup": ""
+  },
+  "port": {
+    "descriptionMarkup": ""
+  },
+  "portRFC": {
+    "descriptionMarkup": ""
+  },
+  "position": {
+    "descriptionMarkup": ""
+  },
+  "positionCaseInsensitive": {
+    "descriptionMarkup": ""
+  },
+  "positionCaseInsensitiveUTF8": {
+    "descriptionMarkup": ""
+  },
+  "positionUTF8": {
+    "descriptionMarkup": ""
+  },
+  "positive_modulo": {
+    "descriptionMarkup": ""
+  },
+  "positive_modulo_or_null": {
+    "descriptionMarkup": ""
+  },
+  "positiveModulo": {
+    "descriptionMarkup": ""
+  },
+  "positiveModuloOrNull": {
+    "descriptionMarkup": ""
+  },
+  "pow": {
+    "descriptionMarkup": ""
+  },
+  "power": {
+    "descriptionMarkup": ""
+  },
+  "prettyPrintJSON": {
+    "descriptionMarkup": ""
+  },
+  "printf": {
+    "descriptionMarkup": ""
+  },
+  "proportionsZTest": {
+    "descriptionMarkup": ""
+  },
+  "protocol": {
+    "descriptionMarkup": ""
+  },
+  "punycodeDecode": {
+    "descriptionMarkup": ""
+  },
+  "punycodeEncode": {
+    "descriptionMarkup": ""
+  },
+  "quantile": {
+    "descriptionMarkup": ""
+  },
+  "quantileBFloat16": {
+    "descriptionMarkup": ""
+  },
+  "quantileBFloat16Weighted": {
+    "descriptionMarkup": ""
+  },
+  "quantileDD": {
+    "descriptionMarkup": ""
+  },
+  "quantileDeterministic": {
+    "descriptionMarkup": ""
+  },
+  "quantileExact": {
+    "descriptionMarkup": ""
+  },
+  "quantileExactExclusive": {
+    "descriptionMarkup": ""
+  },
+  "quantileExactHigh": {
+    "descriptionMarkup": ""
+  },
+  "quantileExactInclusive": {
+    "descriptionMarkup": ""
+  },
+  "quantileExactLow": {
+    "descriptionMarkup": ""
+  },
+  "quantileExactWeighted": {
+    "descriptionMarkup": ""
+  },
+  "quantileExactWeightedInterpolated": {
+    "descriptionMarkup": ""
+  },
+  "quantileGK": {
+    "descriptionMarkup": ""
+  },
+  "quantileInterpolatedWeighted": {
+    "descriptionMarkup": ""
+  },
+  "quantilePrometheusHistogram": {
+    "descriptionMarkup": ""
+  },
+  "quantiles": {
+    "descriptionMarkup": ""
+  },
+  "quantilesBFloat16": {
+    "descriptionMarkup": ""
+  },
+  "quantilesBFloat16Weighted": {
+    "descriptionMarkup": ""
+  },
+  "quantilesDD": {
+    "descriptionMarkup": ""
+  },
+  "quantilesDeterministic": {
+    "descriptionMarkup": ""
+  },
+  "quantilesExact": {
+    "descriptionMarkup": ""
+  },
+  "quantilesExactExclusive": {
+    "descriptionMarkup": ""
+  },
+  "quantilesExactHigh": {
+    "descriptionMarkup": ""
+  },
+  "quantilesExactInclusive": {
+    "descriptionMarkup": ""
+  },
+  "quantilesExactLow": {
+    "descriptionMarkup": ""
+  },
+  "quantilesExactWeighted": {
+    "descriptionMarkup": ""
+  },
+  "quantilesExactWeightedInterpolated": {
+    "descriptionMarkup": ""
+  },
+  "quantilesGK": {
+    "descriptionMarkup": ""
+  },
+  "quantilesInterpolatedWeighted": {
+    "descriptionMarkup": ""
+  },
+  "quantilesPrometheusHistogram": {
+    "descriptionMarkup": ""
+  },
+  "quantilesTDigest": {
+    "descriptionMarkup": ""
+  },
+  "quantilesTDigestWeighted": {
+    "descriptionMarkup": ""
+  },
+  "quantilesTiming": {
+    "descriptionMarkup": ""
+  },
+  "quantilesTimingWeighted": {
+    "descriptionMarkup": ""
+  },
+  "quantileTDigest": {
+    "descriptionMarkup": ""
+  },
+  "quantileTDigestWeighted": {
+    "descriptionMarkup": ""
+  },
+  "quantileTiming": {
+    "descriptionMarkup": ""
+  },
+  "quantileTimingWeighted": {
+    "descriptionMarkup": ""
+  },
+  "quantizeBFloat16ToInt8": {
+    "descriptionMarkup": ""
+  },
+  "QUARTER": {
+    "descriptionMarkup": ""
+  },
+  "query_id": {
+    "descriptionMarkup": ""
+  },
+  "queryID": {
+    "descriptionMarkup": ""
+  },
+  "queryString": {
+    "descriptionMarkup": ""
+  },
+  "queryStringAndFragment": {
+    "descriptionMarkup": ""
+  },
+  "radians": {
+    "descriptionMarkup": ""
+  },
+  "rand": {
+    "descriptionMarkup": ""
+  },
+  "rand32": {
+    "descriptionMarkup": ""
+  },
+  "rand64": {
+    "descriptionMarkup": ""
+  },
+  "randBernoulli": {
+    "descriptionMarkup": ""
+  },
+  "randBinomial": {
+    "descriptionMarkup": ""
+  },
+  "randCanonical": {
+    "descriptionMarkup": ""
+  },
+  "randChiSquared": {
+    "descriptionMarkup": ""
+  },
+  "randConstant": {
+    "descriptionMarkup": ""
+  },
+  "randExponential": {
+    "descriptionMarkup": ""
+  },
+  "randFisherF": {
+    "descriptionMarkup": ""
+  },
+  "randLogNormal": {
+    "descriptionMarkup": ""
+  },
+  "randNegativeBinomial": {
+    "descriptionMarkup": ""
+  },
+  "randNormal": {
+    "descriptionMarkup": ""
+  },
+  "randomFixedString": {
+    "descriptionMarkup": ""
+  },
+  "randomHadamardTransform": {
+    "descriptionMarkup": ""
+  },
+  "randomPrintableASCII": {
+    "descriptionMarkup": ""
+  },
+  "randomString": {
+    "descriptionMarkup": ""
+  },
+  "randomStringUTF8": {
+    "descriptionMarkup": ""
+  },
+  "randPoisson": {
+    "descriptionMarkup": ""
+  },
+  "randStudentT": {
+    "descriptionMarkup": ""
+  },
+  "randUniform": {
+    "descriptionMarkup": ""
+  },
+  "range": {
+    "descriptionMarkup": ""
+  },
+  "rank": {
+    "descriptionMarkup": ""
+  },
+  "rankCorr": {
+    "descriptionMarkup": ""
+  },
+  "readWKB": {
+    "descriptionMarkup": ""
+  },
+  "readWkb": {
+    "descriptionMarkup": ""
+  },
+  "readWKBLineString": {
+    "descriptionMarkup": ""
+  },
+  "readWKBMultiLineString": {
+    "descriptionMarkup": ""
+  },
+  "readWKBMultiPolygon": {
+    "descriptionMarkup": ""
+  },
+  "readWKBPoint": {
+    "descriptionMarkup": ""
+  },
+  "readWKBPolygon": {
+    "descriptionMarkup": ""
+  },
+  "readWKT": {
+    "descriptionMarkup": ""
+  },
+  "readWkt": {
+    "descriptionMarkup": ""
+  },
+  "readWKTLineString": {
+    "descriptionMarkup": ""
+  },
+  "readWKTMultiLineString": {
+    "descriptionMarkup": ""
+  },
+  "readWKTMultiPolygon": {
+    "descriptionMarkup": ""
+  },
+  "readWKTPoint": {
+    "descriptionMarkup": ""
+  },
+  "readWKTPolygon": {
+    "descriptionMarkup": ""
+  },
+  "readWKTRing": {
+    "descriptionMarkup": ""
+  },
+  "REGEXP_EXTRACT": {
+    "descriptionMarkup": ""
+  },
+  "regexp_instr": {
+    "descriptionMarkup": ""
+  },
+  "REGEXP_MATCHES": {
+    "descriptionMarkup": ""
+  },
+  "REGEXP_REPLACE": {
+    "descriptionMarkup": ""
+  },
+  "REGEXP_SUBSTR": {
+    "descriptionMarkup": ""
+  },
+  "regexpExtract": {
+    "descriptionMarkup": ""
+  },
+  "regexpInstr": {
+    "descriptionMarkup": ""
+  },
+  "regexpPosition": {
+    "descriptionMarkup": ""
+  },
+  "regexpQuoteMeta": {
+    "descriptionMarkup": ""
+  },
+  "regionHierarchy": {
+    "descriptionMarkup": ""
+  },
+  "regionIn": {
+    "descriptionMarkup": ""
+  },
+  "regionToArea": {
+    "descriptionMarkup": ""
+  },
+  "regionToCity": {
+    "descriptionMarkup": ""
+  },
+  "regionToContinent": {
+    "descriptionMarkup": ""
+  },
+  "regionToCountry": {
+    "descriptionMarkup": ""
+  },
+  "regionToDistrict": {
+    "descriptionMarkup": ""
+  },
+  "regionToName": {
+    "descriptionMarkup": ""
+  },
+  "regionToPopulation": {
+    "descriptionMarkup": ""
+  },
+  "regionToTopContinent": {
+    "descriptionMarkup": ""
+  },
+  "reinterpret": {
+    "descriptionMarkup": ""
+  },
+  "reinterpretAsDate": {
+    "descriptionMarkup": ""
+  },
+  "reinterpretAsDateTime": {
+    "descriptionMarkup": ""
+  },
+  "reinterpretAsFixedString": {
+    "descriptionMarkup": ""
+  },
+  "reinterpretAsFloat32": {
+    "descriptionMarkup": ""
+  },
+  "reinterpretAsFloat64": {
+    "descriptionMarkup": ""
+  },
+  "reinterpretAsInt128": {
+    "descriptionMarkup": ""
+  },
+  "reinterpretAsInt16": {
+    "descriptionMarkup": ""
+  },
+  "reinterpretAsInt256": {
+    "descriptionMarkup": ""
+  },
+  "reinterpretAsInt32": {
+    "descriptionMarkup": ""
+  },
+  "reinterpretAsInt64": {
+    "descriptionMarkup": ""
+  },
+  "reinterpretAsInt8": {
+    "descriptionMarkup": ""
+  },
+  "reinterpretAsString": {
+    "descriptionMarkup": ""
+  },
+  "reinterpretAsUInt128": {
+    "descriptionMarkup": ""
+  },
+  "reinterpretAsUInt16": {
+    "descriptionMarkup": ""
+  },
+  "reinterpretAsUInt256": {
+    "descriptionMarkup": ""
+  },
+  "reinterpretAsUInt32": {
+    "descriptionMarkup": ""
+  },
+  "reinterpretAsUInt64": {
+    "descriptionMarkup": ""
+  },
+  "reinterpretAsUInt8": {
+    "descriptionMarkup": ""
+  },
+  "reinterpretAsUUID": {
+    "descriptionMarkup": ""
+  },
+  "removeAccentsUTF8": {
+    "descriptionMarkup": ""
+  },
+  "removeDiacriticsUTF8": {
+    "descriptionMarkup": ""
+  },
+  "repeat": {
+    "descriptionMarkup": ""
+  },
+  "replace": {
+    "descriptionMarkup": ""
+  },
+  "replaceAll": {
+    "descriptionMarkup": ""
+  },
+  "replaceOne": {
+    "descriptionMarkup": ""
+  },
+  "replaceRegexpAll": {
+    "descriptionMarkup": ""
+  },
+  "replaceRegexpOne": {
+    "descriptionMarkup": ""
+  },
+  "replicate": {
+    "descriptionMarkup": ""
+  },
+  "retention": {
+    "descriptionMarkup": ""
+  },
+  "reverse": {
+    "descriptionMarkup": ""
+  },
+  "reverseBySeparator": {
+    "descriptionMarkup": ""
+  },
+  "reverseUTF8": {
+    "descriptionMarkup": ""
+  },
+  "revision": {
+    "descriptionMarkup": ""
+  },
+  "right": {
+    "descriptionMarkup": ""
+  },
+  "rightPad": {
+    "descriptionMarkup": ""
+  },
+  "rightPadUTF8": {
+    "descriptionMarkup": ""
+  },
+  "rightUTF8": {
+    "descriptionMarkup": ""
+  },
+  "RIPEMD160": {
+    "descriptionMarkup": ""
+  },
+  "round": {
+    "descriptionMarkup": ""
+  },
+  "roundAge": {
+    "descriptionMarkup": ""
+  },
+  "roundBankers": {
+    "descriptionMarkup": ""
+  },
+  "roundDown": {
+    "descriptionMarkup": ""
+  },
+  "roundDuration": {
+    "descriptionMarkup": ""
+  },
+  "roundToExp2": {
+    "descriptionMarkup": ""
+  },
+  "row_number": {
+    "descriptionMarkup": ""
+  },
+  "rowNumberInAllBlocks": {
+    "descriptionMarkup": ""
+  },
+  "rowNumberInBlock": {
+    "descriptionMarkup": ""
+  },
+  "rpad": {
+    "descriptionMarkup": ""
+  },
+  "rtrim": {
+    "descriptionMarkup": ""
+  },
+  "runningAccumulate": {
+    "descriptionMarkup": ""
+  },
+  "runningConcurrency": {
+    "descriptionMarkup": ""
+  },
+  "runningDifference": {
+    "descriptionMarkup": ""
+  },
+  "runningDifferenceStartingWithFirstValue": {
+    "descriptionMarkup": ""
+  },
+  "s2CapContains": {
+    "descriptionMarkup": ""
+  },
+  "s2CapUnion": {
+    "descriptionMarkup": ""
+  },
+  "s2CellsIntersect": {
+    "descriptionMarkup": ""
+  },
+  "s2GetNeighbors": {
+    "descriptionMarkup": ""
+  },
+  "s2RectAdd": {
+    "descriptionMarkup": ""
+  },
+  "s2RectContains": {
+    "descriptionMarkup": ""
+  },
+  "s2RectIntersection": {
+    "descriptionMarkup": ""
+  },
+  "s2RectUnion": {
+    "descriptionMarkup": ""
+  },
+  "s2ToGeo": {
+    "descriptionMarkup": ""
+  },
+  "scalarProduct": {
+    "descriptionMarkup": ""
+  },
+  "scalarProductTransposed": {
+    "descriptionMarkup": ""
+  },
+  "SCHEMA": {
+    "descriptionMarkup": ""
+  },
+  "SECOND": {
+    "descriptionMarkup": ""
+  },
+  "sequenceCount": {
+    "descriptionMarkup": ""
+  },
+  "sequenceMatch": {
+    "descriptionMarkup": ""
+  },
+  "sequenceMatchEvents": {
+    "descriptionMarkup": ""
+  },
+  "sequenceNextNode": {
+    "descriptionMarkup": ""
+  },
+  "seriesDecomposeSTL": {
+    "descriptionMarkup": ""
+  },
+  "seriesOutliersDetectTukey": {
+    "descriptionMarkup": ""
+  },
+  "seriesPeriodDetectFFT": {
+    "descriptionMarkup": ""
+  },
+  "serverTimeZone": {
+    "descriptionMarkup": ""
+  },
+  "serverTimezone": {
+    "descriptionMarkup": ""
+  },
+  "serverUUID": {
+    "descriptionMarkup": ""
+  },
+  "session_user": {
+    "descriptionMarkup": ""
+  },
+  "SHA1": {
+    "descriptionMarkup": ""
+  },
+  "SHA224": {
+    "descriptionMarkup": ""
+  },
+  "SHA256": {
+    "descriptionMarkup": ""
+  },
+  "SHA384": {
+    "descriptionMarkup": ""
+  },
+  "SHA512": {
+    "descriptionMarkup": ""
+  },
+  "SHA512_256": {
+    "descriptionMarkup": ""
+  },
+  "shardCount": {
+    "descriptionMarkup": ""
+  },
+  "shardNum": {
+    "descriptionMarkup": ""
+  },
+  "showCertificate": {
+    "descriptionMarkup": ""
+  },
+  "sigmoid": {
+    "descriptionMarkup": ""
+  },
+  "sign": {
+    "descriptionMarkup": ""
+  },
+  "simpleJSONExtractBool": {
+    "descriptionMarkup": ""
+  },
+  "simpleJSONExtractFloat": {
+    "descriptionMarkup": ""
+  },
+  "simpleJSONExtractInt": {
+    "descriptionMarkup": ""
+  },
+  "simpleJSONExtractRaw": {
+    "descriptionMarkup": ""
+  },
+  "simpleJSONExtractString": {
+    "descriptionMarkup": ""
+  },
+  "simpleJSONExtractUInt": {
+    "descriptionMarkup": ""
+  },
+  "simpleJSONHas": {
+    "descriptionMarkup": ""
+  },
+  "simpleLinearRegression": {
+    "descriptionMarkup": ""
+  },
+  "sin": {
+    "descriptionMarkup": ""
+  },
+  "singleValueOrNull": {
+    "descriptionMarkup": ""
+  },
+  "sinh": {
+    "descriptionMarkup": ""
+  },
+  "sipHash128": {
+    "descriptionMarkup": ""
+  },
+  "sipHash128Keyed": {
+    "descriptionMarkup": ""
+  },
+  "sipHash128Reference": {
+    "descriptionMarkup": ""
+  },
+  "sipHash128ReferenceKeyed": {
+    "descriptionMarkup": ""
+  },
+  "sipHash64": {
+    "descriptionMarkup": ""
+  },
+  "sipHash64Keyed": {
+    "descriptionMarkup": ""
+  },
+  "skewPop": {
+    "descriptionMarkup": ""
+  },
+  "skewSamp": {
+    "descriptionMarkup": ""
+  },
+  "sleep": {
+    "descriptionMarkup": ""
+  },
+  "sleepEachRow": {
+    "descriptionMarkup": ""
+  },
+  "snowflakeIDToDateTime": {
+    "descriptionMarkup": ""
+  },
+  "snowflakeIDToDateTime64": {
+    "descriptionMarkup": ""
+  },
+  "soundex": {
+    "descriptionMarkup": ""
+  },
+  "space": {
+    "descriptionMarkup": ""
+  },
+  "sparkBar": {
+    "descriptionMarkup": ""
+  },
+  "sparkbar": {
+    "descriptionMarkup": ""
+  },
+  "sparseGrams": {
+    "descriptionMarkup": ""
+  },
+  "sparseGramsHashes": {
+    "descriptionMarkup": ""
+  },
+  "sparseGramsHashesUTF8": {
+    "descriptionMarkup": ""
+  },
+  "sparseGramsUTF8": {
+    "descriptionMarkup": ""
+  },
+  "splitByAlpha": {
+    "descriptionMarkup": ""
+  },
+  "splitByChar": {
+    "descriptionMarkup": ""
+  },
+  "splitByNonAlpha": {
+    "descriptionMarkup": ""
+  },
+  "splitByRegexp": {
+    "descriptionMarkup": ""
+  },
+  "splitByString": {
+    "descriptionMarkup": ""
+  },
+  "splitByWhitespace": {
+    "descriptionMarkup": ""
+  },
+  "sqid": {
+    "descriptionMarkup": ""
+  },
+  "sqidDecode": {
+    "descriptionMarkup": ""
+  },
+  "sqidEncode": {
+    "descriptionMarkup": ""
+  },
+  "sqr": {
+    "descriptionMarkup": ""
+  },
+  "sqrt": {
+    "descriptionMarkup": ""
+  },
+  "ST_AsMVT": {
+    "descriptionMarkup": ""
+  },
+  "ST_AsMVTGeom": {
+    "descriptionMarkup": ""
+  },
+  "ST_LineFromWKB": {
+    "descriptionMarkup": ""
+  },
+  "ST_MLineFromWKB": {
+    "descriptionMarkup": ""
+  },
+  "ST_MPolyFromWKB": {
+    "descriptionMarkup": ""
+  },
+  "ST_PointFromWKB": {
+    "descriptionMarkup": ""
+  },
+  "ST_PolyFromWKB": {
+    "descriptionMarkup": ""
+  },
+  "startsWith": {
+    "descriptionMarkup": ""
+  },
+  "startsWithCaseInsensitive": {
+    "descriptionMarkup": ""
+  },
+  "startsWithCaseInsensitiveUTF8": {
+    "descriptionMarkup": ""
+  },
+  "startsWithUTF8": {
+    "descriptionMarkup": ""
+  },
+  "STD": {
+    "descriptionMarkup": ""
+  },
+  "STDDEV": {
+    "descriptionMarkup": ""
+  },
+  "STDDEV_POP": {
+    "descriptionMarkup": ""
+  },
+  "STDDEV_SAMP": {
+    "descriptionMarkup": ""
+  },
+  "stddevPop": {
+    "descriptionMarkup": ""
+  },
+  "stddevPopStable": {
+    "descriptionMarkup": ""
+  },
+  "stddevSamp": {
+    "descriptionMarkup": ""
+  },
+  "stddevSampStable": {
+    "descriptionMarkup": ""
+  },
+  "stem": {
+    "descriptionMarkup": ""
+  },
+  "stochasticLinearRegression": {
+    "descriptionMarkup": ""
+  },
+  "stochasticLogisticRegression": {
+    "descriptionMarkup": ""
+  },
+  "str_to_date": {
+    "descriptionMarkup": ""
+  },
+  "str_to_map": {
+    "descriptionMarkup": ""
+  },
+  "string_agg": {
+    "descriptionMarkup": ""
+  },
+  "stringBytesEntropy": {
+    "descriptionMarkup": ""
+  },
+  "stringBytesUniq": {
+    "descriptionMarkup": ""
+  },
+  "stringJaccardIndex": {
+    "descriptionMarkup": ""
+  },
+  "stringJaccardIndexUTF8": {
+    "descriptionMarkup": ""
+  },
+  "stringToH3": {
+    "descriptionMarkup": ""
+  },
+  "structureToCapnProtoSchema": {
+    "descriptionMarkup": ""
+  },
+  "structureToProtobufSchema": {
+    "descriptionMarkup": ""
+  },
+  "studentTTest": {
+    "descriptionMarkup": ""
+  },
+  "studentTTestOneSample": {
+    "descriptionMarkup": ""
+  },
+  "subBitmap": {
+    "descriptionMarkup": ""
+  },
+  "subDate": {
+    "descriptionMarkup": ""
+  },
+  "substr": {
+    "descriptionMarkup": ""
+  },
+  "substring": {
+    "descriptionMarkup": ""
+  },
+  "SUBSTRING_INDEX": {
+    "descriptionMarkup": ""
+  },
+  "substringIndex": {
+    "descriptionMarkup": ""
+  },
+  "substringIndexUTF8": {
+    "descriptionMarkup": ""
+  },
+  "substringUTF8": {
+    "descriptionMarkup": ""
+  },
+  "subtractDays": {
+    "descriptionMarkup": ""
+  },
+  "subtractHours": {
+    "descriptionMarkup": ""
+  },
+  "subtractInterval": {
+    "descriptionMarkup": ""
+  },
+  "subtractMicroseconds": {
+    "descriptionMarkup": ""
+  },
+  "subtractMilliseconds": {
+    "descriptionMarkup": ""
+  },
+  "subtractMinutes": {
+    "descriptionMarkup": ""
+  },
+  "subtractMonths": {
+    "descriptionMarkup": ""
+  },
+  "subtractNanoseconds": {
+    "descriptionMarkup": ""
+  },
+  "subtractQuarters": {
+    "descriptionMarkup": ""
+  },
+  "subtractSeconds": {
+    "descriptionMarkup": ""
+  },
+  "subtractTupleOfIntervals": {
+    "descriptionMarkup": ""
+  },
+  "subtractWeeks": {
+    "descriptionMarkup": ""
+  },
+  "subtractYears": {
+    "descriptionMarkup": ""
+  },
+  "sum": {
+    "descriptionMarkup": ""
+  },
+  "sumCount": {
+    "descriptionMarkup": ""
+  },
+  "sumKahan": {
+    "descriptionMarkup": ""
+  },
+  "sumMapFiltered": {
+    "descriptionMarkup": ""
+  },
+  "sumMapFilteredWithOverflow": {
+    "descriptionMarkup": ""
+  },
+  "sumMappedArrays": {
+    "descriptionMarkup": ""
+  },
+  "sumMapWithOverflow": {
+    "descriptionMarkup": ""
+  },
+  "sumWithOverflow": {
+    "descriptionMarkup": ""
+  },
+  "SVG": {
+    "descriptionMarkup": ""
+  },
+  "svg": {
+    "descriptionMarkup": ""
+  },
+  "synonyms": {
+    "descriptionMarkup": ""
+  },
+  "tan": {
+    "descriptionMarkup": ""
+  },
+  "tanh": {
+    "descriptionMarkup": ""
+  },
+  "tcpPort": {
+    "descriptionMarkup": ""
+  },
+  "tgamma": {
+    "descriptionMarkup": ""
+  },
+  "theilsU": {
+    "descriptionMarkup": ""
+  },
+  "throwIf": {
+    "descriptionMarkup": ""
+  },
+  "tid": {
+    "descriptionMarkup": ""
+  },
+  "time_bucket": {
+    "descriptionMarkup": ""
+  },
+  "timeDiff": {
+    "descriptionMarkup": ""
+  },
+  "timeSeriesChangesToGrid": {
+    "descriptionMarkup": ""
+  },
+  "timeSeriesCopyTag": {
+    "descriptionMarkup": ""
+  },
+  "timeSeriesCopyTags": {
+    "descriptionMarkup": ""
+  },
+  "timeSeriesDeltaToGrid": {
+    "descriptionMarkup": ""
+  },
+  "timeSeriesDerivToGrid": {
+    "descriptionMarkup": ""
+  },
+  "timeSeriesExtractTag": {
+    "descriptionMarkup": ""
+  },
+  "timeSeriesFromGrid": {
+    "descriptionMarkup": ""
+  },
+  "timeSeriesGroupArray": {
+    "descriptionMarkup": ""
+  },
+  "timeSeriesGroupToSamplingKey": {
+    "descriptionMarkup": ""
+  },
+  "timeSeriesGroupToTags": {
+    "descriptionMarkup": ""
+  },
+  "timeSeriesIdToGroup": {
+    "descriptionMarkup": ""
+  },
+  "timeSeriesIdToTags": {
+    "descriptionMarkup": ""
+  },
+  "timeSeriesIdToTagsGroup": {
+    "descriptionMarkup": ""
+  },
+  "timeSeriesIncreaseToGrid": {
+    "descriptionMarkup": ""
+  },
+  "timeSeriesInstantDeltaToGrid": {
+    "descriptionMarkup": ""
+  },
+  "timeSeriesInstantRateToGrid": {
+    "descriptionMarkup": ""
+  },
+  "timeSeriesJoinTags": {
+    "descriptionMarkup": ""
+  },
+  "timeSeriesLastToGrid": {
+    "descriptionMarkup": ""
+  },
+  "timeSeriesLastTwoSamples": {
+    "descriptionMarkup": ""
+  },
+  "timeSeriesPredictLinearToGrid": {
+    "descriptionMarkup": ""
+  },
+  "timeSeriesRange": {
+    "descriptionMarkup": ""
+  },
+  "timeSeriesRateToGrid": {
+    "descriptionMarkup": ""
+  },
+  "timeSeriesRemoveAllTagsExcept": {
+    "descriptionMarkup": ""
+  },
+  "timeSeriesRemoveTag": {
+    "descriptionMarkup": ""
+  },
+  "timeSeriesRemoveTags": {
+    "descriptionMarkup": ""
+  },
+  "timeSeriesReplaceTag": {
+    "descriptionMarkup": ""
+  },
+  "timeSeriesResampleToGridWithStaleness": {
+    "descriptionMarkup": ""
+  },
+  "timeSeriesResetsToGrid": {
+    "descriptionMarkup": ""
+  },
+  "timeSeriesStoreTags": {
+    "descriptionMarkup": ""
+  },
+  "timeSeriesTagsGroupToTags": {
+    "descriptionMarkup": ""
+  },
+  "timeSeriesTagsToGroup": {
+    "descriptionMarkup": ""
+  },
+  "timeSeriesThrowDuplicateSeriesIf": {
+    "descriptionMarkup": ""
+  },
+  "timeSlot": {
+    "descriptionMarkup": ""
+  },
+  "timeSlots": {
+    "descriptionMarkup": ""
+  },
+  "timestamp": {
+    "descriptionMarkup": ""
+  },
+  "TIMESTAMP_DIFF": {
+    "descriptionMarkup": ""
+  },
+  "timestamp_diff": {
+    "descriptionMarkup": ""
+  },
+  "timestampDiff": {
+    "descriptionMarkup": ""
+  },
+  "timeZone": {
+    "descriptionMarkup": ""
+  },
+  "timezone": {
+    "descriptionMarkup": ""
+  },
+  "timeZoneOf": {
+    "descriptionMarkup": ""
+  },
+  "timezoneOf": {
+    "descriptionMarkup": ""
+  },
+  "timeZoneOffset": {
+    "descriptionMarkup": ""
+  },
+  "timezoneOffset": {
+    "descriptionMarkup": ""
+  },
+  "TO_BASE64": {
+    "descriptionMarkup": ""
+  },
+  "TO_DAYS": {
+    "descriptionMarkup": ""
+  },
+  "TO_UNIXTIME": {
+    "descriptionMarkup": ""
+  },
+  "to_utc_timestamp": {
+    "descriptionMarkup": ""
+  },
+  "toBFloat16": {
+    "descriptionMarkup": ""
+  },
+  "toBFloat16OrNull": {
+    "descriptionMarkup": ""
+  },
+  "toBFloat16OrZero": {
+    "descriptionMarkup": ""
+  },
+  "toBool": {
+    "descriptionMarkup": ""
+  },
+  "toColumnTypeName": {
+    "descriptionMarkup": ""
+  },
+  "toDate": {
+    "descriptionMarkup": ""
+  },
+  "toDate32": {
+    "descriptionMarkup": ""
+  },
+  "toDate32OrDefault": {
+    "descriptionMarkup": ""
+  },
+  "toDate32OrNull": {
+    "descriptionMarkup": ""
+  },
+  "toDate32OrZero": {
+    "descriptionMarkup": ""
+  },
+  "toDateOrDefault": {
+    "descriptionMarkup": ""
+  },
+  "toDateOrNull": {
+    "descriptionMarkup": ""
+  },
+  "toDateOrZero": {
+    "descriptionMarkup": ""
+  },
+  "toDateTime": {
+    "descriptionMarkup": ""
+  },
+  "toDateTime32": {
+    "descriptionMarkup": ""
+  },
+  "toDateTime64": {
+    "descriptionMarkup": ""
+  },
+  "toDateTime64OrDefault": {
+    "descriptionMarkup": ""
+  },
+  "toDateTime64OrNull": {
+    "descriptionMarkup": ""
+  },
+  "toDateTime64OrZero": {
+    "descriptionMarkup": ""
+  },
+  "toDateTimeOrDefault": {
+    "descriptionMarkup": ""
+  },
+  "toDateTimeOrNull": {
+    "descriptionMarkup": ""
+  },
+  "toDateTimeOrZero": {
+    "descriptionMarkup": ""
+  },
+  "today": {
+    "descriptionMarkup": ""
+  },
+  "toDayOfMonth": {
+    "descriptionMarkup": ""
+  },
+  "toDayOfWeek": {
+    "descriptionMarkup": ""
+  },
+  "toDayOfYear": {
+    "descriptionMarkup": ""
+  },
+  "toDaysInMonth": {
+    "descriptionMarkup": ""
+  },
+  "toDaysSinceYearZero": {
+    "descriptionMarkup": ""
+  },
+  "toDecimal128": {
+    "descriptionMarkup": ""
+  },
+  "toDecimal128OrDefault": {
+    "descriptionMarkup": ""
+  },
+  "toDecimal128OrNull": {
+    "descriptionMarkup": ""
+  },
+  "toDecimal128OrZero": {
+    "descriptionMarkup": ""
+  },
+  "toDecimal256": {
+    "descriptionMarkup": ""
+  },
+  "toDecimal256OrDefault": {
+    "descriptionMarkup": ""
+  },
+  "toDecimal256OrNull": {
+    "descriptionMarkup": ""
+  },
+  "toDecimal256OrZero": {
+    "descriptionMarkup": ""
+  },
+  "toDecimal32": {
+    "descriptionMarkup": ""
+  },
+  "toDecimal32OrDefault": {
+    "descriptionMarkup": ""
+  },
+  "toDecimal32OrNull": {
+    "descriptionMarkup": ""
+  },
+  "toDecimal32OrZero": {
+    "descriptionMarkup": ""
+  },
+  "toDecimal64": {
+    "descriptionMarkup": ""
+  },
+  "toDecimal64OrDefault": {
+    "descriptionMarkup": ""
+  },
+  "toDecimal64OrNull": {
+    "descriptionMarkup": ""
+  },
+  "toDecimal64OrZero": {
+    "descriptionMarkup": ""
+  },
+  "toDecimalString": {
+    "descriptionMarkup": ""
+  },
+  "toFixedString": {
+    "descriptionMarkup": ""
+  },
+  "toFloat32": {
+    "descriptionMarkup": ""
+  },
+  "toFloat32OrDefault": {
+    "descriptionMarkup": ""
+  },
+  "toFloat32OrNull": {
+    "descriptionMarkup": ""
+  },
+  "toFloat32OrZero": {
+    "descriptionMarkup": ""
+  },
+  "toFloat64": {
+    "descriptionMarkup": ""
+  },
+  "toFloat64OrDefault": {
+    "descriptionMarkup": ""
+  },
+  "toFloat64OrNull": {
+    "descriptionMarkup": ""
+  },
+  "toFloat64OrZero": {
+    "descriptionMarkup": ""
+  },
+  "toHour": {
+    "descriptionMarkup": ""
+  },
+  "toInt128": {
+    "descriptionMarkup": ""
+  },
+  "toInt128OrDefault": {
+    "descriptionMarkup": ""
+  },
+  "toInt128OrNull": {
+    "descriptionMarkup": ""
+  },
+  "toInt128OrZero": {
+    "descriptionMarkup": ""
+  },
+  "toInt16": {
+    "descriptionMarkup": ""
+  },
+  "toInt16OrDefault": {
+    "descriptionMarkup": ""
+  },
+  "toInt16OrNull": {
+    "descriptionMarkup": ""
+  },
+  "toInt16OrZero": {
+    "descriptionMarkup": ""
+  },
+  "toInt256": {
+    "descriptionMarkup": ""
+  },
+  "toInt256OrDefault": {
+    "descriptionMarkup": ""
+  },
+  "toInt256OrNull": {
+    "descriptionMarkup": ""
+  },
+  "toInt256OrZero": {
+    "descriptionMarkup": ""
+  },
+  "toInt32": {
+    "descriptionMarkup": ""
+  },
+  "toInt32OrDefault": {
+    "descriptionMarkup": ""
+  },
+  "toInt32OrNull": {
+    "descriptionMarkup": ""
+  },
+  "toInt32OrZero": {
+    "descriptionMarkup": ""
+  },
+  "toInt64": {
+    "descriptionMarkup": ""
+  },
+  "toInt64OrDefault": {
+    "descriptionMarkup": ""
+  },
+  "toInt64OrNull": {
+    "descriptionMarkup": ""
+  },
+  "toInt64OrZero": {
+    "descriptionMarkup": ""
+  },
+  "toInt8": {
+    "descriptionMarkup": ""
+  },
+  "toInt8OrDefault": {
+    "descriptionMarkup": ""
+  },
+  "toInt8OrNull": {
+    "descriptionMarkup": ""
+  },
+  "toInt8OrZero": {
+    "descriptionMarkup": ""
+  },
+  "toInterval": {
+    "descriptionMarkup": ""
+  },
+  "toIntervalDay": {
+    "descriptionMarkup": ""
+  },
+  "toIntervalHour": {
+    "descriptionMarkup": ""
+  },
+  "toIntervalMicrosecond": {
+    "descriptionMarkup": ""
+  },
+  "toIntervalMillisecond": {
+    "descriptionMarkup": ""
+  },
+  "toIntervalMinute": {
+    "descriptionMarkup": ""
+  },
+  "toIntervalMonth": {
+    "descriptionMarkup": ""
+  },
+  "toIntervalNanosecond": {
+    "descriptionMarkup": ""
+  },
+  "toIntervalQuarter": {
+    "descriptionMarkup": ""
+  },
+  "toIntervalSecond": {
+    "descriptionMarkup": ""
+  },
+  "toIntervalWeek": {
+    "descriptionMarkup": ""
+  },
+  "toIntervalYear": {
+    "descriptionMarkup": ""
+  },
+  "toIPv4": {
+    "descriptionMarkup": ""
+  },
+  "toIPv4OrDefault": {
+    "descriptionMarkup": ""
+  },
+  "toIPv4OrNull": {
+    "descriptionMarkup": ""
+  },
+  "toIPv4OrZero": {
+    "descriptionMarkup": ""
+  },
+  "toIPv6": {
+    "descriptionMarkup": ""
+  },
+  "toIPv6OrDefault": {
+    "descriptionMarkup": ""
+  },
+  "toIPv6OrNull": {
+    "descriptionMarkup": ""
+  },
+  "toIPv6OrZero": {
+    "descriptionMarkup": ""
+  },
+  "toISOWeek": {
+    "descriptionMarkup": ""
+  },
+  "toISOYear": {
+    "descriptionMarkup": ""
+  },
+  "toJSONString": {
+    "descriptionMarkup": ""
+  },
+  "tokenizeQuery": {
+    "descriptionMarkup": ""
+  },
+  "tokens": {
+    "descriptionMarkup": ""
+  },
+  "tokensForLikePattern": {
+    "descriptionMarkup": ""
+  },
+  "toLastDayOfMonth": {
+    "descriptionMarkup": ""
+  },
+  "toLastDayOfWeek": {
+    "descriptionMarkup": ""
+  },
+  "toLowCardinality": {
+    "descriptionMarkup": ""
+  },
+  "toMicrosecond": {
+    "descriptionMarkup": ""
+  },
+  "toMillisecond": {
+    "descriptionMarkup": ""
+  },
+  "toMinute": {
+    "descriptionMarkup": ""
+  },
+  "toModifiedJulianDay": {
+    "descriptionMarkup": ""
+  },
+  "toModifiedJulianDayOrNull": {
+    "descriptionMarkup": ""
+  },
+  "toMonday": {
+    "descriptionMarkup": ""
+  },
+  "toMonth": {
+    "descriptionMarkup": ""
+  },
+  "toMonthNumSinceEpoch": {
+    "descriptionMarkup": ""
+  },
+  "toNanosecond": {
+    "descriptionMarkup": ""
+  },
+  "toNullable": {
+    "descriptionMarkup": ""
+  },
+  "topK": {
+    "descriptionMarkup": ""
+  },
+  "topKWeighted": {
+    "descriptionMarkup": ""
+  },
+  "topLevelDomain": {
+    "descriptionMarkup": ""
+  },
+  "topLevelDomainRFC": {
+    "descriptionMarkup": ""
+  },
+  "toQuarter": {
+    "descriptionMarkup": ""
+  },
+  "toRelativeDayNum": {
+    "descriptionMarkup": ""
+  },
+  "toRelativeHourNum": {
+    "descriptionMarkup": ""
+  },
+  "toRelativeMinuteNum": {
+    "descriptionMarkup": ""
+  },
+  "toRelativeMonthNum": {
+    "descriptionMarkup": ""
+  },
+  "toRelativeQuarterNum": {
+    "descriptionMarkup": ""
+  },
+  "toRelativeSecondNum": {
+    "descriptionMarkup": ""
+  },
+  "toRelativeWeekNum": {
+    "descriptionMarkup": ""
+  },
+  "toRelativeYearNum": {
+    "descriptionMarkup": ""
+  },
+  "toSecond": {
+    "descriptionMarkup": ""
+  },
+  "toStartOfDay": {
+    "descriptionMarkup": ""
+  },
+  "toStartOfFifteenMinutes": {
+    "descriptionMarkup": ""
+  },
+  "toStartOfFiveMinute": {
+    "descriptionMarkup": ""
+  },
+  "toStartOfFiveMinutes": {
+    "descriptionMarkup": ""
+  },
+  "toStartOfHour": {
+    "descriptionMarkup": ""
+  },
+  "toStartOfInterval": {
+    "descriptionMarkup": ""
+  },
+  "toStartOfISOYear": {
+    "descriptionMarkup": ""
+  },
+  "toStartOfMicrosecond": {
+    "descriptionMarkup": ""
+  },
+  "toStartOfMillisecond": {
+    "descriptionMarkup": ""
+  },
+  "toStartOfMinute": {
+    "descriptionMarkup": ""
+  },
+  "toStartOfMonth": {
+    "descriptionMarkup": ""
+  },
+  "toStartOfNanosecond": {
+    "descriptionMarkup": ""
+  },
+  "toStartOfQuarter": {
+    "descriptionMarkup": ""
+  },
+  "toStartOfSecond": {
+    "descriptionMarkup": ""
+  },
+  "toStartOfTenMinutes": {
+    "descriptionMarkup": ""
+  },
+  "toStartOfWeek": {
+    "descriptionMarkup": ""
+  },
+  "toStartOfYear": {
+    "descriptionMarkup": ""
+  },
+  "toString": {
+    "descriptionMarkup": ""
+  },
+  "toStringCutToZero": {
+    "descriptionMarkup": ""
+  },
+  "toTime": {
+    "descriptionMarkup": ""
+  },
+  "toTime64": {
+    "descriptionMarkup": ""
+  },
+  "toTime64OrNull": {
+    "descriptionMarkup": ""
+  },
+  "toTime64OrZero": {
+    "descriptionMarkup": ""
+  },
+  "toTimeOrNull": {
+    "descriptionMarkup": ""
+  },
+  "toTimeOrZero": {
+    "descriptionMarkup": ""
+  },
+  "toTimeWithFixedDate": {
+    "descriptionMarkup": ""
+  },
+  "toTimeZone": {
+    "descriptionMarkup": ""
+  },
+  "toTimezone": {
+    "descriptionMarkup": ""
+  },
+  "toTypeName": {
+    "descriptionMarkup": ""
+  },
+  "toUInt128": {
+    "descriptionMarkup": ""
+  },
+  "toUInt128OrDefault": {
+    "descriptionMarkup": ""
+  },
+  "toUInt128OrNull": {
+    "descriptionMarkup": ""
+  },
+  "toUInt128OrZero": {
+    "descriptionMarkup": ""
+  },
+  "toUInt16": {
+    "descriptionMarkup": ""
+  },
+  "toUInt16OrDefault": {
+    "descriptionMarkup": ""
+  },
+  "toUInt16OrNull": {
+    "descriptionMarkup": ""
+  },
+  "toUInt16OrZero": {
+    "descriptionMarkup": ""
+  },
+  "toUInt256": {
+    "descriptionMarkup": ""
+  },
+  "toUInt256OrDefault": {
+    "descriptionMarkup": ""
+  },
+  "toUInt256OrNull": {
+    "descriptionMarkup": ""
+  },
+  "toUInt256OrZero": {
+    "descriptionMarkup": ""
+  },
+  "toUInt32": {
+    "descriptionMarkup": ""
+  },
+  "toUInt32OrDefault": {
+    "descriptionMarkup": ""
+  },
+  "toUInt32OrNull": {
+    "descriptionMarkup": ""
+  },
+  "toUInt32OrZero": {
+    "descriptionMarkup": ""
+  },
+  "toUInt64": {
+    "descriptionMarkup": ""
+  },
+  "toUInt64OrDefault": {
+    "descriptionMarkup": ""
+  },
+  "toUInt64OrNull": {
+    "descriptionMarkup": ""
+  },
+  "toUInt64OrZero": {
+    "descriptionMarkup": ""
+  },
+  "toUInt8": {
+    "descriptionMarkup": ""
+  },
+  "toUInt8OrDefault": {
+    "descriptionMarkup": ""
+  },
+  "toUInt8OrNull": {
+    "descriptionMarkup": ""
+  },
+  "toUInt8OrZero": {
+    "descriptionMarkup": ""
+  },
+  "toUnixTimestamp": {
+    "descriptionMarkup": ""
+  },
+  "toUnixTimestamp64Micro": {
+    "descriptionMarkup": ""
+  },
+  "toUnixTimestamp64Milli": {
+    "descriptionMarkup": ""
+  },
+  "toUnixTimestamp64Nano": {
+    "descriptionMarkup": ""
+  },
+  "toUnixTimestamp64Second": {
+    "descriptionMarkup": ""
+  },
+  "toUTCTimestamp": {
+    "descriptionMarkup": ""
+  },
+  "toUUID": {
+    "descriptionMarkup": ""
+  },
+  "toUUIDOrDefault": {
+    "descriptionMarkup": ""
+  },
+  "toUUIDOrNull": {
+    "descriptionMarkup": ""
+  },
+  "toUUIDOrZero": {
+    "descriptionMarkup": ""
+  },
+  "toValidUTF8": {
+    "descriptionMarkup": ""
+  },
+  "toWeek": {
+    "descriptionMarkup": ""
+  },
+  "toYear": {
+    "descriptionMarkup": ""
+  },
+  "toYearNumSinceEpoch": {
+    "descriptionMarkup": ""
+  },
+  "toYearWeek": {
+    "descriptionMarkup": ""
+  },
+  "toYYYYMM": {
+    "descriptionMarkup": ""
+  },
+  "toYYYYMMDD": {
+    "descriptionMarkup": ""
+  },
+  "toYYYYMMDDhhmmss": {
+    "descriptionMarkup": ""
+  },
+  "transactionID": {
+    "descriptionMarkup": ""
+  },
+  "transactionLatestSnapshot": {
+    "descriptionMarkup": ""
+  },
+  "transactionOldestSnapshot": {
+    "descriptionMarkup": ""
+  },
+  "transform": {
+    "descriptionMarkup": ""
+  },
+  "translate": {
+    "descriptionMarkup": ""
+  },
+  "translateUTF8": {
+    "descriptionMarkup": ""
+  },
+  "trim": {
+    "descriptionMarkup": ""
+  },
+  "trimBoth": {
+    "descriptionMarkup": ""
+  },
+  "trimLeft": {
+    "descriptionMarkup": ""
+  },
+  "trimRight": {
+    "descriptionMarkup": ""
+  },
+  "trunc": {
+    "descriptionMarkup": ""
+  },
+  "truncate": {
+    "descriptionMarkup": ""
+  },
+  "tryBase32Decode": {
+    "descriptionMarkup": ""
+  },
+  "tryBase58Decode": {
+    "descriptionMarkup": ""
+  },
+  "tryBase64Decode": {
+    "descriptionMarkup": ""
+  },
+  "tryBase64URLDecode": {
+    "descriptionMarkup": ""
+  },
+  "tryDecrypt": {
+    "descriptionMarkup": ""
+  },
+  "tryIdnaEncode": {
+    "descriptionMarkup": ""
+  },
+  "tryPunycodeDecode": {
+    "descriptionMarkup": ""
+  },
+  "tumble": {
+    "descriptionMarkup": ""
+  },
+  "tumbleEnd": {
+    "descriptionMarkup": ""
+  },
+  "tumbleStart": {
+    "descriptionMarkup": ""
+  },
+  "tuple": {
+    "descriptionMarkup": ""
+  },
+  "tupleConcat": {
+    "descriptionMarkup": ""
+  },
+  "tupleDivide": {
+    "descriptionMarkup": ""
+  },
+  "tupleDivideByNumber": {
+    "descriptionMarkup": ""
+  },
+  "tupleElement": {
+    "descriptionMarkup": ""
+  },
+  "tupleHammingDistance": {
+    "descriptionMarkup": ""
+  },
+  "tupleIntDiv": {
+    "descriptionMarkup": ""
+  },
+  "tupleIntDivByNumber": {
+    "descriptionMarkup": ""
+  },
+  "tupleIntDivOrZero": {
+    "descriptionMarkup": ""
+  },
+  "tupleIntDivOrZeroByNumber": {
+    "descriptionMarkup": ""
+  },
+  "tupleMinus": {
+    "descriptionMarkup": ""
+  },
+  "tupleModulo": {
+    "descriptionMarkup": ""
+  },
+  "tupleModuloByNumber": {
+    "descriptionMarkup": ""
+  },
+  "tupleMultiply": {
+    "descriptionMarkup": ""
+  },
+  "tupleMultiplyByNumber": {
+    "descriptionMarkup": ""
+  },
+  "tupleNames": {
+    "descriptionMarkup": ""
+  },
+  "tupleNegate": {
+    "descriptionMarkup": ""
+  },
+  "tuplePlus": {
+    "descriptionMarkup": ""
+  },
+  "tuplePositiveModuloByNumber": {
+    "descriptionMarkup": ""
+  },
+  "tupleToNameValuePairs": {
+    "descriptionMarkup": ""
+  },
+  "ucase": {
+    "descriptionMarkup": ""
+  },
+  "ULIDStringToDateTime": {
+    "descriptionMarkup": ""
+  },
+  "unbin": {
+    "descriptionMarkup": ""
+  },
+  "unhex": {
+    "descriptionMarkup": ""
+  },
+  "uniq": {
+    "descriptionMarkup": ""
+  },
+  "uniqCombined": {
+    "descriptionMarkup": ""
+  },
+  "uniqCombined64": {
+    "descriptionMarkup": ""
+  },
+  "uniqExact": {
+    "descriptionMarkup": ""
+  },
+  "uniqHLL12": {
+    "descriptionMarkup": ""
+  },
+  "uniqTheta": {
+    "descriptionMarkup": ""
+  },
+  "uniqThetaIntersect": {
+    "descriptionMarkup": ""
+  },
+  "uniqThetaNot": {
+    "descriptionMarkup": ""
+  },
+  "uniqThetaUnion": {
+    "descriptionMarkup": ""
+  },
+  "uniqUpTo": {
+    "descriptionMarkup": ""
+  },
+  "unnest": {
+    "descriptionMarkup": ""
+  },
+  "upper": {
+    "descriptionMarkup": ""
+  },
+  "upperUTF8": {
+    "descriptionMarkup": ""
+  },
+  "uptime": {
+    "descriptionMarkup": ""
+  },
+  "URLHash": {
+    "descriptionMarkup": ""
+  },
+  "URLHierarchy": {
+    "descriptionMarkup": ""
+  },
+  "URLPathHierarchy": {
+    "descriptionMarkup": ""
+  },
+  "user": {
+    "descriptionMarkup": ""
+  },
+  "UTC_timestamp": {
+    "descriptionMarkup": ""
+  },
+  "UTCTimestamp": {
+    "descriptionMarkup": ""
+  },
+  "UTMToGeo": {
+    "descriptionMarkup": ""
+  },
+  "UUIDNumToString": {
+    "descriptionMarkup": ""
+  },
+  "UUIDStringToNum": {
+    "descriptionMarkup": ""
+  },
+  "UUIDToNum": {
+    "descriptionMarkup": ""
+  },
+  "UUIDv7ToDateTime": {
+    "descriptionMarkup": ""
+  },
+  "validateNestedArraySizes": {
+    "descriptionMarkup": ""
+  },
+  "VAR_POP": {
+    "descriptionMarkup": ""
+  },
+  "VAR_SAMP": {
+    "descriptionMarkup": ""
+  },
+  "variantElement": {
+    "descriptionMarkup": ""
+  },
+  "variantType": {
+    "descriptionMarkup": ""
+  },
+  "varPop": {
+    "descriptionMarkup": ""
+  },
+  "varPopStable": {
+    "descriptionMarkup": ""
+  },
+  "varSamp": {
+    "descriptionMarkup": ""
+  },
+  "varSampStable": {
+    "descriptionMarkup": ""
+  },
+  "vectorDifference": {
+    "descriptionMarkup": ""
+  },
+  "vectorSum": {
+    "descriptionMarkup": ""
+  },
+  "version": {
+    "descriptionMarkup": ""
+  },
+  "visibleWidth": {
+    "descriptionMarkup": ""
+  },
+  "visitParamExtractBool": {
+    "descriptionMarkup": ""
+  },
+  "visitParamExtractFloat": {
+    "descriptionMarkup": ""
+  },
+  "visitParamExtractInt": {
+    "descriptionMarkup": ""
+  },
+  "visitParamExtractRaw": {
+    "descriptionMarkup": ""
+  },
+  "visitParamExtractString": {
+    "descriptionMarkup": ""
+  },
+  "visitParamExtractUInt": {
+    "descriptionMarkup": ""
+  },
+  "visitParamHas": {
+    "descriptionMarkup": ""
+  },
+  "week": {
+    "descriptionMarkup": ""
+  },
+  "welchTTest": {
+    "descriptionMarkup": ""
+  },
+  "width_bucket": {
+    "descriptionMarkup": ""
+  },
+  "widthBucket": {
+    "descriptionMarkup": ""
+  },
+  "windowFunnel": {
+    "descriptionMarkup": ""
+  },
+  "windowID": {
+    "descriptionMarkup": ""
+  },
+  "WKB": {
+    "descriptionMarkup": ""
+  },
+  "wkb": {
+    "descriptionMarkup": ""
+  },
+  "WKT": {
+    "descriptionMarkup": ""
+  },
+  "wkt": {
+    "descriptionMarkup": ""
+  },
+  "wordShingleMinHash": {
+    "descriptionMarkup": ""
+  },
+  "wordShingleMinHashArg": {
+    "descriptionMarkup": ""
+  },
+  "wordShingleMinHashArgCaseInsensitive": {
+    "descriptionMarkup": ""
+  },
+  "wordShingleMinHashArgCaseInsensitiveUTF8": {
+    "descriptionMarkup": ""
+  },
+  "wordShingleMinHashArgUTF8": {
+    "descriptionMarkup": ""
+  },
+  "wordShingleMinHashCaseInsensitive": {
+    "descriptionMarkup": ""
+  },
+  "wordShingleMinHashCaseInsensitiveUTF8": {
+    "descriptionMarkup": ""
+  },
+  "wordShingleMinHashUTF8": {
+    "descriptionMarkup": ""
+  },
+  "wordShingleSimHash": {
+    "descriptionMarkup": ""
+  },
+  "wordShingleSimHashCaseInsensitive": {
+    "descriptionMarkup": ""
+  },
+  "wordShingleSimHashCaseInsensitiveUTF8": {
+    "descriptionMarkup": ""
+  },
+  "wordShingleSimHashUTF8": {
+    "descriptionMarkup": ""
+  },
+  "wyHash64": {
+    "descriptionMarkup": ""
+  },
+  "xor": {
+    "descriptionMarkup": ""
+  },
+  "xxh3": {
+    "descriptionMarkup": ""
+  },
+  "xxh3_128": {
+    "descriptionMarkup": ""
+  },
+  "xxHash32": {
+    "descriptionMarkup": ""
+  },
+  "xxHash64": {
+    "descriptionMarkup": ""
+  },
+  "xxHash64Spark": {
+    "descriptionMarkup": ""
+  },
+  "yandexConsistentHash": {
+    "descriptionMarkup": ""
+  },
+  "YEAR": {
+    "descriptionMarkup": ""
+  },
+  "yearweek": {
+    "descriptionMarkup": ""
+  },
+  "yesterday": {
+    "descriptionMarkup": ""
+  },
+  "YYYYMMDDhhmmssToDateTime": {
+    "descriptionMarkup": ""
+  },
+  "YYYYMMDDhhmmssToDateTime64": {
+    "descriptionMarkup": ""
+  },
+  "YYYYMMDDToDate": {
+    "descriptionMarkup": ""
+  },
+  "YYYYMMDDToDate32": {
+    "descriptionMarkup": ""
+  },
+  "zookeeperSessionUptime": {
+    "descriptionMarkup": ""
+  }
 }

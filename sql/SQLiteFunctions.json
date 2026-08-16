@@ -5,6 +5,12 @@
   "AVG" : {
     "descriptionMarkup" : ""
   },
+  "BASE64" : {
+    "descriptionMarkup" : ""
+  },
+  "BASE85" : {
+    "descriptionMarkup" : ""
+  },
   "CHANGES" : {
     "descriptionMarkup" : ""
   },
@@ -14,41 +20,217 @@
   "COALESCE" : {
     "descriptionMarkup" : ""
   },
+  "CONCAT" : {
+    "descriptionMarkup" : ""
+  },
+  "CONCAT_WS" : {
+    "descriptionMarkup" : ""
+  },
   "COUNT" : {
+    "descriptionMarkup" : ""
+  },
+  "CUME_DIST" : {
+    "descriptionMarkup" : ""
+  },
+  "CURRENT_DATE" : {
+    "descriptionMarkup" : ""
+  },
+  "CURRENT_TIME" : {
+    "descriptionMarkup" : ""
+  },
+  "CURRENT_TIMESTAMP" : {
+    "descriptionMarkup" : ""
+  },
+  "DATE" : {
+    "descriptionMarkup" : ""
+  },
+  "DATETIME" : {
+    "descriptionMarkup" : ""
+  },
+  "DECIMAL" : {
+    "descriptionMarkup" : ""
+  },
+  "DECIMAL_ADD" : {
+    "descriptionMarkup" : ""
+  },
+  "DECIMAL_CMP" : {
+    "descriptionMarkup" : ""
+  },
+  "DECIMAL_EXP" : {
+    "descriptionMarkup" : ""
+  },
+  "DECIMAL_MUL" : {
+    "descriptionMarkup" : ""
+  },
+  "DECIMAL_POW2" : {
+    "descriptionMarkup" : ""
+  },
+  "DECIMAL_SUB" : {
+    "descriptionMarkup" : ""
+  },
+  "DECIMAL_SUM" : {
+    "descriptionMarkup" : ""
+  },
+  "DENSE_RANK" : {
+    "descriptionMarkup" : ""
+  },
+  "DTOSTR" : {
+    "descriptionMarkup" : ""
+  },
+  "EDIT" : {
+    "descriptionMarkup" : ""
+  },
+  "FIRST_VALUE" : {
+    "descriptionMarkup" : ""
+  },
+  "FORMAT" : {
     "descriptionMarkup" : ""
   },
   "GLOB" : {
     "descriptionMarkup" : ""
   },
+  "GROUP_CONCAT" : {
+    "descriptionMarkup" : ""
+  },
   "HEX" : {
+    "descriptionMarkup" : ""
+  },
+  "ICU_LOAD_COLLATION" : {
+    "descriptionMarkup" : ""
+  },
+  "IEEE754" : {
+    "descriptionMarkup" : ""
+  },
+  "IEEE754_EXPONENT" : {
+    "descriptionMarkup" : ""
+  },
+  "IEEE754_FROM_BLOB" : {
+    "descriptionMarkup" : ""
+  },
+  "IEEE754_INC" : {
+    "descriptionMarkup" : ""
+  },
+  "IEEE754_MANTISSA" : {
+    "descriptionMarkup" : ""
+  },
+  "IEEE754_TO_BLOB" : {
+    "descriptionMarkup" : ""
+  },
+  "IF" : {
     "descriptionMarkup" : ""
   },
   "IFNULL" : {
     "descriptionMarkup" : ""
   },
+  "IIF" : {
+    "descriptionMarkup" : ""
+  },
   "INSTR" : {
     "descriptionMarkup" : ""
   },
-
-  "JSON": {},
-  "JSON_ARRAY": {},
-  "JSON_ARRAY_LENGTH": {},
-  "JSON_EXTRACT": {},
-  "JSON_INSERT": {},
-  "JSON_OBJECT": {},
-  "JSON_PATCH": {},
-  "JSON_REMOVE": {},
-  "JSON_REPLACE": {},
-  "JSON_SET": {},
-  "JSON_TYPE": {},
-  "JSON_VALID": {},
-  "JSON_QUOTE": {},
-  "JSON_GROUP_ARRAY": {},
-  "JSON_GROUP_OBJECT": {},
-  "JSON_EACH": {},
-  "JSON_TREE": {},
-
+  "JSON" : {
+    "descriptionMarkup" : ""
+  },
+  "JSONB" : {
+    "descriptionMarkup" : ""
+  },
+  "JSONB_ARRAY" : {
+    "descriptionMarkup" : ""
+  },
+  "JSONB_EXTRACT" : {
+    "descriptionMarkup" : ""
+  },
+  "JSONB_GROUP_ARRAY" : {
+    "descriptionMarkup" : ""
+  },
+  "JSONB_GROUP_OBJECT" : {
+    "descriptionMarkup" : ""
+  },
+  "JSONB_INSERT" : {
+    "descriptionMarkup" : ""
+  },
+  "JSONB_OBJECT" : {
+    "descriptionMarkup" : ""
+  },
+  "JSONB_PATCH" : {
+    "descriptionMarkup" : ""
+  },
+  "JSONB_REMOVE" : {
+    "descriptionMarkup" : ""
+  },
+  "JSONB_REPLACE" : {
+    "descriptionMarkup" : ""
+  },
+  "JSONB_SET" : {
+    "descriptionMarkup" : ""
+  },
+  "JSON_ARRAY" : {
+    "descriptionMarkup" : ""
+  },
+  "JSON_ARRAY_LENGTH" : {
+    "descriptionMarkup" : ""
+  },
+  "JSON_EACH" : {
+    "descriptionMarkup" : ""
+  },
+  "JSON_ERROR_POSITION" : {
+    "descriptionMarkup" : ""
+  },
+  "JSON_EXTRACT" : {
+    "descriptionMarkup" : ""
+  },
+  "JSON_GROUP_ARRAY" : {
+    "descriptionMarkup" : ""
+  },
+  "JSON_GROUP_OBJECT" : {
+    "descriptionMarkup" : ""
+  },
+  "JSON_INSERT" : {
+    "descriptionMarkup" : ""
+  },
+  "JSON_OBJECT" : {
+    "descriptionMarkup" : ""
+  },
+  "JSON_PATCH" : {
+    "descriptionMarkup" : ""
+  },
+  "JSON_PRETTY" : {
+    "descriptionMarkup" : ""
+  },
+  "JSON_QUOTE" : {
+    "descriptionMarkup" : ""
+  },
+  "JSON_REMOVE" : {
+    "descriptionMarkup" : ""
+  },
+  "JSON_REPLACE" : {
+    "descriptionMarkup" : ""
+  },
+  "JSON_SET" : {
+    "descriptionMarkup" : ""
+  },
+  "JSON_TREE" : {
+    "descriptionMarkup" : ""
+  },
+  "JSON_TYPE" : {
+    "descriptionMarkup" : ""
+  },
+  "JSON_VALID" : {
+    "descriptionMarkup" : ""
+  },
+  "JULIANDAY" : {
+    "descriptionMarkup" : ""
+  },
+  "LAG" : {
+    "descriptionMarkup" : ""
+  },
   "LAST_INSERT_ROWID" : {
+    "descriptionMarkup" : ""
+  },
+  "LAST_VALUE" : {
+    "descriptionMarkup" : ""
+  },
+  "LEAD" : {
     "descriptionMarkup" : ""
   },
   "LENGTH" : {
@@ -66,19 +248,58 @@
   "LOWER" : {
     "descriptionMarkup" : ""
   },
+  "LSMODE" : {
+    "descriptionMarkup" : ""
+  },
   "LTRIM" : {
+    "descriptionMarkup" : ""
+  },
+  "MATCH" : {
+    "descriptionMarkup" : ""
+  },
+  "MATCHINFO" : {
     "descriptionMarkup" : ""
   },
   "MAX" : {
     "descriptionMarkup" : ""
   },
+  "MEDIAN" : {
+    "descriptionMarkup" : ""
+  },
   "MIN" : {
+    "descriptionMarkup" : ""
+  },
+  "NTH_VALUE" : {
+    "descriptionMarkup" : ""
+  },
+  "NTILE" : {
     "descriptionMarkup" : ""
   },
   "NULLIF" : {
     "descriptionMarkup" : ""
   },
-  "PRINTIF" : {
+  "OCTET_LENGTH" : {
+    "descriptionMarkup" : ""
+  },
+  "OFFSETS" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTIMIZE" : {
+    "descriptionMarkup" : ""
+  },
+  "PERCENTILE" : {
+    "descriptionMarkup" : ""
+  },
+  "PERCENTILE_CONT" : {
+    "descriptionMarkup" : ""
+  },
+  "PERCENTILE_DISC" : {
+    "descriptionMarkup" : ""
+  },
+  "PERCENT_RANK" : {
+    "descriptionMarkup" : ""
+  },
+  "PRINTF" : {
     "descriptionMarkup" : ""
   },
   "QUOTE" : {
@@ -90,16 +311,67 @@
   "RANDOMBLOB" : {
     "descriptionMarkup" : ""
   },
+  "RANK" : {
+    "descriptionMarkup" : ""
+  },
+  "READFILE" : {
+    "descriptionMarkup" : ""
+  },
+  "REGEXP" : {
+    "descriptionMarkup" : ""
+  },
+  "REGEXPI" : {
+    "descriptionMarkup" : ""
+  },
   "REPLACE" : {
     "descriptionMarkup" : ""
   },
   "ROUND" : {
     "descriptionMarkup" : ""
   },
+  "ROW_NUMBER" : {
+    "descriptionMarkup" : ""
+  },
   "RTRIM" : {
     "descriptionMarkup" : ""
   },
+  "SHA1" : {
+    "descriptionMarkup" : ""
+  },
+  "SHA1B" : {
+    "descriptionMarkup" : ""
+  },
+  "SHA1_QUERY" : {
+    "descriptionMarkup" : ""
+  },
+  "SHA3" : {
+    "descriptionMarkup" : ""
+  },
+  "SHA3_AGG" : {
+    "descriptionMarkup" : ""
+  },
+  "SHA3_QUERY" : {
+    "descriptionMarkup" : ""
+  },
+  "SHELL_ADD_SCHEMA" : {
+    "descriptionMarkup" : ""
+  },
+  "SHELL_MODULE_SCHEMA" : {
+    "descriptionMarkup" : ""
+  },
+  "SHELL_PUTSNL" : {
+    "descriptionMarkup" : ""
+  },
+  "SIGN" : {
+    "descriptionMarkup" : ""
+  },
+  "SNIPPET" : {
+    "descriptionMarkup" : ""
+  },
   "SOUNDEX" : {
+    "descriptionMarkup" : ""
+  },
+  "SQLITE_LOG" : {
     "descriptionMarkup" : ""
   },
   "SQLITE_SOURCE_ID" : {
@@ -108,10 +380,37 @@
   "SQLITE_VERSION" : {
     "descriptionMarkup" : ""
   },
+  "STMTRAND" : {
+    "descriptionMarkup" : ""
+  },
+  "STRFTIME" : {
+    "descriptionMarkup" : ""
+  },
+  "STRING_AGG" : {
+    "descriptionMarkup" : ""
+  },
+  "STRTOD" : {
+    "descriptionMarkup" : ""
+  },
   "SUBSTR" : {
     "descriptionMarkup" : ""
   },
+  "SUBSTRING" : {
+    "descriptionMarkup" : ""
+  },
+  "SUBTYPE" : {
+    "descriptionMarkup" : ""
+  },
   "SUM" : {
+    "descriptionMarkup" : ""
+  },
+  "TIME" : {
+    "descriptionMarkup" : ""
+  },
+  "TIMEDIFF" : {
+    "descriptionMarkup" : ""
+  },
+  "TOTAL" : {
     "descriptionMarkup" : ""
   },
   "TOTAL_CHANGES" : {
@@ -123,13 +422,31 @@
   "TYPEOF" : {
     "descriptionMarkup" : ""
   },
+  "UNHEX" : {
+    "descriptionMarkup" : ""
+  },
   "UNICODE" : {
+    "descriptionMarkup" : ""
+  },
+  "UNISTR" : {
+    "descriptionMarkup" : ""
+  },
+  "UNISTR_QUOTE" : {
+    "descriptionMarkup" : ""
+  },
+  "UNIXEPOCH" : {
     "descriptionMarkup" : ""
   },
   "UNLIKELY" : {
     "descriptionMarkup" : ""
   },
   "UPPER" : {
+    "descriptionMarkup" : ""
+  },
+  "USLEEP" : {
+    "descriptionMarkup" : ""
+  },
+  "WRITEFILE" : {
     "descriptionMarkup" : ""
   },
   "ZEROBLOB" : {

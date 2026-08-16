@@ -1,66 +1,2774 @@
 {
-  "ABS": { "descriptionMarkup": "" },
-  "AGE": { "descriptionMarkup": "" },
-  "ARRAY_AGG": { "descriptionMarkup": "" },
-  "AVG": { "descriptionMarkup": "" },
-  "BIT_COUNT": { "descriptionMarkup": "" },
-  "CAST": { "descriptionMarkup": "" },
-  "CEIL": { "descriptionMarkup": "" },
-  "CHR": { "descriptionMarkup": "" },
-  "COALESCE": { "descriptionMarkup": "" },
-  "CONCAT": { "descriptionMarkup": "" },
-  "CONTAINS": { "descriptionMarkup": "" },
-  "COUNT": { "descriptionMarkup": "" },
-  "CURRENT_DATE": { "descriptionMarkup": "" },
-  "CURRENT_TIMESTAMP": { "descriptionMarkup": "" },
-  "DATE_DIFF": { "descriptionMarkup": "" },
-  "DATE_PART": { "descriptionMarkup": "" },
-  "DATE_TRUNC": { "descriptionMarkup": "" },
-  "EPOCH": { "descriptionMarkup": "" },
-  "FIRST": { "descriptionMarkup": "" },
-  "FLOOR": { "descriptionMarkup": "" },
-  "FORMAT": { "descriptionMarkup": "" },
-  "GENERATE_SERIES": { "descriptionMarkup": "" },
-  "GREATEST": { "descriptionMarkup": "" },
-  "HASH": { "descriptionMarkup": "" },
-  "IF": { "descriptionMarkup": "" },
-  "IFNULL": { "descriptionMarkup": "" },
-  "LAST": { "descriptionMarkup": "" },
-  "LEAST": { "descriptionMarkup": "" },
-  "LEFT": { "descriptionMarkup": "" },
-  "LENGTH": { "descriptionMarkup": "" },
-  "LIST": { "descriptionMarkup": "" },
-  "LIST_AGG": { "descriptionMarkup": "" },
-  "LOWER": { "descriptionMarkup": "" },
-  "LPAD": { "descriptionMarkup": "" },
-  "LTRIM": { "descriptionMarkup": "" },
-  "MAX": { "descriptionMarkup": "" },
-  "MD5": { "descriptionMarkup": "" },
-  "MIN": { "descriptionMarkup": "" },
-  "NOW": { "descriptionMarkup": "" },
-  "NULLIF": { "descriptionMarkup": "" },
-  "PRINTF": { "descriptionMarkup": "" },
-  "RANGE": { "descriptionMarkup": "" },
-  "READ_CSV": { "descriptionMarkup": "" },
-  "READ_JSON": { "descriptionMarkup": "" },
-  "READ_PARQUET": { "descriptionMarkup": "" },
-  "REGEXP_EXTRACT": { "descriptionMarkup": "" },
-  "REGEXP_MATCHES": { "descriptionMarkup": "" },
-  "REGEXP_REPLACE": { "descriptionMarkup": "" },
-  "REPLACE": { "descriptionMarkup": "" },
-  "REVERSE": { "descriptionMarkup": "" },
-  "RIGHT": { "descriptionMarkup": "" },
-  "ROUND": { "descriptionMarkup": "" },
-  "RPAD": { "descriptionMarkup": "" },
-  "RTRIM": { "descriptionMarkup": "" },
-  "STRING_AGG": { "descriptionMarkup": "" },
-  "STRING_SPLIT": { "descriptionMarkup": "" },
-  "STRFTIME": { "descriptionMarkup": "" },
-  "STRPTIME": { "descriptionMarkup": "" },
-  "SUBSTR": { "descriptionMarkup": "" },
-  "SUM": { "descriptionMarkup": "" },
-  "TRIM": { "descriptionMarkup": "" },
-  "TRY_CAST": { "descriptionMarkup": "" },
-  "TYPEOF": { "descriptionMarkup": "" },
-  "UPPER": { "descriptionMarkup": "" }
+  "ABS": {
+    "descriptionMarkup": ""
+  },
+  "ACOS": {
+    "descriptionMarkup": ""
+  },
+  "ACOSH": {
+    "descriptionMarkup": ""
+  },
+  "ADD": {
+    "descriptionMarkup": ""
+  },
+  "ADD_PARQUET_KEY": {
+    "descriptionMarkup": ""
+  },
+  "AGE": {
+    "descriptionMarkup": ""
+  },
+  "AGGREGATE": {
+    "descriptionMarkup": ""
+  },
+  "AGO": {
+    "descriptionMarkup": ""
+  },
+  "ALIAS": {
+    "descriptionMarkup": ""
+  },
+  "ALL_PROFILING_OUTPUT": {
+    "descriptionMarkup": ""
+  },
+  "ANY_VALUE": {
+    "descriptionMarkup": ""
+  },
+  "APPLY": {
+    "descriptionMarkup": ""
+  },
+  "APPROX_COUNT_DISTINCT": {
+    "descriptionMarkup": ""
+  },
+  "APPROX_QUANTILE": {
+    "descriptionMarkup": ""
+  },
+  "APPROX_TOP_K": {
+    "descriptionMarkup": ""
+  },
+  "ARBITRARY": {
+    "descriptionMarkup": ""
+  },
+  "ARGMAX": {
+    "descriptionMarkup": ""
+  },
+  "ARGMIN": {
+    "descriptionMarkup": ""
+  },
+  "ARG_MAX": {
+    "descriptionMarkup": ""
+  },
+  "ARG_MAX_NULL": {
+    "descriptionMarkup": ""
+  },
+  "ARG_MAX_NULLS_LAST": {
+    "descriptionMarkup": ""
+  },
+  "ARG_MIN": {
+    "descriptionMarkup": ""
+  },
+  "ARG_MIN_NULL": {
+    "descriptionMarkup": ""
+  },
+  "ARG_MIN_NULLS_LAST": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_AGG": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_AGGR": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_AGGREGATE": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_APPEND": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_APPLY": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_CAT": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_CONCAT": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_CONTAINS": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_COSINE_DISTANCE": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_COSINE_SIMILARITY": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_CROSS_PRODUCT": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_DISTANCE": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_DISTINCT": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_DOT_PRODUCT": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_EXTRACT": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_FILTER": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_GRADE_UP": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_HAS": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_HAS_ALL": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_HAS_ANY": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_INDEXOF": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_INNER_PRODUCT": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_INTERSECT": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_LENGTH": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_NEGATIVE_DOT_PRODUCT": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_NEGATIVE_INNER_PRODUCT": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_POP_BACK": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_POP_FRONT": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_POSITION": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_PREPEND": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_PUSH_BACK": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_PUSH_FRONT": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_REDUCE": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_RESIZE": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_REVERSE": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_REVERSE_SORT": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_SELECT": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_SLICE": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_SORT": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_TO_JSON": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_TO_STRING": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_TO_STRING_COMMA_DEFAULT": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_TRANSFORM": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_UNIQUE": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_VALUE": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_WHERE": {
+    "descriptionMarkup": ""
+  },
+  "ARRAY_ZIP": {
+    "descriptionMarkup": ""
+  },
+  "ARROW_SCAN": {
+    "descriptionMarkup": ""
+  },
+  "ARROW_SCAN_DUMB": {
+    "descriptionMarkup": ""
+  },
+  "ASCII": {
+    "descriptionMarkup": ""
+  },
+  "ASIN": {
+    "descriptionMarkup": ""
+  },
+  "ASINH": {
+    "descriptionMarkup": ""
+  },
+  "ATAN": {
+    "descriptionMarkup": ""
+  },
+  "ATAN2": {
+    "descriptionMarkup": ""
+  },
+  "ATANH": {
+    "descriptionMarkup": ""
+  },
+  "AVG": {
+    "descriptionMarkup": ""
+  },
+  "BAR": {
+    "descriptionMarkup": ""
+  },
+  "BASE64": {
+    "descriptionMarkup": ""
+  },
+  "BIN": {
+    "descriptionMarkup": ""
+  },
+  "BITSTRING": {
+    "descriptionMarkup": ""
+  },
+  "BITSTRING_AGG": {
+    "descriptionMarkup": ""
+  },
+  "BIT_AND": {
+    "descriptionMarkup": ""
+  },
+  "BIT_COUNT": {
+    "descriptionMarkup": ""
+  },
+  "BIT_LENGTH": {
+    "descriptionMarkup": ""
+  },
+  "BIT_OR": {
+    "descriptionMarkup": ""
+  },
+  "BIT_POSITION": {
+    "descriptionMarkup": ""
+  },
+  "BIT_XOR": {
+    "descriptionMarkup": ""
+  },
+  "BOOL_AND": {
+    "descriptionMarkup": ""
+  },
+  "BOOL_OR": {
+    "descriptionMarkup": ""
+  },
+  "CAN_CAST_IMPLICITLY": {
+    "descriptionMarkup": ""
+  },
+  "CARDINALITY": {
+    "descriptionMarkup": ""
+  },
+  "CAST": {
+    "descriptionMarkup": ""
+  },
+  "CAST_TO_TYPE": {
+    "descriptionMarkup": ""
+  },
+  "CBRT": {
+    "descriptionMarkup": ""
+  },
+  "CEIL": {
+    "descriptionMarkup": ""
+  },
+  "CEILING": {
+    "descriptionMarkup": ""
+  },
+  "CENTURY": {
+    "descriptionMarkup": ""
+  },
+  "CHARACTER_LENGTH": {
+    "descriptionMarkup": ""
+  },
+  "CHAR_LENGTH": {
+    "descriptionMarkup": ""
+  },
+  "CHECKPOINT": {
+    "descriptionMarkup": ""
+  },
+  "CHR": {
+    "descriptionMarkup": ""
+  },
+  "COALESCE": {
+    "descriptionMarkup": ""
+  },
+  "COLLATIONS": {
+    "descriptionMarkup": ""
+  },
+  "COL_DESCRIPTION": {
+    "descriptionMarkup": ""
+  },
+  "COMBINE": {
+    "descriptionMarkup": ""
+  },
+  "CONCAT": {
+    "descriptionMarkup": ""
+  },
+  "CONCAT_WS": {
+    "descriptionMarkup": ""
+  },
+  "CONSTANT_OR_NULL": {
+    "descriptionMarkup": ""
+  },
+  "CONTAINS": {
+    "descriptionMarkup": ""
+  },
+  "COPY_DATABASE": {
+    "descriptionMarkup": ""
+  },
+  "CORR": {
+    "descriptionMarkup": ""
+  },
+  "COS": {
+    "descriptionMarkup": ""
+  },
+  "COSH": {
+    "descriptionMarkup": ""
+  },
+  "COT": {
+    "descriptionMarkup": ""
+  },
+  "COUNT": {
+    "descriptionMarkup": ""
+  },
+  "COUNTIF": {
+    "descriptionMarkup": ""
+  },
+  "COUNT_IF": {
+    "descriptionMarkup": ""
+  },
+  "COUNT_STAR": {
+    "descriptionMarkup": ""
+  },
+  "COVAR_POP": {
+    "descriptionMarkup": ""
+  },
+  "COVAR_SAMP": {
+    "descriptionMarkup": ""
+  },
+  "CREATE_SORT_KEY": {
+    "descriptionMarkup": ""
+  },
+  "CUME_DIST": {
+    "descriptionMarkup": ""
+  },
+  "CURRENT_CATALOG": {
+    "descriptionMarkup": ""
+  },
+  "CURRENT_CONNECTION_ID": {
+    "descriptionMarkup": ""
+  },
+  "CURRENT_DATABASE": {
+    "descriptionMarkup": ""
+  },
+  "CURRENT_DATE": {
+    "descriptionMarkup": ""
+  },
+  "CURRENT_LOCALTIME": {
+    "descriptionMarkup": ""
+  },
+  "CURRENT_LOCALTIMESTAMP": {
+    "descriptionMarkup": ""
+  },
+  "CURRENT_QUERY": {
+    "descriptionMarkup": ""
+  },
+  "CURRENT_QUERY_ID": {
+    "descriptionMarkup": ""
+  },
+  "CURRENT_ROLE": {
+    "descriptionMarkup": ""
+  },
+  "CURRENT_SCHEMA": {
+    "descriptionMarkup": ""
+  },
+  "CURRENT_SCHEMAS": {
+    "descriptionMarkup": ""
+  },
+  "CURRENT_SETTING": {
+    "descriptionMarkup": ""
+  },
+  "CURRENT_TIMESTAMP": {
+    "descriptionMarkup": ""
+  },
+  "CURRENT_TRANSACTION_ID": {
+    "descriptionMarkup": ""
+  },
+  "CURRENT_USER": {
+    "descriptionMarkup": ""
+  },
+  "CURRVAL": {
+    "descriptionMarkup": ""
+  },
+  "DAMERAU_LEVENSHTEIN": {
+    "descriptionMarkup": ""
+  },
+  "DATABASE_LIST": {
+    "descriptionMarkup": ""
+  },
+  "DATABASE_SIZE": {
+    "descriptionMarkup": ""
+  },
+  "DATEDIFF": {
+    "descriptionMarkup": ""
+  },
+  "DATEPART": {
+    "descriptionMarkup": ""
+  },
+  "DATESUB": {
+    "descriptionMarkup": ""
+  },
+  "DATETRUNC": {
+    "descriptionMarkup": ""
+  },
+  "DATE_ADD": {
+    "descriptionMarkup": ""
+  },
+  "DATE_DIFF": {
+    "descriptionMarkup": ""
+  },
+  "DATE_PART": {
+    "descriptionMarkup": ""
+  },
+  "DATE_SUB": {
+    "descriptionMarkup": ""
+  },
+  "DATE_TRUNC": {
+    "descriptionMarkup": ""
+  },
+  "DAY": {
+    "descriptionMarkup": ""
+  },
+  "DAYNAME": {
+    "descriptionMarkup": ""
+  },
+  "DAYOFMONTH": {
+    "descriptionMarkup": ""
+  },
+  "DAYOFWEEK": {
+    "descriptionMarkup": ""
+  },
+  "DAYOFYEAR": {
+    "descriptionMarkup": ""
+  },
+  "DAYS_IN_MONTH": {
+    "descriptionMarkup": ""
+  },
+  "DECADE": {
+    "descriptionMarkup": ""
+  },
+  "DECODE": {
+    "descriptionMarkup": ""
+  },
+  "DEGREES": {
+    "descriptionMarkup": ""
+  },
+  "DENSE_RANK": {
+    "descriptionMarkup": ""
+  },
+  "DISABLE_CHECKPOINT_ON_SHUTDOWN": {
+    "descriptionMarkup": ""
+  },
+  "DISABLE_LOGGING": {
+    "descriptionMarkup": ""
+  },
+  "DISABLE_OBJECT_CACHE": {
+    "descriptionMarkup": ""
+  },
+  "DISABLE_OPTIMIZER": {
+    "descriptionMarkup": ""
+  },
+  "DISABLE_PRINT_PROGRESS_BAR": {
+    "descriptionMarkup": ""
+  },
+  "DISABLE_PROFILE": {
+    "descriptionMarkup": ""
+  },
+  "DISABLE_PROFILING": {
+    "descriptionMarkup": ""
+  },
+  "DISABLE_PROGRESS_BAR": {
+    "descriptionMarkup": ""
+  },
+  "DISABLE_VERIFICATION": {
+    "descriptionMarkup": ""
+  },
+  "DISABLE_VERIFY_EXTERNAL": {
+    "descriptionMarkup": ""
+  },
+  "DISABLE_VERIFY_FETCH_ROW": {
+    "descriptionMarkup": ""
+  },
+  "DISABLE_VERIFY_PARALLELISM": {
+    "descriptionMarkup": ""
+  },
+  "DISABLE_VERIFY_SERIALIZER": {
+    "descriptionMarkup": ""
+  },
+  "DIVIDE": {
+    "descriptionMarkup": ""
+  },
+  "DUCKDB_APPROX_DATABASE_COUNT": {
+    "descriptionMarkup": ""
+  },
+  "DUCKDB_COLUMNS": {
+    "descriptionMarkup": ""
+  },
+  "DUCKDB_CONNECTION_COUNT": {
+    "descriptionMarkup": ""
+  },
+  "DUCKDB_CONSTRAINTS": {
+    "descriptionMarkup": ""
+  },
+  "DUCKDB_COORDINATE_SYSTEMS": {
+    "descriptionMarkup": ""
+  },
+  "DUCKDB_DATABASES": {
+    "descriptionMarkup": ""
+  },
+  "DUCKDB_DEPENDENCIES": {
+    "descriptionMarkup": ""
+  },
+  "DUCKDB_EXTENSIONS": {
+    "descriptionMarkup": ""
+  },
+  "DUCKDB_EXTERNAL_FILE_CACHE": {
+    "descriptionMarkup": ""
+  },
+  "DUCKDB_FUNCTIONS": {
+    "descriptionMarkup": ""
+  },
+  "DUCKDB_INDEXES": {
+    "descriptionMarkup": ""
+  },
+  "DUCKDB_KEYWORDS": {
+    "descriptionMarkup": ""
+  },
+  "DUCKDB_LOGS": {
+    "descriptionMarkup": ""
+  },
+  "DUCKDB_LOGS_PARSED": {
+    "descriptionMarkup": ""
+  },
+  "DUCKDB_LOG_CONTEXTS": {
+    "descriptionMarkup": ""
+  },
+  "DUCKDB_MEMORY": {
+    "descriptionMarkup": ""
+  },
+  "DUCKDB_OPTIMIZERS": {
+    "descriptionMarkup": ""
+  },
+  "DUCKDB_PREPARED_STATEMENTS": {
+    "descriptionMarkup": ""
+  },
+  "DUCKDB_PROFILING_SETTINGS": {
+    "descriptionMarkup": ""
+  },
+  "DUCKDB_SCHEMAS": {
+    "descriptionMarkup": ""
+  },
+  "DUCKDB_SECRETS": {
+    "descriptionMarkup": ""
+  },
+  "DUCKDB_SECRET_TYPES": {
+    "descriptionMarkup": ""
+  },
+  "DUCKDB_SEQUENCES": {
+    "descriptionMarkup": ""
+  },
+  "DUCKDB_SETTINGS": {
+    "descriptionMarkup": ""
+  },
+  "DUCKDB_TABLES": {
+    "descriptionMarkup": ""
+  },
+  "DUCKDB_TABLE_SAMPLE": {
+    "descriptionMarkup": ""
+  },
+  "DUCKDB_TEMPORARY_FILES": {
+    "descriptionMarkup": ""
+  },
+  "DUCKDB_TYPES": {
+    "descriptionMarkup": ""
+  },
+  "DUCKDB_VARIABLES": {
+    "descriptionMarkup": ""
+  },
+  "DUCKDB_VIEWS": {
+    "descriptionMarkup": ""
+  },
+  "EDITDIST3": {
+    "descriptionMarkup": ""
+  },
+  "ELEMENT_AT": {
+    "descriptionMarkup": ""
+  },
+  "ENABLE_CHECKPOINT_ON_SHUTDOWN": {
+    "descriptionMarkup": ""
+  },
+  "ENABLE_LOGGING": {
+    "descriptionMarkup": ""
+  },
+  "ENABLE_OBJECT_CACHE": {
+    "descriptionMarkup": ""
+  },
+  "ENABLE_OPTIMIZER": {
+    "descriptionMarkup": ""
+  },
+  "ENABLE_PRINT_PROGRESS_BAR": {
+    "descriptionMarkup": ""
+  },
+  "ENABLE_PROFILE": {
+    "descriptionMarkup": ""
+  },
+  "ENABLE_PROFILING": {
+    "descriptionMarkup": ""
+  },
+  "ENABLE_PROGRESS_BAR": {
+    "descriptionMarkup": ""
+  },
+  "ENABLE_VERIFICATION": {
+    "descriptionMarkup": ""
+  },
+  "ENCODE": {
+    "descriptionMarkup": ""
+  },
+  "ENDS_WITH": {
+    "descriptionMarkup": ""
+  },
+  "ENTROPY": {
+    "descriptionMarkup": ""
+  },
+  "ENUM_CODE": {
+    "descriptionMarkup": ""
+  },
+  "ENUM_FIRST": {
+    "descriptionMarkup": ""
+  },
+  "ENUM_LAST": {
+    "descriptionMarkup": ""
+  },
+  "ENUM_RANGE": {
+    "descriptionMarkup": ""
+  },
+  "ENUM_RANGE_BOUNDARY": {
+    "descriptionMarkup": ""
+  },
+  "EPOCH": {
+    "descriptionMarkup": ""
+  },
+  "EPOCH_MS": {
+    "descriptionMarkup": ""
+  },
+  "EPOCH_NS": {
+    "descriptionMarkup": ""
+  },
+  "EPOCH_US": {
+    "descriptionMarkup": ""
+  },
+  "EQUI_WIDTH_BINS": {
+    "descriptionMarkup": ""
+  },
+  "ERA": {
+    "descriptionMarkup": ""
+  },
+  "ERROR": {
+    "descriptionMarkup": ""
+  },
+  "EVEN": {
+    "descriptionMarkup": ""
+  },
+  "EXP": {
+    "descriptionMarkup": ""
+  },
+  "EXTENSION_VERSIONS": {
+    "descriptionMarkup": ""
+  },
+  "FACTORIAL": {
+    "descriptionMarkup": ""
+  },
+  "FAVG": {
+    "descriptionMarkup": ""
+  },
+  "FDIV": {
+    "descriptionMarkup": ""
+  },
+  "FILL": {
+    "descriptionMarkup": ""
+  },
+  "FILTER": {
+    "descriptionMarkup": ""
+  },
+  "FINALIZE": {
+    "descriptionMarkup": ""
+  },
+  "FIRST": {
+    "descriptionMarkup": ""
+  },
+  "FIRST_VALUE": {
+    "descriptionMarkup": ""
+  },
+  "FLATTEN": {
+    "descriptionMarkup": ""
+  },
+  "FLOOR": {
+    "descriptionMarkup": ""
+  },
+  "FMOD": {
+    "descriptionMarkup": ""
+  },
+  "FORCE_CHECKPOINT": {
+    "descriptionMarkup": ""
+  },
+  "FORMAT": {
+    "descriptionMarkup": ""
+  },
+  "FORMATREADABLEDECIMALSIZE": {
+    "descriptionMarkup": ""
+  },
+  "FORMATREADABLESIZE": {
+    "descriptionMarkup": ""
+  },
+  "FORMAT_BYTES": {
+    "descriptionMarkup": ""
+  },
+  "FORMAT_PG_TYPE": {
+    "descriptionMarkup": ""
+  },
+  "FORMAT_TYPE": {
+    "descriptionMarkup": ""
+  },
+  "FROM_BASE64": {
+    "descriptionMarkup": ""
+  },
+  "FROM_BINARY": {
+    "descriptionMarkup": ""
+  },
+  "FROM_HEX": {
+    "descriptionMarkup": ""
+  },
+  "FROM_JSON": {
+    "descriptionMarkup": ""
+  },
+  "FROM_JSON_STRICT": {
+    "descriptionMarkup": ""
+  },
+  "FSUM": {
+    "descriptionMarkup": ""
+  },
+  "FUNCTIONS": {
+    "descriptionMarkup": ""
+  },
+  "GAMMA": {
+    "descriptionMarkup": ""
+  },
+  "GCD": {
+    "descriptionMarkup": ""
+  },
+  "GENERATE_SERIES": {
+    "descriptionMarkup": ""
+  },
+  "GENERATE_SUBSCRIPTS": {
+    "descriptionMarkup": ""
+  },
+  "GEN_RANDOM_UUID": {
+    "descriptionMarkup": ""
+  },
+  "GEOMEAN": {
+    "descriptionMarkup": ""
+  },
+  "GEOMETRIC_MEAN": {
+    "descriptionMarkup": ""
+  },
+  "GETVARIABLE": {
+    "descriptionMarkup": ""
+  },
+  "GET_BIT": {
+    "descriptionMarkup": ""
+  },
+  "GET_BLOCK_SIZE": {
+    "descriptionMarkup": ""
+  },
+  "GET_CURRENT_TIME": {
+    "descriptionMarkup": ""
+  },
+  "GET_CURRENT_TIMESTAMP": {
+    "descriptionMarkup": ""
+  },
+  "GET_TYPE": {
+    "descriptionMarkup": ""
+  },
+  "GLOB": {
+    "descriptionMarkup": ""
+  },
+  "GRADE_UP": {
+    "descriptionMarkup": ""
+  },
+  "GREATEST": {
+    "descriptionMarkup": ""
+  },
+  "GREATEST_COMMON_DIVISOR": {
+    "descriptionMarkup": ""
+  },
+  "GROUP_CONCAT": {
+    "descriptionMarkup": ""
+  },
+  "HAMMING": {
+    "descriptionMarkup": ""
+  },
+  "HASH": {
+    "descriptionMarkup": ""
+  },
+  "HAS_ANY_COLUMN_PRIVILEGE": {
+    "descriptionMarkup": ""
+  },
+  "HAS_COLUMN_PRIVILEGE": {
+    "descriptionMarkup": ""
+  },
+  "HAS_DATABASE_PRIVILEGE": {
+    "descriptionMarkup": ""
+  },
+  "HAS_FOREIGN_DATA_WRAPPER_PRIVILEGE": {
+    "descriptionMarkup": ""
+  },
+  "HAS_FUNCTION_PRIVILEGE": {
+    "descriptionMarkup": ""
+  },
+  "HAS_LANGUAGE_PRIVILEGE": {
+    "descriptionMarkup": ""
+  },
+  "HAS_SCHEMA_PRIVILEGE": {
+    "descriptionMarkup": ""
+  },
+  "HAS_SEQUENCE_PRIVILEGE": {
+    "descriptionMarkup": ""
+  },
+  "HAS_SERVER_PRIVILEGE": {
+    "descriptionMarkup": ""
+  },
+  "HAS_TABLESPACE_PRIVILEGE": {
+    "descriptionMarkup": ""
+  },
+  "HAS_TABLE_PRIVILEGE": {
+    "descriptionMarkup": ""
+  },
+  "HEX": {
+    "descriptionMarkup": ""
+  },
+  "HISTOGRAM": {
+    "descriptionMarkup": ""
+  },
+  "HISTOGRAM_EXACT": {
+    "descriptionMarkup": ""
+  },
+  "HISTOGRAM_VALUES": {
+    "descriptionMarkup": ""
+  },
+  "HOUR": {
+    "descriptionMarkup": ""
+  },
+  "ICU_CALENDAR_NAMES": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_AF": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_AM": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_AR": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_AR_SA": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_AS": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_AZ": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_BE": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_BG": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_BN": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_BO": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_BR": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_BS": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_CA": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_CEB": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_CHR": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_CS": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_CY": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_DA": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_DE": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_DE_AT": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_DSB": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_DZ": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_EE": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_EL": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_EN": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_EN_US": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_EO": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_ES": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_ET": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_FA": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_FA_AF": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_FF": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_FI": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_FIL": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_FO": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_FR": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_FR_CA": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_FY": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_GA": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_GL": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_GU": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_HA": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_HAW": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_HE": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_HE_IL": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_HI": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_HR": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_HSB": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_HU": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_HY": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_ID": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_ID_ID": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_IG": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_IS": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_IT": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_JA": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_KA": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_KK": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_KL": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_KM": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_KN": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_KO": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_KOK": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_KU": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_KY": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_LB": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_LIJ": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_LKT": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_LN": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_LO": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_LT": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_LV": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_MK": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_ML": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_MN": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_MR": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_MS": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_MT": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_MY": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_NB": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_NB_NO": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_NE": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_NL": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_NN": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_NOACCENT": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_NSO": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_OM": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_OR": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_PA": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_PA_IN": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_PL": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_PS": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_PT": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_RO": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_RU": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_SA": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_SE": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_SI": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_SK": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_SL": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_SMN": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_SQ": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_SR": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_SR_BA": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_SR_ME": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_SR_RS": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_ST": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_SV": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_SW": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_TA": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_TE": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_TH": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_TK": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_TN": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_TO": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_TR": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_UG": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_UK": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_UR": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_UZ": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_VI": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_WAE": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_WO": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_XH": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_YI": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_YO": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_YUE": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_YUE_CN": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_ZH": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_ZH_CN": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_ZH_HK": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_ZH_MO": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_ZH_SG": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_ZH_TW": {
+    "descriptionMarkup": ""
+  },
+  "ICU_COLLATE_ZU": {
+    "descriptionMarkup": ""
+  },
+  "ICU_SORT_KEY": {
+    "descriptionMarkup": ""
+  },
+  "IF": {
+    "descriptionMarkup": ""
+  },
+  "IFNULL": {
+    "descriptionMarkup": ""
+  },
+  "ILIKE_ESCAPE": {
+    "descriptionMarkup": ""
+  },
+  "IMPORT_DATABASE": {
+    "descriptionMarkup": ""
+  },
+  "INET_CLIENT_ADDR": {
+    "descriptionMarkup": ""
+  },
+  "INET_CLIENT_PORT": {
+    "descriptionMarkup": ""
+  },
+  "INET_SERVER_ADDR": {
+    "descriptionMarkup": ""
+  },
+  "INET_SERVER_PORT": {
+    "descriptionMarkup": ""
+  },
+  "INSTR": {
+    "descriptionMarkup": ""
+  },
+  "IN_SEARCH_PATH": {
+    "descriptionMarkup": ""
+  },
+  "ISFINITE": {
+    "descriptionMarkup": ""
+  },
+  "ISINF": {
+    "descriptionMarkup": ""
+  },
+  "ISNAN": {
+    "descriptionMarkup": ""
+  },
+  "ISODOW": {
+    "descriptionMarkup": ""
+  },
+  "ISOYEAR": {
+    "descriptionMarkup": ""
+  },
+  "IS_HISTOGRAM_OTHER_BIN": {
+    "descriptionMarkup": ""
+  },
+  "JACCARD": {
+    "descriptionMarkup": ""
+  },
+  "JARO_SIMILARITY": {
+    "descriptionMarkup": ""
+  },
+  "JARO_WINKLER_SIMILARITY": {
+    "descriptionMarkup": ""
+  },
+  "JSON": {
+    "descriptionMarkup": ""
+  },
+  "JSON_ARRAY": {
+    "descriptionMarkup": ""
+  },
+  "JSON_ARRAY_LENGTH": {
+    "descriptionMarkup": ""
+  },
+  "JSON_CONTAINS": {
+    "descriptionMarkup": ""
+  },
+  "JSON_DESERIALIZE_SQL": {
+    "descriptionMarkup": ""
+  },
+  "JSON_EACH": {
+    "descriptionMarkup": ""
+  },
+  "JSON_EXECUTE_SERIALIZED_SQL": {
+    "descriptionMarkup": ""
+  },
+  "JSON_EXISTS": {
+    "descriptionMarkup": ""
+  },
+  "JSON_EXTRACT": {
+    "descriptionMarkup": ""
+  },
+  "JSON_EXTRACT_PATH": {
+    "descriptionMarkup": ""
+  },
+  "JSON_EXTRACT_PATH_TEXT": {
+    "descriptionMarkup": ""
+  },
+  "JSON_EXTRACT_STRING": {
+    "descriptionMarkup": ""
+  },
+  "JSON_GROUP_ARRAY": {
+    "descriptionMarkup": ""
+  },
+  "JSON_GROUP_OBJECT": {
+    "descriptionMarkup": ""
+  },
+  "JSON_GROUP_STRUCTURE": {
+    "descriptionMarkup": ""
+  },
+  "JSON_KEYS": {
+    "descriptionMarkup": ""
+  },
+  "JSON_MERGE_PATCH": {
+    "descriptionMarkup": ""
+  },
+  "JSON_OBJECT": {
+    "descriptionMarkup": ""
+  },
+  "JSON_PRETTY": {
+    "descriptionMarkup": ""
+  },
+  "JSON_QUOTE": {
+    "descriptionMarkup": ""
+  },
+  "JSON_SERIALIZE_PLAN": {
+    "descriptionMarkup": ""
+  },
+  "JSON_SERIALIZE_SQL": {
+    "descriptionMarkup": ""
+  },
+  "JSON_STRUCTURE": {
+    "descriptionMarkup": ""
+  },
+  "JSON_TRANSFORM": {
+    "descriptionMarkup": ""
+  },
+  "JSON_TRANSFORM_STRICT": {
+    "descriptionMarkup": ""
+  },
+  "JSON_TREE": {
+    "descriptionMarkup": ""
+  },
+  "JSON_TYPE": {
+    "descriptionMarkup": ""
+  },
+  "JSON_VALID": {
+    "descriptionMarkup": ""
+  },
+  "JSON_VALUE": {
+    "descriptionMarkup": ""
+  },
+  "JULIAN": {
+    "descriptionMarkup": ""
+  },
+  "KAHAN_SUM": {
+    "descriptionMarkup": ""
+  },
+  "KURTOSIS": {
+    "descriptionMarkup": ""
+  },
+  "KURTOSIS_POP": {
+    "descriptionMarkup": ""
+  },
+  "LAG": {
+    "descriptionMarkup": ""
+  },
+  "LAST": {
+    "descriptionMarkup": ""
+  },
+  "LAST_DAY": {
+    "descriptionMarkup": ""
+  },
+  "LAST_VALUE": {
+    "descriptionMarkup": ""
+  },
+  "LCASE": {
+    "descriptionMarkup": ""
+  },
+  "LCM": {
+    "descriptionMarkup": ""
+  },
+  "LEAD": {
+    "descriptionMarkup": ""
+  },
+  "LEAST": {
+    "descriptionMarkup": ""
+  },
+  "LEAST_COMMON_MULTIPLE": {
+    "descriptionMarkup": ""
+  },
+  "LEFT": {
+    "descriptionMarkup": ""
+  },
+  "LEFT_GRAPHEME": {
+    "descriptionMarkup": ""
+  },
+  "LEN": {
+    "descriptionMarkup": ""
+  },
+  "LENGTH": {
+    "descriptionMarkup": ""
+  },
+  "LENGTH_GRAPHEME": {
+    "descriptionMarkup": ""
+  },
+  "LEVENSHTEIN": {
+    "descriptionMarkup": ""
+  },
+  "LGAMMA": {
+    "descriptionMarkup": ""
+  },
+  "LIKE_ESCAPE": {
+    "descriptionMarkup": ""
+  },
+  "LIST": {
+    "descriptionMarkup": ""
+  },
+  "LISTAGG": {
+    "descriptionMarkup": ""
+  },
+  "LIST_AGG": {
+    "descriptionMarkup": ""
+  },
+  "LIST_AGGR": {
+    "descriptionMarkup": ""
+  },
+  "LIST_AGGREGATE": {
+    "descriptionMarkup": ""
+  },
+  "LIST_ANY_VALUE": {
+    "descriptionMarkup": ""
+  },
+  "LIST_APPEND": {
+    "descriptionMarkup": ""
+  },
+  "LIST_APPLY": {
+    "descriptionMarkup": ""
+  },
+  "LIST_APPROX_COUNT_DISTINCT": {
+    "descriptionMarkup": ""
+  },
+  "LIST_AVG": {
+    "descriptionMarkup": ""
+  },
+  "LIST_BIT_AND": {
+    "descriptionMarkup": ""
+  },
+  "LIST_BIT_OR": {
+    "descriptionMarkup": ""
+  },
+  "LIST_BIT_XOR": {
+    "descriptionMarkup": ""
+  },
+  "LIST_BOOL_AND": {
+    "descriptionMarkup": ""
+  },
+  "LIST_BOOL_OR": {
+    "descriptionMarkup": ""
+  },
+  "LIST_CAT": {
+    "descriptionMarkup": ""
+  },
+  "LIST_CONCAT": {
+    "descriptionMarkup": ""
+  },
+  "LIST_CONTAINS": {
+    "descriptionMarkup": ""
+  },
+  "LIST_COSINE_DISTANCE": {
+    "descriptionMarkup": ""
+  },
+  "LIST_COSINE_SIMILARITY": {
+    "descriptionMarkup": ""
+  },
+  "LIST_COUNT": {
+    "descriptionMarkup": ""
+  },
+  "LIST_DISTANCE": {
+    "descriptionMarkup": ""
+  },
+  "LIST_DISTINCT": {
+    "descriptionMarkup": ""
+  },
+  "LIST_DOT_PRODUCT": {
+    "descriptionMarkup": ""
+  },
+  "LIST_ELEMENT": {
+    "descriptionMarkup": ""
+  },
+  "LIST_ENTROPY": {
+    "descriptionMarkup": ""
+  },
+  "LIST_EXTRACT": {
+    "descriptionMarkup": ""
+  },
+  "LIST_FILTER": {
+    "descriptionMarkup": ""
+  },
+  "LIST_FIRST": {
+    "descriptionMarkup": ""
+  },
+  "LIST_GRADE_UP": {
+    "descriptionMarkup": ""
+  },
+  "LIST_HAS": {
+    "descriptionMarkup": ""
+  },
+  "LIST_HAS_ALL": {
+    "descriptionMarkup": ""
+  },
+  "LIST_HAS_ANY": {
+    "descriptionMarkup": ""
+  },
+  "LIST_HISTOGRAM": {
+    "descriptionMarkup": ""
+  },
+  "LIST_INDEXOF": {
+    "descriptionMarkup": ""
+  },
+  "LIST_INNER_PRODUCT": {
+    "descriptionMarkup": ""
+  },
+  "LIST_INTERSECT": {
+    "descriptionMarkup": ""
+  },
+  "LIST_KURTOSIS": {
+    "descriptionMarkup": ""
+  },
+  "LIST_KURTOSIS_POP": {
+    "descriptionMarkup": ""
+  },
+  "LIST_LAST": {
+    "descriptionMarkup": ""
+  },
+  "LIST_MAD": {
+    "descriptionMarkup": ""
+  },
+  "LIST_MAX": {
+    "descriptionMarkup": ""
+  },
+  "LIST_MEDIAN": {
+    "descriptionMarkup": ""
+  },
+  "LIST_MIN": {
+    "descriptionMarkup": ""
+  },
+  "LIST_MODE": {
+    "descriptionMarkup": ""
+  },
+  "LIST_NEGATIVE_DOT_PRODUCT": {
+    "descriptionMarkup": ""
+  },
+  "LIST_NEGATIVE_INNER_PRODUCT": {
+    "descriptionMarkup": ""
+  },
+  "LIST_PACK": {
+    "descriptionMarkup": ""
+  },
+  "LIST_POSITION": {
+    "descriptionMarkup": ""
+  },
+  "LIST_PREPEND": {
+    "descriptionMarkup": ""
+  },
+  "LIST_PRODUCT": {
+    "descriptionMarkup": ""
+  },
+  "LIST_REDUCE": {
+    "descriptionMarkup": ""
+  },
+  "LIST_RESIZE": {
+    "descriptionMarkup": ""
+  },
+  "LIST_REVERSE": {
+    "descriptionMarkup": ""
+  },
+  "LIST_REVERSE_SORT": {
+    "descriptionMarkup": ""
+  },
+  "LIST_SELECT": {
+    "descriptionMarkup": ""
+  },
+  "LIST_SEM": {
+    "descriptionMarkup": ""
+  },
+  "LIST_SKEWNESS": {
+    "descriptionMarkup": ""
+  },
+  "LIST_SLICE": {
+    "descriptionMarkup": ""
+  },
+  "LIST_SORT": {
+    "descriptionMarkup": ""
+  },
+  "LIST_STDDEV_POP": {
+    "descriptionMarkup": ""
+  },
+  "LIST_STDDEV_SAMP": {
+    "descriptionMarkup": ""
+  },
+  "LIST_STRING_AGG": {
+    "descriptionMarkup": ""
+  },
+  "LIST_SUM": {
+    "descriptionMarkup": ""
+  },
+  "LIST_TRANSFORM": {
+    "descriptionMarkup": ""
+  },
+  "LIST_UNIQUE": {
+    "descriptionMarkup": ""
+  },
+  "LIST_VALUE": {
+    "descriptionMarkup": ""
+  },
+  "LIST_VAR_POP": {
+    "descriptionMarkup": ""
+  },
+  "LIST_VAR_SAMP": {
+    "descriptionMarkup": ""
+  },
+  "LIST_WHERE": {
+    "descriptionMarkup": ""
+  },
+  "LIST_ZIP": {
+    "descriptionMarkup": ""
+  },
+  "LN": {
+    "descriptionMarkup": ""
+  },
+  "LOG": {
+    "descriptionMarkup": ""
+  },
+  "LOG10": {
+    "descriptionMarkup": ""
+  },
+  "LOG2": {
+    "descriptionMarkup": ""
+  },
+  "LOWER": {
+    "descriptionMarkup": ""
+  },
+  "LPAD": {
+    "descriptionMarkup": ""
+  },
+  "LTRIM": {
+    "descriptionMarkup": ""
+  },
+  "MAD": {
+    "descriptionMarkup": ""
+  },
+  "MAKE_DATE": {
+    "descriptionMarkup": ""
+  },
+  "MAKE_TIME": {
+    "descriptionMarkup": ""
+  },
+  "MAKE_TIMESTAMP": {
+    "descriptionMarkup": ""
+  },
+  "MAKE_TIMESTAMPTZ": {
+    "descriptionMarkup": ""
+  },
+  "MAKE_TIMESTAMP_MS": {
+    "descriptionMarkup": ""
+  },
+  "MAKE_TIMESTAMP_NS": {
+    "descriptionMarkup": ""
+  },
+  "MAKE_TYPE": {
+    "descriptionMarkup": ""
+  },
+  "MAP": {
+    "descriptionMarkup": ""
+  },
+  "MAP_CONCAT": {
+    "descriptionMarkup": ""
+  },
+  "MAP_CONTAINS": {
+    "descriptionMarkup": ""
+  },
+  "MAP_CONTAINS_ENTRY": {
+    "descriptionMarkup": ""
+  },
+  "MAP_CONTAINS_VALUE": {
+    "descriptionMarkup": ""
+  },
+  "MAP_ENTRIES": {
+    "descriptionMarkup": ""
+  },
+  "MAP_EXTRACT": {
+    "descriptionMarkup": ""
+  },
+  "MAP_EXTRACT_VALUE": {
+    "descriptionMarkup": ""
+  },
+  "MAP_FROM_ENTRIES": {
+    "descriptionMarkup": ""
+  },
+  "MAP_KEYS": {
+    "descriptionMarkup": ""
+  },
+  "MAP_TO_PG_OID": {
+    "descriptionMarkup": ""
+  },
+  "MAP_VALUES": {
+    "descriptionMarkup": ""
+  },
+  "MAX": {
+    "descriptionMarkup": ""
+  },
+  "MAX_BY": {
+    "descriptionMarkup": ""
+  },
+  "MD5": {
+    "descriptionMarkup": ""
+  },
+  "MD5_NUMBER": {
+    "descriptionMarkup": ""
+  },
+  "MD5_NUMBER_LOWER": {
+    "descriptionMarkup": ""
+  },
+  "MD5_NUMBER_UPPER": {
+    "descriptionMarkup": ""
+  },
+  "MEAN": {
+    "descriptionMarkup": ""
+  },
+  "MEDIAN": {
+    "descriptionMarkup": ""
+  },
+  "METADATA_INFO": {
+    "descriptionMarkup": ""
+  },
+  "MICROSECOND": {
+    "descriptionMarkup": ""
+  },
+  "MILLENNIUM": {
+    "descriptionMarkup": ""
+  },
+  "MILLISECOND": {
+    "descriptionMarkup": ""
+  },
+  "MIN": {
+    "descriptionMarkup": ""
+  },
+  "MINUTE": {
+    "descriptionMarkup": ""
+  },
+  "MIN_BY": {
+    "descriptionMarkup": ""
+  },
+  "MISMATCHES": {
+    "descriptionMarkup": ""
+  },
+  "MOD": {
+    "descriptionMarkup": ""
+  },
+  "MODE": {
+    "descriptionMarkup": ""
+  },
+  "MONTH": {
+    "descriptionMarkup": ""
+  },
+  "MONTHNAME": {
+    "descriptionMarkup": ""
+  },
+  "MULTIPLY": {
+    "descriptionMarkup": ""
+  },
+  "NANOSECOND": {
+    "descriptionMarkup": ""
+  },
+  "NEXTAFTER": {
+    "descriptionMarkup": ""
+  },
+  "NEXTVAL": {
+    "descriptionMarkup": ""
+  },
+  "NFC_NORMALIZE": {
+    "descriptionMarkup": ""
+  },
+  "NORMALIZED_INTERVAL": {
+    "descriptionMarkup": ""
+  },
+  "NOT_ILIKE_ESCAPE": {
+    "descriptionMarkup": ""
+  },
+  "NOT_LIKE_ESCAPE": {
+    "descriptionMarkup": ""
+  },
+  "NOW": {
+    "descriptionMarkup": ""
+  },
+  "NTH_VALUE": {
+    "descriptionMarkup": ""
+  },
+  "NTILE": {
+    "descriptionMarkup": ""
+  },
+  "NULLIF": {
+    "descriptionMarkup": ""
+  },
+  "OBJ_DESCRIPTION": {
+    "descriptionMarkup": ""
+  },
+  "OCTET_LENGTH": {
+    "descriptionMarkup": ""
+  },
+  "ORD": {
+    "descriptionMarkup": ""
+  },
+  "PANDAS_SCAN": {
+    "descriptionMarkup": ""
+  },
+  "PARQUET_BLOOM_PROBE": {
+    "descriptionMarkup": ""
+  },
+  "PARQUET_FILE_METADATA": {
+    "descriptionMarkup": ""
+  },
+  "PARQUET_FULL_METADATA": {
+    "descriptionMarkup": ""
+  },
+  "PARQUET_KV_METADATA": {
+    "descriptionMarkup": ""
+  },
+  "PARQUET_METADATA": {
+    "descriptionMarkup": ""
+  },
+  "PARQUET_SCAN": {
+    "descriptionMarkup": ""
+  },
+  "PARQUET_SCHEMA": {
+    "descriptionMarkup": ""
+  },
+  "PARSE_DIRNAME": {
+    "descriptionMarkup": ""
+  },
+  "PARSE_DIRPATH": {
+    "descriptionMarkup": ""
+  },
+  "PARSE_DUCKDB_LOG_MESSAGE": {
+    "descriptionMarkup": ""
+  },
+  "PARSE_FILENAME": {
+    "descriptionMarkup": ""
+  },
+  "PARSE_FORMATTED_BYTES": {
+    "descriptionMarkup": ""
+  },
+  "PARSE_PATH": {
+    "descriptionMarkup": ""
+  },
+  "PERCENT_RANK": {
+    "descriptionMarkup": ""
+  },
+  "PG_COLLATION_IS_VISIBLE": {
+    "descriptionMarkup": ""
+  },
+  "PG_CONF_LOAD_TIME": {
+    "descriptionMarkup": ""
+  },
+  "PG_CONVERSION_IS_VISIBLE": {
+    "descriptionMarkup": ""
+  },
+  "PG_FUNCTION_IS_VISIBLE": {
+    "descriptionMarkup": ""
+  },
+  "PG_GET_CONSTRAINTDEF": {
+    "descriptionMarkup": ""
+  },
+  "PG_GET_EXPR": {
+    "descriptionMarkup": ""
+  },
+  "PG_GET_VIEWDEF": {
+    "descriptionMarkup": ""
+  },
+  "PG_HAS_ROLE": {
+    "descriptionMarkup": ""
+  },
+  "PG_IS_OTHER_TEMP_SCHEMA": {
+    "descriptionMarkup": ""
+  },
+  "PG_MY_TEMP_SCHEMA": {
+    "descriptionMarkup": ""
+  },
+  "PG_OPCLASS_IS_VISIBLE": {
+    "descriptionMarkup": ""
+  },
+  "PG_OPERATOR_IS_VISIBLE": {
+    "descriptionMarkup": ""
+  },
+  "PG_OPFAMILY_IS_VISIBLE": {
+    "descriptionMarkup": ""
+  },
+  "PG_POSTMASTER_START_TIME": {
+    "descriptionMarkup": ""
+  },
+  "PG_SIZE_PRETTY": {
+    "descriptionMarkup": ""
+  },
+  "PG_SLEEP": {
+    "descriptionMarkup": ""
+  },
+  "PG_TABLE_IS_VISIBLE": {
+    "descriptionMarkup": ""
+  },
+  "PG_TIMEZONE_NAMES": {
+    "descriptionMarkup": ""
+  },
+  "PG_TS_CONFIG_IS_VISIBLE": {
+    "descriptionMarkup": ""
+  },
+  "PG_TS_DICT_IS_VISIBLE": {
+    "descriptionMarkup": ""
+  },
+  "PG_TS_PARSER_IS_VISIBLE": {
+    "descriptionMarkup": ""
+  },
+  "PG_TS_TEMPLATE_IS_VISIBLE": {
+    "descriptionMarkup": ""
+  },
+  "PG_TYPEOF": {
+    "descriptionMarkup": ""
+  },
+  "PG_TYPE_IS_VISIBLE": {
+    "descriptionMarkup": ""
+  },
+  "PI": {
+    "descriptionMarkup": ""
+  },
+  "PLATFORM": {
+    "descriptionMarkup": ""
+  },
+  "POSITION": {
+    "descriptionMarkup": ""
+  },
+  "POW": {
+    "descriptionMarkup": ""
+  },
+  "POWER": {
+    "descriptionMarkup": ""
+  },
+  "PRAGMA_COLLATIONS": {
+    "descriptionMarkup": ""
+  },
+  "PRAGMA_DATABASE_SIZE": {
+    "descriptionMarkup": ""
+  },
+  "PRAGMA_METADATA_INFO": {
+    "descriptionMarkup": ""
+  },
+  "PRAGMA_PLATFORM": {
+    "descriptionMarkup": ""
+  },
+  "PRAGMA_SHOW": {
+    "descriptionMarkup": ""
+  },
+  "PRAGMA_STORAGE_INFO": {
+    "descriptionMarkup": ""
+  },
+  "PRAGMA_TABLE_INFO": {
+    "descriptionMarkup": ""
+  },
+  "PRAGMA_USER_AGENT": {
+    "descriptionMarkup": ""
+  },
+  "PRAGMA_VERSION": {
+    "descriptionMarkup": ""
+  },
+  "PREFIX": {
+    "descriptionMarkup": ""
+  },
+  "PRINTF": {
+    "descriptionMarkup": ""
+  },
+  "PRODUCT": {
+    "descriptionMarkup": ""
+  },
+  "PYTHON_MAP_FUNCTION": {
+    "descriptionMarkup": ""
+  },
+  "QUANTILE": {
+    "descriptionMarkup": ""
+  },
+  "QUANTILE_CONT": {
+    "descriptionMarkup": ""
+  },
+  "QUANTILE_DISC": {
+    "descriptionMarkup": ""
+  },
+  "QUARTER": {
+    "descriptionMarkup": ""
+  },
+  "QUERY": {
+    "descriptionMarkup": ""
+  },
+  "QUERY_TABLE": {
+    "descriptionMarkup": ""
+  },
+  "RADIANS": {
+    "descriptionMarkup": ""
+  },
+  "RANDOM": {
+    "descriptionMarkup": ""
+  },
+  "RANGE": {
+    "descriptionMarkup": ""
+  },
+  "RANK": {
+    "descriptionMarkup": ""
+  },
+  "RANK_DENSE": {
+    "descriptionMarkup": ""
+  },
+  "READ_BLOB": {
+    "descriptionMarkup": ""
+  },
+  "READ_CSV": {
+    "descriptionMarkup": ""
+  },
+  "READ_CSV_AUTO": {
+    "descriptionMarkup": ""
+  },
+  "READ_DUCKDB": {
+    "descriptionMarkup": ""
+  },
+  "READ_JSON": {
+    "descriptionMarkup": ""
+  },
+  "READ_JSON_AUTO": {
+    "descriptionMarkup": ""
+  },
+  "READ_JSON_OBJECTS": {
+    "descriptionMarkup": ""
+  },
+  "READ_JSON_OBJECTS_AUTO": {
+    "descriptionMarkup": ""
+  },
+  "READ_NDJSON": {
+    "descriptionMarkup": ""
+  },
+  "READ_NDJSON_AUTO": {
+    "descriptionMarkup": ""
+  },
+  "READ_NDJSON_OBJECTS": {
+    "descriptionMarkup": ""
+  },
+  "READ_PARQUET": {
+    "descriptionMarkup": ""
+  },
+  "READ_TEXT": {
+    "descriptionMarkup": ""
+  },
+  "REDUCE": {
+    "descriptionMarkup": ""
+  },
+  "REGEXP_ESCAPE": {
+    "descriptionMarkup": ""
+  },
+  "REGEXP_EXTRACT": {
+    "descriptionMarkup": ""
+  },
+  "REGEXP_EXTRACT_ALL": {
+    "descriptionMarkup": ""
+  },
+  "REGEXP_FULL_MATCH": {
+    "descriptionMarkup": ""
+  },
+  "REGEXP_MATCHES": {
+    "descriptionMarkup": ""
+  },
+  "REGEXP_REPLACE": {
+    "descriptionMarkup": ""
+  },
+  "REGEXP_SPLIT_TO_ARRAY": {
+    "descriptionMarkup": ""
+  },
+  "REGEXP_SPLIT_TO_TABLE": {
+    "descriptionMarkup": ""
+  },
+  "REGR_AVGX": {
+    "descriptionMarkup": ""
+  },
+  "REGR_AVGY": {
+    "descriptionMarkup": ""
+  },
+  "REGR_COUNT": {
+    "descriptionMarkup": ""
+  },
+  "REGR_INTERCEPT": {
+    "descriptionMarkup": ""
+  },
+  "REGR_R2": {
+    "descriptionMarkup": ""
+  },
+  "REGR_SLOPE": {
+    "descriptionMarkup": ""
+  },
+  "REGR_SXX": {
+    "descriptionMarkup": ""
+  },
+  "REGR_SXY": {
+    "descriptionMarkup": ""
+  },
+  "REGR_SYY": {
+    "descriptionMarkup": ""
+  },
+  "REMAP_STRUCT": {
+    "descriptionMarkup": ""
+  },
+  "REPEAT": {
+    "descriptionMarkup": ""
+  },
+  "REPEAT_ROW": {
+    "descriptionMarkup": ""
+  },
+  "REPLACE": {
+    "descriptionMarkup": ""
+  },
+  "REPLACE_TYPE": {
+    "descriptionMarkup": ""
+  },
+  "RESERVOIR_QUANTILE": {
+    "descriptionMarkup": ""
+  },
+  "REVERSE": {
+    "descriptionMarkup": ""
+  },
+  "RIGHT": {
+    "descriptionMarkup": ""
+  },
+  "RIGHT_GRAPHEME": {
+    "descriptionMarkup": ""
+  },
+  "ROUND": {
+    "descriptionMarkup": ""
+  },
+  "ROUNDBANKERS": {
+    "descriptionMarkup": ""
+  },
+  "ROUND_EVEN": {
+    "descriptionMarkup": ""
+  },
+  "ROW": {
+    "descriptionMarkup": ""
+  },
+  "ROW_NUMBER": {
+    "descriptionMarkup": ""
+  },
+  "ROW_TO_JSON": {
+    "descriptionMarkup": ""
+  },
+  "RPAD": {
+    "descriptionMarkup": ""
+  },
+  "RTRIM": {
+    "descriptionMarkup": ""
+  },
+  "SECOND": {
+    "descriptionMarkup": ""
+  },
+  "SEM": {
+    "descriptionMarkup": ""
+  },
+  "SEQ_SCAN": {
+    "descriptionMarkup": ""
+  },
+  "SESSION_USER": {
+    "descriptionMarkup": ""
+  },
+  "SETSEED": {
+    "descriptionMarkup": ""
+  },
+  "SET_BIT": {
+    "descriptionMarkup": ""
+  },
+  "SHA1": {
+    "descriptionMarkup": ""
+  },
+  "SHA256": {
+    "descriptionMarkup": ""
+  },
+  "SHOBJ_DESCRIPTION": {
+    "descriptionMarkup": ""
+  },
+  "SHOW": {
+    "descriptionMarkup": ""
+  },
+  "SHOW_DATABASES": {
+    "descriptionMarkup": ""
+  },
+  "SHOW_TABLES": {
+    "descriptionMarkup": ""
+  },
+  "SHOW_TABLES_EXPANDED": {
+    "descriptionMarkup": ""
+  },
+  "SIGN": {
+    "descriptionMarkup": ""
+  },
+  "SIGNBIT": {
+    "descriptionMarkup": ""
+  },
+  "SIN": {
+    "descriptionMarkup": ""
+  },
+  "SINH": {
+    "descriptionMarkup": ""
+  },
+  "SKEWNESS": {
+    "descriptionMarkup": ""
+  },
+  "SLEEP_MS": {
+    "descriptionMarkup": ""
+  },
+  "SNIFF_CSV": {
+    "descriptionMarkup": ""
+  },
+  "SPLIT": {
+    "descriptionMarkup": ""
+  },
+  "SPLIT_PART": {
+    "descriptionMarkup": ""
+  },
+  "SQRT": {
+    "descriptionMarkup": ""
+  },
+  "STARTS_WITH": {
+    "descriptionMarkup": ""
+  },
+  "STATS": {
+    "descriptionMarkup": ""
+  },
+  "STDDEV": {
+    "descriptionMarkup": ""
+  },
+  "STDDEV_POP": {
+    "descriptionMarkup": ""
+  },
+  "STDDEV_SAMP": {
+    "descriptionMarkup": ""
+  },
+  "STORAGE_INFO": {
+    "descriptionMarkup": ""
+  },
+  "STRFTIME": {
+    "descriptionMarkup": ""
+  },
+  "STRING_AGG": {
+    "descriptionMarkup": ""
+  },
+  "STRING_SPLIT": {
+    "descriptionMarkup": ""
+  },
+  "STRING_SPLIT_REGEX": {
+    "descriptionMarkup": ""
+  },
+  "STRING_TO_ARRAY": {
+    "descriptionMarkup": ""
+  },
+  "STRIP_ACCENTS": {
+    "descriptionMarkup": ""
+  },
+  "STRLEN": {
+    "descriptionMarkup": ""
+  },
+  "STRPOS": {
+    "descriptionMarkup": ""
+  },
+  "STRPTIME": {
+    "descriptionMarkup": ""
+  },
+  "STRUCT_CONCAT": {
+    "descriptionMarkup": ""
+  },
+  "STRUCT_CONTAINS": {
+    "descriptionMarkup": ""
+  },
+  "STRUCT_EXTRACT": {
+    "descriptionMarkup": ""
+  },
+  "STRUCT_EXTRACT_AT": {
+    "descriptionMarkup": ""
+  },
+  "STRUCT_HAS": {
+    "descriptionMarkup": ""
+  },
+  "STRUCT_INDEXOF": {
+    "descriptionMarkup": ""
+  },
+  "STRUCT_INSERT": {
+    "descriptionMarkup": ""
+  },
+  "STRUCT_KEYS": {
+    "descriptionMarkup": ""
+  },
+  "STRUCT_PACK": {
+    "descriptionMarkup": ""
+  },
+  "STRUCT_POSITION": {
+    "descriptionMarkup": ""
+  },
+  "STRUCT_UPDATE": {
+    "descriptionMarkup": ""
+  },
+  "STRUCT_VALUES": {
+    "descriptionMarkup": ""
+  },
+  "STR_SPLIT": {
+    "descriptionMarkup": ""
+  },
+  "STR_SPLIT_REGEX": {
+    "descriptionMarkup": ""
+  },
+  "ST_ASBINARY": {
+    "descriptionMarkup": ""
+  },
+  "ST_ASTEXT": {
+    "descriptionMarkup": ""
+  },
+  "ST_ASWKB": {
+    "descriptionMarkup": ""
+  },
+  "ST_ASWKT": {
+    "descriptionMarkup": ""
+  },
+  "ST_CRS": {
+    "descriptionMarkup": ""
+  },
+  "ST_GEOMFROMWKB": {
+    "descriptionMarkup": ""
+  },
+  "ST_INTERSECTS_EXTENT": {
+    "descriptionMarkup": ""
+  },
+  "ST_SETCRS": {
+    "descriptionMarkup": ""
+  },
+  "SUBSTR": {
+    "descriptionMarkup": ""
+  },
+  "SUBSTRING": {
+    "descriptionMarkup": ""
+  },
+  "SUBSTRING_GRAPHEME": {
+    "descriptionMarkup": ""
+  },
+  "SUBTRACT": {
+    "descriptionMarkup": ""
+  },
+  "SUFFIX": {
+    "descriptionMarkup": ""
+  },
+  "SUM": {
+    "descriptionMarkup": ""
+  },
+  "SUMKAHAN": {
+    "descriptionMarkup": ""
+  },
+  "SUMMARY": {
+    "descriptionMarkup": ""
+  },
+  "SUM_NO_OVERFLOW": {
+    "descriptionMarkup": ""
+  },
+  "SWITCH": {
+    "descriptionMarkup": ""
+  },
+  "TABLE_INFO": {
+    "descriptionMarkup": ""
+  },
+  "TAN": {
+    "descriptionMarkup": ""
+  },
+  "TANH": {
+    "descriptionMarkup": ""
+  },
+  "TEST_ALL_TYPES": {
+    "descriptionMarkup": ""
+  },
+  "TEST_VECTOR_TYPES": {
+    "descriptionMarkup": ""
+  },
+  "TIMETZ_BYTE_COMPARABLE": {
+    "descriptionMarkup": ""
+  },
+  "TIMEZONE": {
+    "descriptionMarkup": ""
+  },
+  "TIMEZONE_HOUR": {
+    "descriptionMarkup": ""
+  },
+  "TIMEZONE_MINUTE": {
+    "descriptionMarkup": ""
+  },
+  "TIME_BUCKET": {
+    "descriptionMarkup": ""
+  },
+  "TODAY": {
+    "descriptionMarkup": ""
+  },
+  "TO_BASE": {
+    "descriptionMarkup": ""
+  },
+  "TO_BASE64": {
+    "descriptionMarkup": ""
+  },
+  "TO_BINARY": {
+    "descriptionMarkup": ""
+  },
+  "TO_CENTURIES": {
+    "descriptionMarkup": ""
+  },
+  "TO_DAYS": {
+    "descriptionMarkup": ""
+  },
+  "TO_DECADES": {
+    "descriptionMarkup": ""
+  },
+  "TO_HEX": {
+    "descriptionMarkup": ""
+  },
+  "TO_HOURS": {
+    "descriptionMarkup": ""
+  },
+  "TO_JSON": {
+    "descriptionMarkup": ""
+  },
+  "TO_MICROSECONDS": {
+    "descriptionMarkup": ""
+  },
+  "TO_MILLENNIA": {
+    "descriptionMarkup": ""
+  },
+  "TO_MILLISECONDS": {
+    "descriptionMarkup": ""
+  },
+  "TO_MINUTES": {
+    "descriptionMarkup": ""
+  },
+  "TO_MONTHS": {
+    "descriptionMarkup": ""
+  },
+  "TO_QUARTERS": {
+    "descriptionMarkup": ""
+  },
+  "TO_SECONDS": {
+    "descriptionMarkup": ""
+  },
+  "TO_TIMESTAMP": {
+    "descriptionMarkup": ""
+  },
+  "TO_WEEKS": {
+    "descriptionMarkup": ""
+  },
+  "TO_YEARS": {
+    "descriptionMarkup": ""
+  },
+  "TRANSACTION_TIMESTAMP": {
+    "descriptionMarkup": ""
+  },
+  "TRANSLATE": {
+    "descriptionMarkup": ""
+  },
+  "TRIM": {
+    "descriptionMarkup": ""
+  },
+  "TRUNC": {
+    "descriptionMarkup": ""
+  },
+  "TRUNCATE_DUCKDB_LOGS": {
+    "descriptionMarkup": ""
+  },
+  "TRY_CAST": {
+    "descriptionMarkup": ""
+  },
+  "TRY_STRPTIME": {
+    "descriptionMarkup": ""
+  },
+  "TXID_CURRENT": {
+    "descriptionMarkup": ""
+  },
+  "TYPEOF": {
+    "descriptionMarkup": ""
+  },
+  "UCASE": {
+    "descriptionMarkup": ""
+  },
+  "UNBIN": {
+    "descriptionMarkup": ""
+  },
+  "UNHEX": {
+    "descriptionMarkup": ""
+  },
+  "UNICODE": {
+    "descriptionMarkup": ""
+  },
+  "UNION_EXTRACT": {
+    "descriptionMarkup": ""
+  },
+  "UNION_TAG": {
+    "descriptionMarkup": ""
+  },
+  "UNION_VALUE": {
+    "descriptionMarkup": ""
+  },
+  "UNNEST": {
+    "descriptionMarkup": ""
+  },
+  "UNPIVOT_LIST": {
+    "descriptionMarkup": ""
+  },
+  "UPPER": {
+    "descriptionMarkup": ""
+  },
+  "URL_DECODE": {
+    "descriptionMarkup": ""
+  },
+  "URL_ENCODE": {
+    "descriptionMarkup": ""
+  },
+  "USER": {
+    "descriptionMarkup": ""
+  },
+  "USER_AGENT": {
+    "descriptionMarkup": ""
+  },
+  "UUID": {
+    "descriptionMarkup": ""
+  },
+  "UUIDV4": {
+    "descriptionMarkup": ""
+  },
+  "UUIDV7": {
+    "descriptionMarkup": ""
+  },
+  "UUID_EXTRACT_TIMESTAMP": {
+    "descriptionMarkup": ""
+  },
+  "UUID_EXTRACT_VERSION": {
+    "descriptionMarkup": ""
+  },
+  "VARIANCE": {
+    "descriptionMarkup": ""
+  },
+  "VARIANT_BYTES_TO_VARIANT": {
+    "descriptionMarkup": ""
+  },
+  "VARIANT_EXTRACT": {
+    "descriptionMarkup": ""
+  },
+  "VARIANT_NORMALIZE": {
+    "descriptionMarkup": ""
+  },
+  "VARIANT_TO_PARQUET_VARIANT": {
+    "descriptionMarkup": ""
+  },
+  "VARIANT_TYPEOF": {
+    "descriptionMarkup": ""
+  },
+  "VAR_POP": {
+    "descriptionMarkup": ""
+  },
+  "VAR_SAMP": {
+    "descriptionMarkup": ""
+  },
+  "VECTOR_TYPE": {
+    "descriptionMarkup": ""
+  },
+  "VERIFY_EXTERNAL": {
+    "descriptionMarkup": ""
+  },
+  "VERIFY_FETCH_ROW": {
+    "descriptionMarkup": ""
+  },
+  "VERIFY_PARALLELISM": {
+    "descriptionMarkup": ""
+  },
+  "VERIFY_SERIALIZER": {
+    "descriptionMarkup": ""
+  },
+  "VERSION": {
+    "descriptionMarkup": ""
+  },
+  "WAVG": {
+    "descriptionMarkup": ""
+  },
+  "WEEK": {
+    "descriptionMarkup": ""
+  },
+  "WEEKDAY": {
+    "descriptionMarkup": ""
+  },
+  "WEEKOFYEAR": {
+    "descriptionMarkup": ""
+  },
+  "WEIGHTED_AVG": {
+    "descriptionMarkup": ""
+  },
+  "WHICH_SECRET": {
+    "descriptionMarkup": ""
+  },
+  "WRITE_LOG": {
+    "descriptionMarkup": ""
+  },
+  "XOR": {
+    "descriptionMarkup": ""
+  },
+  "YEAR": {
+    "descriptionMarkup": ""
+  },
+  "YEARWEEK": {
+    "descriptionMarkup": ""
+  },
+  "__INTERNAL_COMPRESS_INTEGRAL_UBIGINT": {
+    "descriptionMarkup": ""
+  },
+  "__INTERNAL_COMPRESS_INTEGRAL_UINTEGER": {
+    "descriptionMarkup": ""
+  },
+  "__INTERNAL_COMPRESS_INTEGRAL_USMALLINT": {
+    "descriptionMarkup": ""
+  },
+  "__INTERNAL_COMPRESS_INTEGRAL_UTINYINT": {
+    "descriptionMarkup": ""
+  },
+  "__INTERNAL_COMPRESS_STRING_HUGEINT": {
+    "descriptionMarkup": ""
+  },
+  "__INTERNAL_COMPRESS_STRING_UBIGINT": {
+    "descriptionMarkup": ""
+  },
+  "__INTERNAL_COMPRESS_STRING_UHUGEINT": {
+    "descriptionMarkup": ""
+  },
+  "__INTERNAL_COMPRESS_STRING_UINTEGER": {
+    "descriptionMarkup": ""
+  },
+  "__INTERNAL_COMPRESS_STRING_USMALLINT": {
+    "descriptionMarkup": ""
+  },
+  "__INTERNAL_COMPRESS_STRING_UTINYINT": {
+    "descriptionMarkup": ""
+  },
+  "__INTERNAL_DECOMPRESS_INTEGRAL_BIGINT": {
+    "descriptionMarkup": ""
+  },
+  "__INTERNAL_DECOMPRESS_INTEGRAL_HUGEINT": {
+    "descriptionMarkup": ""
+  },
+  "__INTERNAL_DECOMPRESS_INTEGRAL_INTEGER": {
+    "descriptionMarkup": ""
+  },
+  "__INTERNAL_DECOMPRESS_INTEGRAL_SMALLINT": {
+    "descriptionMarkup": ""
+  },
+  "__INTERNAL_DECOMPRESS_INTEGRAL_UBIGINT": {
+    "descriptionMarkup": ""
+  },
+  "__INTERNAL_DECOMPRESS_INTEGRAL_UHUGEINT": {
+    "descriptionMarkup": ""
+  },
+  "__INTERNAL_DECOMPRESS_INTEGRAL_UINTEGER": {
+    "descriptionMarkup": ""
+  },
+  "__INTERNAL_DECOMPRESS_INTEGRAL_USMALLINT": {
+    "descriptionMarkup": ""
+  },
+  "__INTERNAL_DECOMPRESS_STRING": {
+    "descriptionMarkup": ""
+  }
 }
