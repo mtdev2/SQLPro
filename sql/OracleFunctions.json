@@ -2,22 +2,556 @@
   "ABS" : {
     "descriptionMarkup" : ""
   },
+  "ACOS" : {
+    "descriptionMarkup" : ""
+  },
+  "ADD_MONTHS" : {
+    "descriptionMarkup" : ""
+  },
+  "ADJ_DATE" : {
+    "descriptionMarkup" : ""
+  },
+  "ANY_VALUE" : {
+    "descriptionMarkup" : ""
+  },
+  "APPENDCHILDXML" : {
+    "descriptionMarkup" : ""
+  },
+  "APPROX_COUNT" : {
+    "descriptionMarkup" : ""
+  },
+  "APPROX_COUNT_DISTINCT" : {
+    "descriptionMarkup" : ""
+  },
+  "APPROX_COUNT_DISTINCT_AGG" : {
+    "descriptionMarkup" : ""
+  },
+  "APPROX_COUNT_DISTINCT_DETAIL" : {
+    "descriptionMarkup" : ""
+  },
+  "APPROX_MEDIAN" : {
+    "descriptionMarkup" : ""
+  },
+  "APPROX_PERCENTILE" : {
+    "descriptionMarkup" : ""
+  },
+  "APPROX_PERCENTILE_AGG" : {
+    "descriptionMarkup" : ""
+  },
+  "APPROX_PERCENTILE_DETAIL" : {
+    "descriptionMarkup" : ""
+  },
+  "APPROX_RANK" : {
+    "descriptionMarkup" : ""
+  },
+  "APPROX_SUM" : {
+    "descriptionMarkup" : ""
+  },
+  "ASCII" : {
+    "descriptionMarkup" : ""
+  },
+  "ASCIISTR" : {
+    "descriptionMarkup" : ""
+  },
+  "ASIN" : {
+    "descriptionMarkup" : ""
+  },
+  "AS_JSON" : {
+    "descriptionMarkup" : ""
+  },
+  "ATAN" : {
+    "descriptionMarkup" : ""
+  },
+  "ATAN2" : {
+    "descriptionMarkup" : ""
+  },
+  "AVERAGE_RANK" : {
+    "descriptionMarkup" : ""
+  },
   "AVG" : {
+    "descriptionMarkup" : ""
+  },
+  "AV_AGGREGATE" : {
+    "descriptionMarkup" : ""
+  },
+  "BFILENAME" : {
+    "descriptionMarkup" : ""
+  },
+  "BIN_TO_NUM" : {
+    "descriptionMarkup" : ""
+  },
+  "BITAND" : {
+    "descriptionMarkup" : ""
+  },
+  "BITMAP_BIT_POSITION" : {
+    "descriptionMarkup" : ""
+  },
+  "BITMAP_BUCKET_NUMBER" : {
+    "descriptionMarkup" : ""
+  },
+  "BITMAP_CONSTRUCT_AGG" : {
+    "descriptionMarkup" : ""
+  },
+  "BITMAP_COUNT" : {
+    "descriptionMarkup" : ""
+  },
+  "BITMAP_OR_AGG" : {
+    "descriptionMarkup" : ""
+  },
+  "BITOR" : {
+    "descriptionMarkup" : ""
+  },
+  "BITXOR" : {
+    "descriptionMarkup" : ""
+  },
+  "BIT_AND_AGG" : {
+    "descriptionMarkup" : ""
+  },
+  "BIT_OR_AGG" : {
+    "descriptionMarkup" : ""
+  },
+  "BIT_XOR_AGG" : {
+    "descriptionMarkup" : ""
+  },
+  "BSON" : {
+    "descriptionMarkup" : ""
+  },
+  "CARDINALITY" : {
+    "descriptionMarkup" : ""
+  },
+  "CAST" : {
+    "descriptionMarkup" : ""
+  },
+  "CEIL" : {
+    "descriptionMarkup" : ""
+  },
+  "CHARTOROWID" : {
+    "descriptionMarkup" : ""
+  },
+  "CHECKSUM" : {
+    "descriptionMarkup" : ""
+  },
+  "CHR" : {
+    "descriptionMarkup" : ""
+  },
+  "CLASSIFIER" : {
+    "descriptionMarkup" : ""
+  },
+  "CLUSTER_DETAILS" : {
+    "descriptionMarkup" : ""
+  },
+  "CLUSTER_DISTANCE" : {
+    "descriptionMarkup" : ""
+  },
+  "CLUSTER_ID" : {
+    "descriptionMarkup" : ""
+  },
+  "CLUSTER_PROBABILITY" : {
+    "descriptionMarkup" : ""
+  },
+  "CLUSTER_SET" : {
+    "descriptionMarkup" : ""
+  },
+  "COALESCE" : {
+    "descriptionMarkup" : ""
+  },
+  "COLLATE" : {
+    "descriptionMarkup" : ""
+  },
+  "COLLATION" : {
+    "descriptionMarkup" : ""
+  },
+  "COLUMNS" : {
+    "descriptionMarkup" : ""
+  },
+  "COMPOSE" : {
+    "descriptionMarkup" : ""
+  },
+  "CONCAT" : {
+    "descriptionMarkup" : ""
+  },
+  "CONVERT" : {
+    "descriptionMarkup" : ""
+  },
+  "CON_DBID_TO_ID" : {
+    "descriptionMarkup" : ""
+  },
+  "CON_GUID_TO_ID" : {
+    "descriptionMarkup" : ""
+  },
+  "CON_ID_TO_CON_NAME" : {
+    "descriptionMarkup" : ""
+  },
+  "CON_ID_TO_DBID" : {
+    "descriptionMarkup" : ""
+  },
+  "CON_ID_TO_GUID" : {
+    "descriptionMarkup" : ""
+  },
+  "CON_ID_TO_UID" : {
+    "descriptionMarkup" : ""
+  },
+  "CON_NAME_TO_ID" : {
+    "descriptionMarkup" : ""
+  },
+  "CON_UID_TO_ID" : {
+    "descriptionMarkup" : ""
+  },
+  "CORR" : {
+    "descriptionMarkup" : ""
+  },
+  "CORR_K" : {
+    "descriptionMarkup" : ""
+  },
+  "CORR_S" : {
+    "descriptionMarkup" : ""
+  },
+  "COS" : {
+    "descriptionMarkup" : ""
+  },
+  "COSH" : {
     "descriptionMarkup" : ""
   },
   "COUNT" : {
     "descriptionMarkup" : ""
   },
+  "COVAR_POP" : {
+    "descriptionMarkup" : ""
+  },
+  "COVAR_SAMP" : {
+    "descriptionMarkup" : ""
+  },
+  "CO_AUTH_IND" : {
+    "descriptionMarkup" : ""
+  },
+  "CSCONVERT" : {
+    "descriptionMarkup" : ""
+  },
+  "CUME_DIST" : {
+    "descriptionMarkup" : ""
+  },
+  "CUME_DISTM" : {
+    "descriptionMarkup" : ""
+  },
+  "CURRENTV" : {
+    "descriptionMarkup" : ""
+  },
+  "CV" : {
+    "descriptionMarkup" : ""
+  },
+  "DATAOBJ_TO_MAT_PARTITION" : {
+    "descriptionMarkup" : ""
+  },
+  "DATAOBJ_TO_PARTITION" : {
+    "descriptionMarkup" : ""
+  },
   "DATE" : {
+    "descriptionMarkup" : ""
+  },
+  "DBSTR2UTF8" : {
+    "descriptionMarkup" : ""
+  },
+  "DBTIMEZONE" : {
+    "descriptionMarkup" : ""
+  },
+  "DECODE" : {
+    "descriptionMarkup" : ""
+  },
+  "DECOMPOSE" : {
+    "descriptionMarkup" : ""
+  },
+  "DELETEXML" : {
+    "descriptionMarkup" : ""
+  },
+  "DENSE_RANK" : {
+    "descriptionMarkup" : ""
+  },
+  "DENSE_RANKM" : {
+    "descriptionMarkup" : ""
+  },
+  "DEREF" : {
+    "descriptionMarkup" : ""
+  },
+  "DUMP" : {
+    "descriptionMarkup" : ""
+  },
+  "EMPTY_BLOB" : {
+    "descriptionMarkup" : ""
+  },
+  "EMPTY_CLOB" : {
+    "descriptionMarkup" : ""
+  },
+  "EXISTSNODE" : {
+    "descriptionMarkup" : ""
+  },
+  "EXP" : {
+    "descriptionMarkup" : ""
+  },
+  "EXTRACT" : {
+    "descriptionMarkup" : ""
+  },
+  "EXTRACTCLOBXML" : {
     "descriptionMarkup" : ""
   },
   "EXTRACTVALUE" : {
     "descriptionMarkup" : ""
   },
+  "FEATURE_COMPARE" : {
+    "descriptionMarkup" : ""
+  },
+  "FEATURE_DETAILS" : {
+    "descriptionMarkup" : ""
+  },
+  "FEATURE_ID" : {
+    "descriptionMarkup" : ""
+  },
+  "FEATURE_SET" : {
+    "descriptionMarkup" : ""
+  },
+  "FEATURE_VALUE" : {
+    "descriptionMarkup" : ""
+  },
+  "FIRST" : {
+    "descriptionMarkup" : ""
+  },
+  "FIRSTM" : {
+    "descriptionMarkup" : ""
+  },
+  "FIRST_VALUE" : {
+    "descriptionMarkup" : ""
+  },
+  "FLOOR" : {
+    "descriptionMarkup" : ""
+  },
+  "FROM_TZ" : {
+    "descriptionMarkup" : ""
+  },
+  "GREATEST" : {
+    "descriptionMarkup" : ""
+  },
+  "GROUPING" : {
+    "descriptionMarkup" : ""
+  },
+  "GROUPING_ID" : {
+    "descriptionMarkup" : ""
+  },
+  "GROUP_ID" : {
+    "descriptionMarkup" : ""
+  },
+  "HEXTORAW" : {
+    "descriptionMarkup" : ""
+  },
+  "HEXTOREF" : {
+    "descriptionMarkup" : ""
+  },
+  "HIER_CAPTION" : {
+    "descriptionMarkup" : ""
+  },
+  "HIER_CHILD_COUNT" : {
+    "descriptionMarkup" : ""
+  },
+  "HIER_COLUMN" : {
+    "descriptionMarkup" : ""
+  },
+  "HIER_DEPTH" : {
+    "descriptionMarkup" : ""
+  },
+  "HIER_DESCRIPTION" : {
+    "descriptionMarkup" : ""
+  },
+  "HIER_HAS_CHILDREN" : {
+    "descriptionMarkup" : ""
+  },
+  "HIER_LEVEL" : {
+    "descriptionMarkup" : ""
+  },
+  "HIER_MEMBER_NAME" : {
+    "descriptionMarkup" : ""
+  },
+  "HIER_MEMBER_UNIQUE_NAME" : {
+    "descriptionMarkup" : ""
+  },
+  "HIER_ORDER" : {
+    "descriptionMarkup" : ""
+  },
+  "INITCAP" : {
+    "descriptionMarkup" : ""
+  },
+  "INSERTCHILDXML" : {
+    "descriptionMarkup" : ""
+  },
+  "INSERTCHILDXMLAFTER" : {
+    "descriptionMarkup" : ""
+  },
+  "INSERTCHILDXMLBEFORE" : {
+    "descriptionMarkup" : ""
+  },
+  "INSERTXMLAFTER" : {
+    "descriptionMarkup" : ""
+  },
+  "INSERTXMLBEFORE" : {
+    "descriptionMarkup" : ""
+  },
+  "INSTR" : {
+    "descriptionMarkup" : ""
+  },
+  "INSTR2" : {
+    "descriptionMarkup" : ""
+  },
+  "INSTR4" : {
+    "descriptionMarkup" : ""
+  },
+  "INSTRB" : {
+    "descriptionMarkup" : ""
+  },
+  "INSTRC" : {
+    "descriptionMarkup" : ""
+  },
+  "JSON" : {
+    "descriptionMarkup" : ""
+  },
+  "JSONTOXML" : {
+    "descriptionMarkup" : ""
+  },
+  "JSON_ARRAY" : {
+    "descriptionMarkup" : ""
+  },
+  "JSON_ARRAYAGG" : {
+    "descriptionMarkup" : ""
+  },
+  "JSON_EQUAL" : {
+    "descriptionMarkup" : ""
+  },
+  "JSON_EXISTS" : {
+    "descriptionMarkup" : ""
+  },
+  "JSON_HASH" : {
+    "descriptionMarkup" : ""
+  },
+  "JSON_MERGEPATCH" : {
+    "descriptionMarkup" : ""
+  },
+  "JSON_MKMVI" : {
+    "descriptionMarkup" : ""
+  },
+  "JSON_OBJECT" : {
+    "descriptionMarkup" : ""
+  },
+  "JSON_OBJECTAGG" : {
+    "descriptionMarkup" : ""
+  },
+  "JSON_PATCH" : {
+    "descriptionMarkup" : ""
+  },
+  "JSON_QUERY" : {
+    "descriptionMarkup" : ""
+  },
+  "JSON_SCALAR" : {
+    "descriptionMarkup" : ""
+  },
+  "JSON_SERIALIZE" : {
+    "descriptionMarkup" : ""
+  },
+  "JSON_TEXTCONTAINS2" : {
+    "descriptionMarkup" : ""
+  },
+  "JSON_TRANSFORM" : {
+    "descriptionMarkup" : ""
+  },
+  "JSON_VALUE" : {
+    "descriptionMarkup" : ""
+  },
+  "KURTOSIS_POP" : {
+    "descriptionMarkup" : ""
+  },
+  "KURTOSIS_SAMP" : {
+    "descriptionMarkup" : ""
+  },
+  "LAG" : {
+    "descriptionMarkup" : ""
+  },
+  "LAG_DIFF" : {
+    "descriptionMarkup" : ""
+  },
+  "LAG_DIFF_PERCENT" : {
+    "descriptionMarkup" : ""
+  },
+  "LAST" : {
+    "descriptionMarkup" : ""
+  },
+  "LAST_DAY" : {
+    "descriptionMarkup" : ""
+  },
+  "LAST_VALUE" : {
+    "descriptionMarkup" : ""
+  },
+  "LEAD" : {
+    "descriptionMarkup" : ""
+  },
+  "LEAD_DIFF" : {
+    "descriptionMarkup" : ""
+  },
+  "LEAD_DIFF_PERCENT" : {
+    "descriptionMarkup" : ""
+  },
+  "LEAST" : {
+    "descriptionMarkup" : ""
+  },
   "LENGTH" : {
     "descriptionMarkup" : ""
   },
+  "LENGTH2" : {
+    "descriptionMarkup" : ""
+  },
+  "LENGTH4" : {
+    "descriptionMarkup" : ""
+  },
+  "LENGTHB" : {
+    "descriptionMarkup" : ""
+  },
+  "LENGTHC" : {
+    "descriptionMarkup" : ""
+  },
+  "LISTAGG" : {
+    "descriptionMarkup" : ""
+  },
+  "LN" : {
+    "descriptionMarkup" : ""
+  },
+  "LNNVL" : {
+    "descriptionMarkup" : ""
+  },
+  "LOBNVL" : {
+    "descriptionMarkup" : ""
+  },
+  "LOB_VALUE" : {
+    "descriptionMarkup" : ""
+  },
+  "LOCALTIMESTAMP" : {
+    "descriptionMarkup" : ""
+  },
+  "LOG" : {
+    "descriptionMarkup" : ""
+  },
+  "LOWER" : {
+    "descriptionMarkup" : ""
+  },
+  "LPAD" : {
+    "descriptionMarkup" : ""
+  },
+  "LTRIM" : {
+    "descriptionMarkup" : ""
+  },
+  "MAKE_REF" : {
+    "descriptionMarkup" : ""
+  },
+  "MATCH_NUMBER" : {
+    "descriptionMarkup" : ""
+  },
   "MAX" : {
+    "descriptionMarkup" : ""
+  },
+  "MEDIAN" : {
     "descriptionMarkup" : ""
   },
   "MIN" : {
@@ -26,16 +560,2431 @@
   "MOD" : {
     "descriptionMarkup" : ""
   },
+  "MONTHS_BETWEEN" : {
+    "descriptionMarkup" : ""
+  },
+  "NANVL" : {
+    "descriptionMarkup" : ""
+  },
+  "NCHR" : {
+    "descriptionMarkup" : ""
+  },
+  "NEW_TIME" : {
+    "descriptionMarkup" : ""
+  },
+  "NEXT" : {
+    "descriptionMarkup" : ""
+  },
+  "NEXT_DAY" : {
+    "descriptionMarkup" : ""
+  },
+  "NLSSORT" : {
+    "descriptionMarkup" : ""
+  },
+  "NLS_CHARSET_DECL_LEN" : {
+    "descriptionMarkup" : ""
+  },
+  "NLS_CHARSET_ID" : {
+    "descriptionMarkup" : ""
+  },
+  "NLS_CHARSET_NAME" : {
+    "descriptionMarkup" : ""
+  },
+  "NLS_COLLATION_ID" : {
+    "descriptionMarkup" : ""
+  },
+  "NLS_COLLATION_NAME" : {
+    "descriptionMarkup" : ""
+  },
+  "NLS_INITCAP" : {
+    "descriptionMarkup" : ""
+  },
+  "NLS_LOWER" : {
+    "descriptionMarkup" : ""
+  },
+  "NLS_UPPER" : {
+    "descriptionMarkup" : ""
+  },
+  "NTH_VALUE" : {
+    "descriptionMarkup" : ""
+  },
+  "NTILE" : {
+    "descriptionMarkup" : ""
+  },
+  "NULLIF" : {
+    "descriptionMarkup" : ""
+  },
+  "NUMTODSINTERVAL" : {
+    "descriptionMarkup" : ""
+  },
+  "NUMTOYMINTERVAL" : {
+    "descriptionMarkup" : ""
+  },
+  "NVL" : {
+    "descriptionMarkup" : ""
+  },
+  "NVL2" : {
+    "descriptionMarkup" : ""
+  },
+  "OBJECT2XML" : {
+    "descriptionMarkup" : ""
+  },
+  "OBJ_ID" : {
+    "descriptionMarkup" : ""
+  },
+  "OPT1034" : {
+    "descriptionMarkup" : ""
+  },
+  "OPT441" : {
+    "descriptionMarkup" : ""
+  },
+  "OPT442" : {
+    "descriptionMarkup" : ""
+  },
+  "OPT521" : {
+    "descriptionMarkup" : ""
+  },
+  "OPT534" : {
+    "descriptionMarkup" : ""
+  },
+  "OPT682" : {
+    "descriptionMarkup" : ""
+  },
+  "OPT776" : {
+    "descriptionMarkup" : ""
+  },
+  "OPT777" : {
+    "descriptionMarkup" : ""
+  },
+  "OPT778" : {
+    "descriptionMarkup" : ""
+  },
+  "OPT779" : {
+    "descriptionMarkup" : ""
+  },
+  "OPT793" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTADIX" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTAND" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTANOVAONED" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTASCNF" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTASNPT" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTATS" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTBLCST" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTBNPT" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTBTR" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTBTUR" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTC2IDS" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTC2ITZ" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTC2ITZ_CONVERR" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTC2IYM" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTC2OP" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTC2ST" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTC2STZ" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTC2TM" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTC2TMZ" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTCAPVC" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTCAST" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTCAST3" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTCCN" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTCDY" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTCELEM" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTCHGTZ" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTCIDN" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTCIOUT" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTCL2NCL" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTCLCST" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTCNVTLAB" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTCOERCE" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTCOLLCONS" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTCONSXMLFORCSX" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTCOVARP_OLD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTCOVARS_OLD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTCSEE" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTCSIV" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTCSXMERGE" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTCSXUPD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTCTUR" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTCTZ" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTDAN" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTDAT2TS1" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTDAT2TS2" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTDCAST" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTDCC" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTDDI" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTDDJ" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTDDS" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTDDSUB" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTDESC" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTDESNL" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTDFNR" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTDGRF" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTDIADD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTDID" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTDIF" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTDIJ" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTDIPR" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTDIS" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTDISUB" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTDJN" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTDJS" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTDNJ" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTDOF" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTDOT" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTDPC" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTDRO" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTDSD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTDSI" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTDSN" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTDSU" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTDSY" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFCDEI" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFCDI" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFCDIE" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFCDINT" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFCDSTCF" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFCFEI" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFCFI" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFCFIE" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFCFINT" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFCFSTCF" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFCID" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFCIF" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFCINTD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFCINTF" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFCONS" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFCSTDCF" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFCSTDCF_CONVERR" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFCSTFCF" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFCSTFCF_CONVERR" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFDADD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFDCOVARP_OLD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFDCOVARS_OLD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFDDIV" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFDINF" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFDMUL" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFDNAN" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFDNEG" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFDNINF" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFDNNAN" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFDSDV_OLD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFDSUB" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFDVAR_OLD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFDWNCOVARP_OLD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFDWNCOVARS_OLD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFDWNSDV_OLD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFDWNVAR_OLD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFFADD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFFCOVARP_OLD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFFCOVARS_OLD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFFDIV" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFFINF" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFFMUL" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFFNAN" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFFNEG" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFFNINF" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFFNNAN" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFFSDV_OLD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFFSUB" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFFVAR_OLD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFFWNCOVARP_OLD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFFWNCOVARS_OLD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFFWNSDV_OLD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFFWNVAR_OLD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTFTESTD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTGETXMLSCHEMATYPE" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTHCSWIN" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTHRANC" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTHRLDLG" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTHRMBRALL" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTHRMBRCURR" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTHRMBRLIT" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTHRMBRNULL" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTHRPAR" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTHRRELCOND" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTHRWINDOW" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTIAND" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTICMP" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTIDN" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTIDS2C" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTIDSI" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTIIADD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTIIDS" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTIIDSS" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTIISUB" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTIIYM" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTIIYMS" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTINDIV" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTINMUL" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTINTN" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTIOR" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTISEMPTY" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTISNOTEMPTY" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTISNOTSET" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTISSET" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTISTM" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTISTMS" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTISTYPE" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTISTZ" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTISTZS" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTITME" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTITMES" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTITN" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTITTZ" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTITTZS" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTITZ2C1" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTITZ2C2" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTITZ2TS" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTITZ2TSTZ" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTITZA2S" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTITZS2A" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTIYM2C" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTIYMI" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTKDUSTOOPN" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLBC" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLBL2V" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLCAT" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLCNV" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLCNVT" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLDIIF" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLDIOF" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLICONVERT" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLICSCNV" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLICSCNVTST" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLIK2" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLIK2E" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLIK2N" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLIK2NE" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLIK4" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLIK4E" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLIK4N" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLIK4NE" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLIKC" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLIKCE" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLIKCN" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLIKCNE" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLINS" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLINSB" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLKO" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLLEN" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLLENB" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLLIK" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLLOW" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLLPD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLLTR" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLNLIK" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLNLOW" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLNUPR" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLNVL" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLREPL" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLRPD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLRTR" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLRXCOUNT" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLRXINSTR" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLRXLIKE" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLRXNLIKE" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLRXREPLACE" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLRXSUBSTR" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLSBS" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLSBSB" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLTRM" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLUPR" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLV2BL" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLVCDA" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLVCDMLBUF" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLVCPY" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTLVEVA" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTMEMBER" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTMKNULL" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTMRVAR" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTMSEA" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTMSED" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTMSIA" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTMSID" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTMSUA" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTMSUD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTNCR" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTNDGRF" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTNDY" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTNINF" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTNISTYP" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTNLS" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTNM2BOL" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTNNAN" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTNNINF" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTNNNAN" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTNOTMEMBER" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTNOTSUBMS" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTNTI" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTNTIN" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTNTUB4" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTNTUB8" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTOCHK" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTOICSCNV" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTOLCIC" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTOP2C" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTOPASN" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTOR" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTORNA" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTORNO" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTOVLPC" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTOVLPS" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTPLS" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTPVTAIS" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTPVTIS" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTR2C" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTREM2TMP" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTREW" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTRTB" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTRTRI" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTRTUR" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTRXLIKE" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTRXNLIKE" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTSDV_OLD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTSM2CM" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTSMCSE" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTSPAIS" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTSPALIAS" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTSPASSIGN" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTSPCELL" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTSPFORINLIST" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTSPFORLIKE" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTSPFORLOOP" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTSPIS" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTSPISANY" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTSPISPRESENT" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTSPPRES" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTSRCSE" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTST2C" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTSTMI" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTSTZ2C" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTSTZI" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTSYSAPPROXRANK" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTT2TTZ1" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTT2TTZ2" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTAD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTDI" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTERR" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTFD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTFDF" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTIA" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTINLA" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTINLO" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTIS" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTLC" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTLK" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTLK2" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTM2C" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTMA" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTMEI" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTMI" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTMU" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTMZ2C" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTNG" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTNK" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTNK2" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTNN" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTNS" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTNU" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTREAT" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTS2DAT1" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTS2DAT2" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTS2ITZ" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTS2TSTZ1" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTS2TSTZ2" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTSTCF" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTSTZ2ITZ" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTSTZ2TS1" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTSTZ2TS2" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTSU" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTTESTIPD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTTESTIUD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTTESTOD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTTESTPD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTTZ2T1" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTTZ2T2" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTTZI" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTUA" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTUC" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTUN" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTVLCF" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTTVLCF_CONVERR" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTUAG" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTUB4TN" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTUB8TN" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTUNSED445" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTUOP" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTUREQ" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTURGE" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTURGT" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTURLE" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTURLT" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTURNE" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTURTB" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTURTBHYPT" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTURTC" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTVAR_OLD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTVFIL" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTWNCOVARP_OLD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTWNCOVARS_OLD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTWNFSTLST" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTWNSTD_OLD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTWNUAG" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTWNVAR_OLD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTWSRTESTD" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTXMLCOLATTVAL" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTXMLCOLELEM" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTXMLELEMENT" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTXMLPARSE" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTXMLPI" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTXMLROOT" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTXMLSERIALIZE" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTXMLTOREDO" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTXPATHOUT" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTXTRCT" : {
+    "descriptionMarkup" : ""
+  },
+  "OPTXTRCT_XQUERY" : {
+    "descriptionMarkup" : ""
+  },
+  "ORA_CHECK_ACL" : {
+    "descriptionMarkup" : ""
+  },
+  "ORA_CHECK_PRIVILEGE" : {
+    "descriptionMarkup" : ""
+  },
+  "ORA_CHECK_SYS_PRIVILEGE" : {
+    "descriptionMarkup" : ""
+  },
+  "ORA_CONCAT_RWKEY" : {
+    "descriptionMarkup" : ""
+  },
+  "ORA_DM_PARTITION_NAME" : {
+    "descriptionMarkup" : ""
+  },
+  "ORA_DST_AFFECTED" : {
+    "descriptionMarkup" : ""
+  },
+  "ORA_DST_CONVERT" : {
+    "descriptionMarkup" : ""
+  },
+  "ORA_DST_ERROR" : {
+    "descriptionMarkup" : ""
+  },
+  "ORA_HASH" : {
+    "descriptionMarkup" : ""
+  },
+  "ORA_NORMALIZE" : {
+    "descriptionMarkup" : ""
+  },
+  "ORA_PARTITION_VALIDATION" : {
+    "descriptionMarkup" : ""
+  },
+  "ORA_RAWCOMPARE" : {
+    "descriptionMarkup" : ""
+  },
+  "ORA_SEARCH_RWKEY" : {
+    "descriptionMarkup" : ""
+  },
+  "OSON" : {
+    "descriptionMarkup" : ""
+  },
+  "PERCENTILE_CONT" : {
+    "descriptionMarkup" : ""
+  },
+  "PERCENTILE_DISC" : {
+    "descriptionMarkup" : ""
+  },
+  "PERCENT_RANK" : {
+    "descriptionMarkup" : ""
+  },
+  "PERCENT_RANKM" : {
+    "descriptionMarkup" : ""
+  },
+  "POWER" : {
+    "descriptionMarkup" : ""
+  },
+  "POWERMULTISET" : {
+    "descriptionMarkup" : ""
+  },
+  "POWERMULTISET_BY_CARDINALITY" : {
+    "descriptionMarkup" : ""
+  },
+  "PREDICTION" : {
+    "descriptionMarkup" : ""
+  },
+  "PREDICTION_BOUNDS" : {
+    "descriptionMarkup" : ""
+  },
+  "PREDICTION_COST" : {
+    "descriptionMarkup" : ""
+  },
+  "PREDICTION_DETAILS" : {
+    "descriptionMarkup" : ""
+  },
+  "PREDICTION_PROBABILITY" : {
+    "descriptionMarkup" : ""
+  },
+  "PREDICTION_SET" : {
+    "descriptionMarkup" : ""
+  },
+  "PRESENTNNV" : {
+    "descriptionMarkup" : ""
+  },
+  "PRESENTV" : {
+    "descriptionMarkup" : ""
+  },
+  "PREV" : {
+    "descriptionMarkup" : ""
+  },
+  "PREVIOUS" : {
+    "descriptionMarkup" : ""
+  },
+  "QUALIFY" : {
+    "descriptionMarkup" : ""
+  },
+  "RANK" : {
+    "descriptionMarkup" : ""
+  },
+  "RANKM" : {
+    "descriptionMarkup" : ""
+  },
+  "RATIO_TO_REPORT" : {
+    "descriptionMarkup" : ""
+  },
+  "RAWTOHEX" : {
+    "descriptionMarkup" : ""
+  },
+  "RAWTONHEX" : {
+    "descriptionMarkup" : ""
+  },
+  "RAWTOREF" : {
+    "descriptionMarkup" : ""
+  },
+  "REFTOHEX" : {
+    "descriptionMarkup" : ""
+  },
+  "REFTORAW" : {
+    "descriptionMarkup" : ""
+  },
+  "REGEXP_COUNT" : {
+    "descriptionMarkup" : ""
+  },
+  "REGEXP_INSTR" : {
+    "descriptionMarkup" : ""
+  },
+  "REGEXP_REPLACE" : {
+    "descriptionMarkup" : ""
+  },
+  "REGEXP_SUBSTR" : {
+    "descriptionMarkup" : ""
+  },
+  "REGR_AVGX" : {
+    "descriptionMarkup" : ""
+  },
+  "REGR_AVGY" : {
+    "descriptionMarkup" : ""
+  },
+  "REGR_COUNT" : {
+    "descriptionMarkup" : ""
+  },
+  "REGR_INTERCEPT" : {
+    "descriptionMarkup" : ""
+  },
+  "REGR_R2" : {
+    "descriptionMarkup" : ""
+  },
+  "REGR_SLOPE" : {
+    "descriptionMarkup" : ""
+  },
+  "REGR_SXX" : {
+    "descriptionMarkup" : ""
+  },
+  "REGR_SXY" : {
+    "descriptionMarkup" : ""
+  },
+  "REGR_SYY" : {
+    "descriptionMarkup" : ""
+  },
+  "REMAINDER" : {
+    "descriptionMarkup" : ""
+  },
+  "REPLACE" : {
+    "descriptionMarkup" : ""
+  },
+  "REVERSE" : {
+    "descriptionMarkup" : ""
+  },
+  "ROUND" : {
+    "descriptionMarkup" : ""
+  },
+  "ROUND_TIES_TO_EVEN" : {
+    "descriptionMarkup" : ""
+  },
+  "ROWIDTOCHAR" : {
+    "descriptionMarkup" : ""
+  },
+  "ROWIDTONCHAR" : {
+    "descriptionMarkup" : ""
+  },
+  "ROW_NUMBER" : {
+    "descriptionMarkup" : ""
+  },
+  "RPAD" : {
+    "descriptionMarkup" : ""
+  },
+  "RTRIM" : {
+    "descriptionMarkup" : ""
+  },
+  "SDO_GEOM_KEY" : {
+    "descriptionMarkup" : ""
+  },
+  "SDO_GEOM_MAX_X" : {
+    "descriptionMarkup" : ""
+  },
+  "SDO_GEOM_MAX_Y" : {
+    "descriptionMarkup" : ""
+  },
+  "SDO_GEOM_MAX_Z" : {
+    "descriptionMarkup" : ""
+  },
+  "SDO_GEOM_MBB" : {
+    "descriptionMarkup" : ""
+  },
+  "SDO_GEOM_MBR" : {
+    "descriptionMarkup" : ""
+  },
+  "SDO_GEOM_MIN_X" : {
+    "descriptionMarkup" : ""
+  },
+  "SDO_GEOM_MIN_Y" : {
+    "descriptionMarkup" : ""
+  },
+  "SDO_GEOM_MIN_Z" : {
+    "descriptionMarkup" : ""
+  },
+  "SDO_TOLERANCE" : {
+    "descriptionMarkup" : ""
+  },
+  "SESSIONTIMEZONE" : {
+    "descriptionMarkup" : ""
+  },
+  "SET" : {
+    "descriptionMarkup" : ""
+  },
+  "SHARD_CHUNK_ID" : {
+    "descriptionMarkup" : ""
+  },
+  "SHARE_OF" : {
+    "descriptionMarkup" : ""
+  },
+  "SIGN" : {
+    "descriptionMarkup" : ""
+  },
+  "SIN" : {
+    "descriptionMarkup" : ""
+  },
+  "SINH" : {
+    "descriptionMarkup" : ""
+  },
+  "SKEWNESS_POP" : {
+    "descriptionMarkup" : ""
+  },
+  "SKEWNESS_SAMP" : {
+    "descriptionMarkup" : ""
+  },
+  "SOUNDEX" : {
+    "descriptionMarkup" : ""
+  },
+  "SQRT" : {
+    "descriptionMarkup" : ""
+  },
+  "STANDARD_HASH" : {
+    "descriptionMarkup" : ""
+  },
+  "STATS_BINOMIAL_TEST" : {
+    "descriptionMarkup" : ""
+  },
+  "STATS_CROSSTAB" : {
+    "descriptionMarkup" : ""
+  },
+  "STATS_F_TEST" : {
+    "descriptionMarkup" : ""
+  },
+  "STATS_KS_TEST" : {
+    "descriptionMarkup" : ""
+  },
+  "STATS_MODE" : {
+    "descriptionMarkup" : ""
+  },
+  "STATS_MW_TEST" : {
+    "descriptionMarkup" : ""
+  },
+  "STATS_ONE_WAY_ANOVA" : {
+    "descriptionMarkup" : ""
+  },
+  "STATS_T_TEST_INDEP" : {
+    "descriptionMarkup" : ""
+  },
+  "STATS_T_TEST_INDEPU" : {
+    "descriptionMarkup" : ""
+  },
+  "STATS_T_TEST_ONE" : {
+    "descriptionMarkup" : ""
+  },
+  "STATS_T_TEST_PAIRED" : {
+    "descriptionMarkup" : ""
+  },
+  "STATS_WSR_TEST" : {
+    "descriptionMarkup" : ""
+  },
+  "STDDEV" : {
+    "descriptionMarkup" : ""
+  },
+  "STDDEV_POP" : {
+    "descriptionMarkup" : ""
+  },
+  "STDDEV_SAMP" : {
+    "descriptionMarkup" : ""
+  },
+  "SUBMULTISET" : {
+    "descriptionMarkup" : ""
+  },
+  "SUBSTR" : {
+    "descriptionMarkup" : ""
+  },
+  "SUBSTR2" : {
+    "descriptionMarkup" : ""
+  },
+  "SUBSTR4" : {
+    "descriptionMarkup" : ""
+  },
+  "SUBSTRB" : {
+    "descriptionMarkup" : ""
+  },
+  "SUBSTRC" : {
+    "descriptionMarkup" : ""
+  },
   "SUM" : {
+    "descriptionMarkup" : ""
+  },
+  "SYSDATE" : {
+    "descriptionMarkup" : ""
+  },
+  "SYSTIMESTAMP" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_CHECKACL" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_CHECK_PRIVILEGE" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_CONNECT_BY_PATH" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_CONTEXT" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_CTXINFOPK" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_CTX_CONTAINS2" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_CTX_MKIVIDX" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_DBURIGEN" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_DM_RXFORM_CHR" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_DM_RXFORM_LAB" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_DM_RXFORM_NUM" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_DOM_COMPARE" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_ET_BFILE_TO_RAW" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_ET_BLOB_TO_IMAGE" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_ET_IMAGE_TO_BLOB" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_ET_RAW_TO_BFILE" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_EXTPDTXT" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_EXTRACT_UTC" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_FILTER_ACLS" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_FNMATCHES" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_FNREPLACE" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_GETTOKENID" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_GETXTIVAL" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_GET_ACLIDS" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_GET_COL_ACLIDS" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_GET_PRIVILEGES" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_GUID" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_MAKEXML" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_MAKE_XMLNODEID" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_MKXMLATTR" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_MKXTI" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OPTXICMP" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OPTXQCASTASNQ" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_ADT2BIN" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_BL2R" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_C2C" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_CEG" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_CL2C" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_COMBINED_HASH" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_CONVERT" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_COUNTCHG" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_CSCONV" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_CSCONVTEST" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_CSX_PATCH" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_CYCLED_SEQ" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_DESCEND" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_DISTINCT" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_DSB_DESERIALIZE" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_DSB_SERIALIZE" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_DUMP" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_DV_CHECK" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_GROUPING" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_GUID" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_IIX" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_INTERVAL_HIGH_BOUND" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_ITR" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_KEY_VECTOR_CREATE" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_KEY_VECTOR_PAYLOAD" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_KEY_VECTOR_SUCCEEDED" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_KEY_VECTOR_USE" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_LBID" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_LVL" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_MAKEOID" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_MAP_NONNULL" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_NII" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_NUMTORAW" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_OBJ_UPD_IN_TXN" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_OIDVALUE" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_OPNSIZE" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_PAR" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_PARGID" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_PART_ID" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_PIVOT" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_R2O" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_RAWTONUM" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_RPB" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_TOSETID" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_TRTB" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_UNDESCEND" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_VECAND" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_VECBIT" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_VECOR" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_VECXOR" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_VERSION" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_XPTHATG" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_XPTHIDX" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_XPTHOP" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_XTXT2SQLT" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_OP_ZONE_ID" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_ORDERKEY_DEPTH" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_ORDERKEY_MAXCHILD" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_ORDERKEY_PARENT" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_PATHID_IS_ATTR" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_PATHID_IS_NMSPC" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_PATHID_LASTNAME" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_PATHID_LASTNMSPC" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_PATH_REVERSE" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_PLSQL_COUNT" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_PLSQL_CPU" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_PLSQL_IO" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_PXQEXTRACT" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_RAW_TO_XSID" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_REMAP_XMLTYPE" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_ROW_DELTA" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_SC_2_XMLT" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_TYPEID" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XMLANALYZE" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XMLCONTAINS" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XMLCONV" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XMLEXNSURI" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XMLGEN" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XMLINSTR" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XMLI_LOC_ISNODE" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XMLI_LOC_ISTEXT" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XMLLOCATOR_GETSVAL" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XMLNODEID_GETLOCATOR" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XMLNODEID_GETOKEY" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XMLNODEID_GETPATHID" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XMLNODEID_GETPTRID" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XMLNODEID_GETRID" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XMLNODEID_GETSVAL" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XMLTRANSLATE" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XMLTYPE2SQL" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XMLT_2_SC" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQBASEURI" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQCASTABLEERRH" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQCODEP2STR" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQCODEPEQ" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQCON2SEQ" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQCONCAT" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQDELETE" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQDFLTCOLATION" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQDOC" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQDOCURI" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQDURDIV" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQED4URI" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQENDSWITH" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQERR" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQERRH" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQESHTMLURI" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQEXLOBVAL" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQEXSTWRP" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQEXTRACT" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQEXTRREF" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQEXVAL" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQFB2STR" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQFNBOOL" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQFNCMP" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQFNDATIM" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQFNLNAME" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQFNNM" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQFNNSURI" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQFNPREDTRUTH" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQFNQNM" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQFNROOT" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQFORMATNUM" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQFTCONTAIN" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQFUNCR" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQGETCONTENT" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQINDXOF" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQINSERT" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQINSPFX" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQIRI2URI" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQLANG" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQLLNMFRMQNM" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQMKNODEREF" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQNILLED" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQNODENAME" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQNORMSPACE" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQNORMUCODE" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQNSP4PFX" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQNSPFRMQNM" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQPFXFRMQNM" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQPOLYABS" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQPOLYADD" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQPOLYCEL" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQPOLYCST" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQPOLYCSTBL" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQPOLYDIV" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQPOLYFLR" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQPOLYMOD" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQPOLYMUL" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQPOLYRND" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQPOLYSQRT" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQPOLYSUB" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQPOLYUMUS" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQPOLYUPLS" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQPOLYVEQ" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQPOLYVGE" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQPOLYVGT" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQPOLYVLE" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQPOLYVLT" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQPOLYVNE" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQREF2VAL" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQRENAME" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQREPLACE" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQRESVURI" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQRNDHALF2EVN" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQRSLVQNM" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQRYENVPGET" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQRYVARGET" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQRYWRP" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQSEQ2CON" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQSEQ2CON4XC" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQSEQDEEPEQ" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQSEQINSB" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQSEQRM" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQSEQRVS" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQSEQSUB" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQSEQTYPMATCH" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQSTARTSWITH" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQSTATBURI" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQSTR2CODEP" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQSTRJOIN" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQSUBSTRAFT" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQSUBSTRBEF" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQTOKENIZE" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQTREATAS" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQXFORM" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQ_ASQLCNV" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQ_ATOMCNVCHK" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQ_NRNG" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQ_PKSQL2XML" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XQ_UPKXML2SQL" : {
+    "descriptionMarkup" : ""
+  },
+  "SYS_XSID_TO_RAW" : {
+    "descriptionMarkup" : ""
+  },
+  "TAN" : {
+    "descriptionMarkup" : ""
+  },
+  "TANH" : {
+    "descriptionMarkup" : ""
+  },
+  "TIMESTAMP_TO_NUMBER" : {
+    "descriptionMarkup" : ""
+  },
+  "TO_ACLID" : {
+    "descriptionMarkup" : ""
+  },
+  "TO_APPROX_COUNT_DISTINCT" : {
+    "descriptionMarkup" : ""
+  },
+  "TO_APPROX_PERCENTILE" : {
+    "descriptionMarkup" : ""
+  },
+  "TO_BINARY_DOUBLE" : {
+    "descriptionMarkup" : ""
+  },
+  "TO_BINARY_FLOAT" : {
+    "descriptionMarkup" : ""
+  },
+  "TO_BLOB" : {
+    "descriptionMarkup" : ""
+  },
+  "TO_CHAR" : {
+    "descriptionMarkup" : ""
+  },
+  "TO_CLOB" : {
     "descriptionMarkup" : ""
   },
   "TO_DATE" : {
     "descriptionMarkup" : ""
   },
+  "TO_DSINTERVAL" : {
+    "descriptionMarkup" : ""
+  },
+  "TO_ISO_STRING" : {
+    "descriptionMarkup" : ""
+  },
+  "TO_LOB" : {
+    "descriptionMarkup" : ""
+  },
+  "TO_MULTI_BYTE" : {
+    "descriptionMarkup" : ""
+  },
+  "TO_NCHAR" : {
+    "descriptionMarkup" : ""
+  },
+  "TO_NCLOB" : {
+    "descriptionMarkup" : ""
+  },
+  "TO_NUMBER" : {
+    "descriptionMarkup" : ""
+  },
+  "TO_SINGLE_BYTE" : {
+    "descriptionMarkup" : ""
+  },
+  "TO_TIME" : {
+    "descriptionMarkup" : ""
+  },
   "TO_TIMESTAMP" : {
     "descriptionMarkup" : ""
   },
+  "TO_TIMESTAMP_TZ" : {
+    "descriptionMarkup" : ""
+  },
+  "TO_TIME_TZ" : {
+    "descriptionMarkup" : ""
+  },
+  "TO_UTC_TIMESTAMP_TZ" : {
+    "descriptionMarkup" : ""
+  },
+  "TO_YMINTERVAL" : {
+    "descriptionMarkup" : ""
+  },
+  "TRANSLATE" : {
+    "descriptionMarkup" : ""
+  },
+  "TRIM" : {
+    "descriptionMarkup" : ""
+  },
+  "TRUNC" : {
+    "descriptionMarkup" : ""
+  },
+  "TZ_OFFSET" : {
+    "descriptionMarkup" : ""
+  },
+  "UID" : {
+    "descriptionMarkup" : ""
+  },
+  "UNISTR" : {
+    "descriptionMarkup" : ""
+  },
+  "UPDATEXML" : {
+    "descriptionMarkup" : ""
+  },
+  "UPPER" : {
+    "descriptionMarkup" : ""
+  },
+  "USER" : {
+    "descriptionMarkup" : ""
+  },
+  "USERENV" : {
+    "descriptionMarkup" : ""
+  },
+  "VALIDATE_CONVERSION" : {
+    "descriptionMarkup" : ""
+  },
+  "VARIANCE" : {
+    "descriptionMarkup" : ""
+  },
+  "VAR_POP" : {
+    "descriptionMarkup" : ""
+  },
+  "VAR_SAMP" : {
+    "descriptionMarkup" : ""
+  },
+  "VECTOR_ENCODE" : {
+    "descriptionMarkup" : ""
+  },
+  "VSIZE" : {
+    "descriptionMarkup" : ""
+  },
+  "WIDTH_BUCKET" : {
+    "descriptionMarkup" : ""
+  },
+  "WITH_EXPRESSION" : {
+    "descriptionMarkup" : ""
+  },
+  "XML2OBJECT" : {
+    "descriptionMarkup" : ""
+  },
+  "XMLCAST" : {
+    "descriptionMarkup" : ""
+  },
+  "XMLCDATA" : {
+    "descriptionMarkup" : ""
+  },
+  "XMLCOMMENT" : {
+    "descriptionMarkup" : ""
+  },
+  "XMLCONCAT" : {
+    "descriptionMarkup" : ""
+  },
+  "XMLDIFF" : {
+    "descriptionMarkup" : ""
+  },
+  "XMLEXISTS2" : {
+    "descriptionMarkup" : ""
+  },
+  "XMLISNODE" : {
+    "descriptionMarkup" : ""
+  },
+  "XMLISVALID" : {
+    "descriptionMarkup" : ""
+  },
+  "XMLPATCH" : {
+    "descriptionMarkup" : ""
+  },
+  "XMLQUERY" : {
+    "descriptionMarkup" : ""
+  },
+  "XMLQUERYVAL" : {
+    "descriptionMarkup" : ""
+  },
+  "XMLTOJSON" : {
+    "descriptionMarkup" : ""
+  },
+  "XMLTRANSFORM" : {
+    "descriptionMarkup" : ""
+  },
+  "XMLTRANSFORMBLOB" : {
+    "descriptionMarkup" : ""
+  },
   "XMLTYPE" : {
+    "descriptionMarkup" : ""
+  },
+  "XS_SYS_CONTEXT" : {
     "descriptionMarkup" : ""
   }
 }
